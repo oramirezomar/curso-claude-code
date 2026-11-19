@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" width="800" height="360" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0 0 L6 3 L0 6 Z" fill="#7c2f16"/>
+    </marker>
+  </defs>
+  <rect width="800" height="360" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Del modelo descargado a la primera consulta</text>
+
+  <rect x="20" y="60" width="140" height="130" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="90" y="86" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">1. Instalar</text>
+  <text x="90" y="110" text-anchor="middle" font-size="12" fill="#4d2011">La aplicación</text>
+  <text x="90" y="128" text-anchor="middle" font-size="12" fill="#4d2011">de Ollama</text>
+  <text x="90" y="156" text-anchor="middle" font-size="11" fill="#7c2f16">Contexto de 64 000</text>
+  <text x="90" y="172" text-anchor="middle" font-size="11" fill="#7c2f16">o más</text>
+
+  <rect x="176" y="60" width="140" height="130" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="246" y="86" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">2. Descargar</text>
+  <text x="246" y="112" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#4d2011">ollama pull</text>
+  <text x="246" y="128" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#4d2011">qwen3.5</text>
+  <text x="246" y="156" text-anchor="middle" font-size="11" fill="#7c2f16">Borrar con</text>
+  <text x="246" y="172" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#7c2f16">ollama rm</text>
+
+  <rect x="332" y="60" width="140" height="130" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="402" y="86" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">3. Lanzar</text>
+  <text x="402" y="112" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#4d2011">ollama launch</text>
+  <text x="402" y="128" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#4d2011">claude --model</text>
+  <text x="402" y="156" text-anchor="middle" font-size="11" fill="#7c2f16">Desde la carpeta</text>
+  <text x="402" y="172" text-anchor="middle" font-size="11" fill="#7c2f16">de tu proyecto</text>
+
+  <rect x="488" y="60" width="140" height="130" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="558" y="86" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">4. Comprobar</text>
+  <text x="558" y="112" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#4d2011">/model</text>
+  <text x="558" y="128" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#4d2011">/status</text>
+  <text x="558" y="156" text-anchor="middle" font-size="11" fill="#7c2f16">Modelo y conexión</text>
+  <text x="558" y="172" text-anchor="middle" font-size="11" fill="#7c2f16">activos</text>
+
+  <rect x="644" y="60" width="140" height="130" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="714" y="86" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">5. Volver</text>
+  <text x="714" y="112" text-anchor="middle" font-size="12" fill="#4d2011">Sal de la sesión</text>
+  <text x="714" y="130" text-anchor="middle" font-size="12" fill="#4d2011">y ejecuta</text>
+  <text x="714" y="148" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#4d2011">claude</text>
+  <text x="714" y="172" text-anchor="middle" font-size="11" fill="#7c2f16">Modelos de Anthropic</text>
+
+  <path d="M162 125 L174 125" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M318 125 L330 125" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M474 125 L486 125" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M630 125 L642 125" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="20" y="216" width="764" height="124" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="40" y="242" font-size="13" font-weight="700" fill="#7c2f16">Dos cuidados</text>
+  <text x="40" y="266" font-size="13" fill="#4d2011">Si configuras las variables de entorno a mano, siguen activas en esa terminal: ciérrala o</text>
+  <text x="40" y="284" font-size="13" fill="#4d2011">usa unset para volver a los modelos de Anthropic.</text>
+  <text x="40" y="308" font-size="13" fill="#4d2011">Los modelos locales dan resultados distintos a los oficiales y Anthropic no los soporta.</text>
+  <text x="40" y="326" font-size="13" fill="#4d2011">Revisa siempre lo que escriben antes de aceptar los cambios.</text>
+</svg>

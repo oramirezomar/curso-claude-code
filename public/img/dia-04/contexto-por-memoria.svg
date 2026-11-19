@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" width="800" height="340" font-family="Helvetica, Arial, sans-serif">
+  <rect width="800" height="340" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Contexto predeterminado de Ollama según la VRAM</text>
+  <text x="400" y="54" text-anchor="middle" font-size="12" fill="#7c2f16">Los programas de código y los agentes necesitan al menos 64 000 tokens</text>
+
+  <text x="196" y="116" text-anchor="end" font-size="13" fill="#4d2011">Menos de 24 GiB</text>
+  <rect x="210" y="98" width="520" height="28" fill="#f4e6df"/>
+  <rect x="210" y="98" width="8.1" height="28" fill="#c0392b"/>
+  <text x="228" y="117" font-size="13" font-weight="700" fill="#c0392b">4 000</text>
+
+  <text x="196" y="176" text-anchor="end" font-size="13" fill="#4d2011">De 24 a 48 GiB</text>
+  <rect x="210" y="158" width="520" height="28" fill="#f4e6df"/>
+  <rect x="210" y="158" width="65" height="28" fill="#c0392b"/>
+  <text x="285" y="177" font-size="13" font-weight="700" fill="#c0392b">32 000</text>
+
+  <text x="196" y="236" text-anchor="end" font-size="13" fill="#4d2011">48 GiB o más</text>
+  <rect x="210" y="218" width="520" height="28" fill="#f4e6df"/>
+  <rect x="210" y="218" width="520" height="28" fill="#2e7d32"/>
+  <text x="716" y="237" text-anchor="end" font-size="13" font-weight="700" fill="#ffffff">256 000</text>
+
+  <path d="M338 84 L338 262" stroke="#7c2f16" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="338" y="278" text-anchor="middle" font-size="12" font-weight="700" fill="#7c2f16">64 000: mínimo recomendado</text>
+
+  <text x="400" y="320" text-anchor="middle" font-size="12" fill="#4d2011">Más contexto exige más memoria: sube el valor solo hasta donde tu equipo lo soporte.</text>
+</svg>

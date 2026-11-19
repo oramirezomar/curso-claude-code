@@ -10,13 +10,15 @@ import type { CourseSection, Lesson } from "@/lib/types";
 import { day01 } from "./day-01";
 import { day02 } from "./day-02";
 import { day03 } from "./day-03";
+import { day04 } from "./day-04";
 
 export const sections: CourseSection[] = [
   { title: "Introducción", dayRange: [1, 1], icon: "🧭" },
   { title: "Instalación y consumo de tokens", dayRange: [2, 3], icon: "⚙️" },
+  { title: "Claude Code con modelos de Ollama", dayRange: [4, 4], icon: "🖥️" },
 ];
 
-export const lessons: Lesson[] = [day01, day02, day03];
+export const lessons: Lesson[] = [day01, day02, day03, day04];
 
 export function getLessonByDay(day: number): Lesson | undefined {
   return lessons.find((lesson) => lesson.day === day);

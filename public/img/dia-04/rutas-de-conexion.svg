@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" width="800" height="380" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0 0 L6 3 L0 6 Z" fill="#7c2f16"/>
+    </marker>
+  </defs>
+  <rect width="800" height="380" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">A qué modelo habla Claude Code</text>
+
+  <rect x="300" y="52" width="200" height="60" rx="30" fill="#b8451f"/>
+  <text x="400" y="88" text-anchor="middle" font-size="17" font-weight="700" fill="#ffffff">Claude Code</text>
+
+  <path d="M350 112 L144 176" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M400 112 L400 176" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M450 112 L656 176" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="24" y="180" width="240" height="130" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+  <text x="144" y="208" text-anchor="middle" font-size="14" font-weight="700" fill="#2e7d32">Modelos de Anthropic</text>
+  <text x="144" y="232" text-anchor="middle" font-size="12" fill="#4d2011">Opción predeterminada</text>
+  <text x="144" y="252" text-anchor="middle" font-size="12" fill="#4d2011">Tu suscripción o tu cuenta</text>
+  <text x="144" y="272" text-anchor="middle" font-size="12" fill="#4d2011">Es la combinación soportada</text>
+  <text x="144" y="294" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#7c2f16">claude</text>
+
+  <rect x="280" y="180" width="240" height="130" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="400" y="208" text-anchor="middle" font-size="14" font-weight="700" fill="#b8451f">Ollama: modelo local</text>
+  <text x="400" y="232" text-anchor="middle" font-size="12" fill="#4d2011">Se ejecuta en tu equipo</text>
+  <text x="400" y="252" text-anchor="middle" font-size="12" fill="#4d2011">Sin costo por token</text>
+  <text x="400" y="272" text-anchor="middle" font-size="12" fill="#4d2011">Depende de tu GPU y tu RAM</text>
+  <text x="400" y="294" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#7c2f16">ollama launch claude</text>
+
+  <rect x="536" y="180" width="240" height="130" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="656" y="208" text-anchor="middle" font-size="14" font-weight="700" fill="#b8451f">Ollama: modelo en la nube</text>
+  <text x="656" y="232" text-anchor="middle" font-size="12" fill="#4d2011">Etiqueta :cloud, más rápido</text>
+  <text x="656" y="252" text-anchor="middle" font-size="12" fill="#4d2011">Requiere cuenta de Ollama</text>
+  <text x="656" y="272" text-anchor="middle" font-size="12" fill="#4d2011">Se factura por uso</text>
+  <text x="656" y="294" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#7c2f16">--model nombre:cloud</text>
+
+  <rect x="24" y="328" width="752" height="40" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="400" y="353" text-anchor="middle" font-size="13" fill="#4d2011">Comprueba siempre el modelo activo con /model y la conexión con /status antes de trabajar.</text>
+</svg>
