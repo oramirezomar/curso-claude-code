@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" width="800" height="380" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 Z" fill="#7c2f16"/>
+    </marker>
+  </defs>
+  <rect width="800" height="380" fill="#fdf4ef"/>
+  <rect x="16" y="16" width="380" height="348" rx="12" fill="#ffffff" stroke="#c0392b" stroke-width="2"/>
+  <rect x="404" y="16" width="380" height="348" rx="12" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+
+  <text x="206" y="46" text-anchor="middle" font-size="16" font-weight="700" fill="#c0392b">Misma carpeta: choque</text>
+  <rect x="40" y="70" width="130" height="50" rx="8" fill="#fae4d8" stroke="#b8451f"/>
+  <text x="105" y="100" text-anchor="middle" font-size="13" fill="#4d2011">Agente A</text>
+  <rect x="242" y="70" width="130" height="50" rx="8" fill="#fae4d8" stroke="#b8451f"/>
+  <text x="307" y="100" text-anchor="middle" font-size="13" fill="#4d2011">Agente B</text>
+  <rect x="116" y="196" width="180" height="66" rx="8" fill="#ffffff" stroke="#c0392b" stroke-width="2"/>
+  <text x="206" y="224" text-anchor="middle" font-size="13" font-weight="700" fill="#4d2011">Mismo archivo</text>
+  <text x="206" y="244" text-anchor="middle" font-size="12" font-family="Menlo, Consolas, monospace" fill="#4d2011">api/route.ts</text>
+  <path d="M105 122 L170 192" stroke="#7c2f16" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M307 122 L242 192" stroke="#7c2f16" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="206" y="298" text-anchor="middle" font-size="12" fill="#4d2011">Cada uno corrige lo que rompió el otro</text>
+  <text x="206" y="318" text-anchor="middle" font-size="12" fill="#4d2011">y el ciclo consume tokens sin terminar</text>
+
+  <text x="594" y="46" text-anchor="middle" font-size="16" font-weight="700" fill="#2e7d32">Una copia por agente: aislado</text>
+  <rect x="424" y="70" width="140" height="64" rx="8" fill="#fae4d8" stroke="#b8451f"/>
+  <text x="494" y="94" text-anchor="middle" font-size="13" fill="#4d2011">Agente A</text>
+  <text x="494" y="114" text-anchor="middle" font-size="11" fill="#7c2f16">worktree A (rama a)</text>
+  <rect x="624" y="70" width="140" height="64" rx="8" fill="#fae4d8" stroke="#b8451f"/>
+  <text x="694" y="94" text-anchor="middle" font-size="13" fill="#4d2011">Agente B</text>
+  <text x="694" y="114" text-anchor="middle" font-size="11" fill="#7c2f16">worktree B (rama b)</text>
+  <path d="M494 136 L560 206" stroke="#7c2f16" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M694 136 L628 206" stroke="#7c2f16" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="474" y="210" width="240" height="56" rx="8" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+  <text x="594" y="234" text-anchor="middle" font-size="13" font-weight="700" fill="#4d2011">Unir al final</text>
+  <text x="594" y="254" text-anchor="middle" font-size="12" fill="#4d2011">se revisan los conflictos una vez</text>
+  <text x="594" y="298" text-anchor="middle" font-size="12" fill="#4d2011">Git permite varias copias de trabajo</text>
+  <text x="594" y="318" text-anchor="middle" font-size="12" fill="#4d2011">de un mismo repositorio (worktrees)</text>
+</svg>

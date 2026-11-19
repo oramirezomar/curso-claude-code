@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" width="800" height="360" font-family="Helvetica, Arial, sans-serif">
+  <rect width="800" height="360" fill="#fdf4ef"/>
+  <text x="400" y="34" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Un mismo Claude Code, varias superficies</text>
+
+  <rect x="300" y="140" width="200" height="80" rx="40" fill="#b8451f"/>
+  <text x="400" y="176" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">Claude Code</text>
+  <text x="400" y="198" text-anchor="middle" font-size="12" fill="#fae4d8">tu cuenta, tu proyecto</text>
+
+  <rect x="30" y="64" width="230" height="86" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="145" y="92" text-anchor="middle" font-size="15" font-weight="700" fill="#b8451f">Terminal (CLI)</text>
+  <text x="145" y="114" text-anchor="middle" font-size="12" fill="#4d2011">Es la base de este curso.</text>
+  <text x="145" y="132" text-anchor="middle" font-size="12" fill="#4d2011">Comando claude</text>
+
+  <rect x="540" y="64" width="230" height="86" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="655" y="92" text-anchor="middle" font-size="15" font-weight="700" fill="#b8451f">Editor (VS Code, Cursor)</text>
+  <text x="655" y="114" text-anchor="middle" font-size="12" fill="#4d2011">Extensión con panel gráfico,</text>
+  <text x="655" y="132" text-anchor="middle" font-size="12" fill="#4d2011">diffs y revisión de planes</text>
+
+  <rect x="30" y="230" width="230" height="86" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="145" y="258" text-anchor="middle" font-size="15" font-weight="700" fill="#b8451f">Aplicación de escritorio</text>
+  <text x="145" y="280" text-anchor="middle" font-size="12" fill="#4d2011">Pestaña Code, sesiones en</text>
+  <text x="145" y="298" text-anchor="middle" font-size="12" fill="#4d2011">paralelo y tareas programadas</text>
+
+  <rect x="540" y="230" width="230" height="86" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="655" y="258" text-anchor="middle" font-size="15" font-weight="700" fill="#b8451f">Web y móvil</text>
+  <text x="655" y="280" text-anchor="middle" font-size="12" fill="#4d2011">Sesiones en la nube o control</text>
+  <text x="655" y="298" text-anchor="middle" font-size="12" fill="#4d2011">remoto de una sesión local</text>
+
+  <path d="M262 112 L330 152" stroke="#7c2f16" stroke-width="2"/>
+  <path d="M538 112 L470 152" stroke="#7c2f16" stroke-width="2"/>
+  <path d="M262 266 L330 208" stroke="#7c2f16" stroke-width="2"/>
+  <path d="M538 266 L470 208" stroke="#7c2f16" stroke-width="2"/>
+  <text x="400" y="340" text-anchor="middle" font-size="12" fill="#7c2f16">Las funciones nuevas pueden llegar a cada superficie en momentos distintos</text>
+</svg>

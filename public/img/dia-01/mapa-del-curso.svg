@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" width="800" height="440" font-family="Helvetica, Arial, sans-serif">
+  <rect width="800" height="440" fill="#fdf4ef"/>
+  <text x="400" y="36" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Tres bloques, un mismo proyecto</text>
+  <text x="400" y="58" text-anchor="middle" font-size="13" fill="#7c2f16">Se aprende construyendo una plataforma de videojuegos jugables</text>
+
+  <rect x="24" y="80" width="244" height="320" rx="12" fill="#ffffff" stroke="#ec9f7a" stroke-width="2"/>
+  <rect x="24" y="80" width="244" height="44" rx="12" fill="#b8451f"/>
+  <rect x="24" y="108" width="244" height="16" fill="#b8451f"/>
+  <text x="146" y="109" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">1. Fundamentos</text>
+  <text x="40" y="152" font-size="13" fill="#4d2011">• Instalación y consumo de tokens</text>
+  <text x="40" y="178" font-size="13" fill="#4d2011">• Modelos locales con Ollama</text>
+  <text x="40" y="204" font-size="13" fill="#4d2011">• Tour, rewind y ciclo del agente</text>
+  <text x="40" y="230" font-size="13" fill="#4d2011">• CLAUDE.md y memoria</text>
+  <text x="40" y="256" font-size="13" fill="#4d2011">• Corregir errores y usar Git</text>
+  <text x="40" y="282" font-size="13" fill="#4d2011">• Comandos del flujo diario</text>
+  <text x="40" y="308" font-size="13" fill="#4d2011">• GitHub: revisar e implementar</text>
+  <text x="40" y="334" font-size="13" fill="#4d2011">• Batch y worktrees</text>
+  <text x="40" y="380" font-size="12" font-style="italic" fill="#7c2f16">Meta: usarlo en el día a día</text>
+
+  <rect x="278" y="80" width="244" height="320" rx="12" fill="#ffffff" stroke="#ec9f7a" stroke-width="2"/>
+  <rect x="278" y="80" width="244" height="44" rx="12" fill="#9a3a1a"/>
+  <rect x="278" y="108" width="244" height="16" fill="#9a3a1a"/>
+  <text x="400" y="109" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">2. Intermedio</text>
+  <text x="294" y="152" font-size="13" fill="#4d2011">• Spec Driven Design</text>
+  <text x="294" y="178" font-size="13" fill="#4d2011">• Skills y MCP de Playwright</text>
+  <text x="294" y="204" font-size="13" fill="#4d2011">• Hooks y otros MCP</text>
+  <text x="294" y="230" font-size="13" fill="#4d2011">• Comandos basados en specs</text>
+  <text x="294" y="256" font-size="13" fill="#4d2011">• Autenticación y seguridad</text>
+  <text x="294" y="282" font-size="13" fill="#4d2011">• Plugins y utilidades</text>
+  <text x="294" y="308" font-size="13" fill="#4d2011">• Base de datos y leaderboard</text>
+  <text x="294" y="380" font-size="12" font-style="italic" fill="#7c2f16">Meta: usarlo para trabajar</text>
+
+  <rect x="532" y="80" width="244" height="320" rx="12" fill="#ffffff" stroke="#ec9f7a" stroke-width="2"/>
+  <rect x="532" y="80" width="244" height="44" rx="12" fill="#7c2f16"/>
+  <rect x="532" y="108" width="244" height="16" fill="#7c2f16"/>
+  <text x="654" y="109" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">3. Avanzado</text>
+  <text x="548" y="152" font-size="13" fill="#4d2011">• Agentes orquestador/trabajador</text>
+  <text x="548" y="178" font-size="13" fill="#4d2011">• Skills que lanzan agentes</text>
+  <text x="548" y="204" font-size="13" fill="#4d2011">• Rutinas y tareas programadas</text>
+  <text x="548" y="230" font-size="13" fill="#4d2011">• Producción y despliegue</text>
+  <text x="548" y="256" font-size="13" fill="#4d2011">• Claude Design</text>
+  <text x="548" y="282" font-size="13" fill="#4d2011">• Acceso remoto y notificaciones</text>
+  <text x="548" y="380" font-size="12" font-style="italic" fill="#7c2f16">Meta: automatizar el trabajo</text>
+
+  <text x="400" y="424" text-anchor="middle" font-size="12" fill="#7c2f16">El temario puede cambiar: la herramienta se actualiza con frecuencia</text>
+</svg>
