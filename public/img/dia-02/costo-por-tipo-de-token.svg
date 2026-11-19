@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 330" width="800" height="330" font-family="Helvetica, Arial, sans-serif">
+  <rect width="800" height="330" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Qué cuesta cada tipo de token en Sonnet 5.5</text>
+  <text x="400" y="54" text-anchor="middle" font-size="12" fill="#7c2f16">USD por millón de tokens. La longitud de cada barra es proporcional al precio.</text>
+
+  <text x="196" y="106" text-anchor="end" font-size="13" fill="#4d2011">Lectura de caché</text>
+  <rect x="210" y="90" width="520" height="24" fill="#f4e6df"/>
+  <rect x="210" y="90" width="5.2" height="24" fill="#2e7d32"/>
+  <text x="224" y="107" font-size="13" font-weight="700" fill="#2e7d32">0,10</text>
+
+  <text x="196" y="156" text-anchor="end" font-size="13" fill="#4d2011">Entrada base</text>
+  <rect x="210" y="140" width="520" height="24" fill="#f4e6df"/>
+  <rect x="210" y="140" width="104" height="24" fill="#b8451f"/>
+  <text x="324" y="157" font-size="13" font-weight="700" fill="#4d2011">2,00</text>
+
+  <text x="196" y="206" text-anchor="end" font-size="13" fill="#4d2011">Escritura de caché (5 min)</text>
+  <rect x="210" y="190" width="520" height="24" fill="#f4e6df"/>
+  <rect x="210" y="190" width="130" height="24" fill="#b8451f"/>
+  <text x="350" y="207" font-size="13" font-weight="700" fill="#4d2011">2,50</text>
+
+  <text x="196" y="256" text-anchor="end" font-size="13" fill="#4d2011">Escritura de caché (1 h)</text>
+  <rect x="210" y="240" width="520" height="24" fill="#f4e6df"/>
+  <rect x="210" y="240" width="208" height="24" fill="#b8451f"/>
+  <text x="428" y="257" font-size="13" font-weight="700" fill="#4d2011">4,00</text>
+
+  <text x="196" y="306" text-anchor="end" font-size="13" fill="#4d2011">Salida</text>
+  <rect x="210" y="290" width="520" height="24" fill="#f4e6df"/>
+  <rect x="210" y="290" width="520" height="24" fill="#7c2f16"/>
+  <text x="716" y="307" text-anchor="end" font-size="13" font-weight="700" fill="#ffffff">10,00</text>
+</svg>

@@ -8,12 +8,14 @@
 
 import type { CourseSection, Lesson } from "@/lib/types";
 import { day01 } from "./day-01";
+import { day02 } from "./day-02";
 
 export const sections: CourseSection[] = [
   { title: "Introducción", dayRange: [1, 1], icon: "🧭" },
+  { title: "Instalación y consumo de tokens", dayRange: [2, 2], icon: "⚙️" },
 ];
 
-export const lessons: Lesson[] = [day01];
+export const lessons: Lesson[] = [day01, day02];
 
 export function getLessonByDay(day: number): Lesson | undefined {
   return lessons.find((lesson) => lesson.day === day);
