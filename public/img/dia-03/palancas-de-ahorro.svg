@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" width="800" height="440" font-family="Helvetica, Arial, sans-serif">
+  <rect width="800" height="440" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Seis palancas para gastar menos tokens</text>
+
+  <rect x="24" y="56" width="244" height="170" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="146" y="84" text-anchor="middle" font-size="15" font-weight="700" fill="#b8451f">1. Contexto</text>
+  <text x="146" y="112" text-anchor="middle" font-size="12" fill="#4d2011">/clear entre tareas</text>
+  <text x="146" y="132" text-anchor="middle" font-size="12" fill="#4d2011">/compact con instrucciones</text>
+  <text x="146" y="152" text-anchor="middle" font-size="12" fill="#4d2011">/context para ver qué pesa</text>
+  <text x="146" y="172" text-anchor="middle" font-size="12" fill="#4d2011">CLAUDE.md de menos de 200 líneas</text>
+
+  <rect x="278" y="56" width="244" height="170" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="400" y="84" text-anchor="middle" font-size="15" font-weight="700" fill="#b8451f">2. Modelo</text>
+  <text x="400" y="112" text-anchor="middle" font-size="12" fill="#4d2011">Sonnet para el día a día</text>
+  <text x="400" y="132" text-anchor="middle" font-size="12" fill="#4d2011">Opus solo para razonar a fondo</text>
+  <text x="400" y="152" text-anchor="middle" font-size="12" fill="#4d2011">opusplan: Opus planifica,</text>
+  <text x="400" y="172" text-anchor="middle" font-size="12" fill="#4d2011">Sonnet ejecuta</text>
+
+  <rect x="532" y="56" width="244" height="170" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="654" y="84" text-anchor="middle" font-size="15" font-weight="700" fill="#b8451f">3. Herramientas</text>
+  <text x="654" y="112" text-anchor="middle" font-size="12" fill="#4d2011">CLI (gh, aws, gcloud) antes</text>
+  <text x="654" y="132" text-anchor="middle" font-size="12" fill="#4d2011">que un servidor MCP</text>
+  <text x="654" y="152" text-anchor="middle" font-size="12" fill="#4d2011">/mcp para desactivar los</text>
+  <text x="654" y="172" text-anchor="middle" font-size="12" fill="#4d2011">que no uses</text>
+
+  <rect x="24" y="238" width="244" height="170" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="146" y="266" text-anchor="middle" font-size="15" font-weight="700" fill="#b8451f">4. Delegar</text>
+  <text x="146" y="294" text-anchor="middle" font-size="12" fill="#4d2011">Hooks que filtran la salida</text>
+  <text x="146" y="314" text-anchor="middle" font-size="12" fill="#4d2011">Skills que cargan al invocarse</text>
+  <text x="146" y="334" text-anchor="middle" font-size="12" fill="#4d2011">Subagentes para lecturas</text>
+  <text x="146" y="354" text-anchor="middle" font-size="12" fill="#4d2011">grandes y verbosas</text>
+
+  <rect x="278" y="238" width="244" height="170" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="400" y="266" text-anchor="middle" font-size="15" font-weight="700" fill="#b8451f">5. Razonamiento</text>
+  <text x="400" y="294" text-anchor="middle" font-size="12" fill="#4d2011">/effort ajusta cuánto piensa</text>
+  <text x="400" y="314" text-anchor="middle" font-size="12" fill="#4d2011">El pensamiento se factura</text>
+  <text x="400" y="334" text-anchor="middle" font-size="12" fill="#4d2011">como salida</text>
+  <text x="400" y="354" text-anchor="middle" font-size="12" fill="#4d2011">Sube el nivel solo si hace falta</text>
+
+  <rect x="532" y="238" width="244" height="170" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="654" y="266" text-anchor="middle" font-size="15" font-weight="700" fill="#b8451f">6. Hábitos</text>
+  <text x="654" y="294" text-anchor="middle" font-size="12" fill="#4d2011">Prompts específicos</text>
+  <text x="654" y="314" text-anchor="middle" font-size="12" fill="#4d2011">Modo plan en tareas complejas</text>
+  <text x="654" y="334" text-anchor="middle" font-size="12" fill="#4d2011">Objetivos de verificación</text>
+  <text x="654" y="354" text-anchor="middle" font-size="12" fill="#4d2011">Cambios pequeños y probados</text>
+
+  <text x="400" y="430" text-anchor="middle" font-size="12" fill="#7c2f16">Orden sugerido: contexto y modelo primero, que son los de mayor efecto</text>
+</svg>

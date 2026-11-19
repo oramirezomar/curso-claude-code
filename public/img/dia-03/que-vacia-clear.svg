@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0 0 L6 3 L0 6 Z" fill="#7c2f16"/>
+    </marker>
+  </defs>
+  <rect width="800" height="400" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Qué hace /clear con tu contexto</text>
+
+  <rect x="24" y="56" width="350" height="250" rx="10" fill="#ffffff" stroke="#c0392b" stroke-width="2"/>
+  <text x="199" y="84" text-anchor="middle" font-size="15" font-weight="700" fill="#c0392b">Se vacía</text>
+  <text x="199" y="104" text-anchor="middle" font-size="12" fill="#7c2f16">Es lo que crece durante el trabajo</text>
+  <rect x="48" y="122" width="302" height="30" rx="6" fill="#fae4d8"/>
+  <text x="199" y="142" text-anchor="middle" font-size="13" fill="#4d2011">Tus mensajes</text>
+  <rect x="48" y="160" width="302" height="30" rx="6" fill="#fae4d8"/>
+  <text x="199" y="180" text-anchor="middle" font-size="13" fill="#4d2011">Las respuestas de Claude</text>
+  <rect x="48" y="198" width="302" height="30" rx="6" fill="#fae4d8"/>
+  <text x="199" y="218" text-anchor="middle" font-size="13" fill="#4d2011">Archivos leídos y resultados de herramientas</text>
+  <rect x="48" y="236" width="302" height="30" rx="6" fill="#fae4d8"/>
+  <text x="199" y="256" text-anchor="middle" font-size="13" fill="#4d2011">Imágenes y PDF enviados</text>
+  <text x="199" y="290" text-anchor="middle" font-size="12" fill="#7c2f16">Empezar de cero no cuesta nada</text>
+
+  <rect x="426" y="56" width="350" height="250" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+  <text x="601" y="84" text-anchor="middle" font-size="15" font-weight="700" fill="#2e7d32">Vuelve a cargarse al empezar</text>
+  <text x="601" y="104" text-anchor="middle" font-size="12" fill="#7c2f16">Es la base que acompaña cada conversación</text>
+  <rect x="450" y="122" width="302" height="30" rx="6" fill="#e3f1e4"/>
+  <text x="601" y="142" text-anchor="middle" font-size="13" fill="#4d2011">Instrucciones del sistema y herramientas</text>
+  <rect x="450" y="160" width="302" height="30" rx="6" fill="#e3f1e4"/>
+  <text x="601" y="180" text-anchor="middle" font-size="13" fill="#4d2011">CLAUDE.md y memoria automática</text>
+  <rect x="450" y="198" width="302" height="30" rx="6" fill="#e3f1e4"/>
+  <text x="601" y="218" text-anchor="middle" font-size="13" fill="#4d2011">Descripciones de skills</text>
+  <rect x="450" y="236" width="302" height="30" rx="6" fill="#e3f1e4"/>
+  <text x="601" y="256" text-anchor="middle" font-size="13" fill="#4d2011">Nombres de herramientas MCP</text>
+  <text x="601" y="290" text-anchor="middle" font-size="12" fill="#7c2f16">Por eso conviene mantenerla pequeña</text>
+
+  <path d="M376 181 L424 181" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="24" y="326" width="752" height="56" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="44" y="350" font-size="13" font-weight="700" fill="#7c2f16">Regla práctica</text>
+  <text x="44" y="370" font-size="13" fill="#4d2011">Pon nombre a la sesión con /rename, límpiala con /clear al cambiar de tarea y vuelve a ella con /resume si la necesitas.</text>
+</svg>
