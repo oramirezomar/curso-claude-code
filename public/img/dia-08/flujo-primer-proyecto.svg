@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" width="800" height="360" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0 0 L6 3 L0 6 Z" fill="#7c2f16"/>
+    </marker>
+  </defs>
+  <rect width="800" height="360" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Empezar con un proyecto existente</text>
+  <rect x="20" y="58" width="140" height="130" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="90" y="84" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">1. Traer el código</text>
+  <text x="90" y="108" text-anchor="middle" font-size="12" fill="#4d2011">Fork en GitHub</text>
+  <text x="90" y="126" text-anchor="middle" font-size="12" fill="#4d2011">y git clone</text>
+  <text x="90" y="160" text-anchor="middle" font-size="11" fill="#7c2f16">Tu copia, no el original</text>
+  <rect x="176" y="58" width="140" height="130" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="246" y="84" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">2. Carpeta propia</text>
+  <text x="246" y="108" text-anchor="middle" font-size="12" fill="#4d2011">git clone URL</text>
+  <text x="246" y="126" text-anchor="middle" font-size="12" fill="#4d2011">04-tetris</text>
+  <text x="246" y="160" text-anchor="middle" font-size="11" fill="#7c2f16">Solo cambia la carpeta</text>
+  <rect x="332" y="58" width="140" height="130" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="402" y="84" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">3. Abrir Claude</text>
+  <text x="402" y="108" text-anchor="middle" font-size="12" fill="#4d2011">cd 04-tetris</text>
+  <text x="402" y="126" text-anchor="middle" font-size="12" fill="#4d2011">claude</text>
+  <text x="402" y="160" text-anchor="middle" font-size="11" fill="#7c2f16">Confirma la confianza</text>
+  <rect x="488" y="58" width="140" height="130" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="558" y="84" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">4. /init</text>
+  <text x="558" y="108" text-anchor="middle" font-size="12" fill="#4d2011">Claude lee el código</text>
+  <text x="558" y="126" text-anchor="middle" font-size="12" fill="#4d2011">y crea CLAUDE.md</text>
+  <text x="558" y="160" text-anchor="middle" font-size="11" fill="#7c2f16">Revísalo antes de seguir</text>
+  <rect x="644" y="58" width="136" height="130" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+  <text x="712" y="84" text-anchor="middle" font-size="13" font-weight="700" fill="#2e7d32">5. Preguntar</text>
+  <text x="712" y="108" text-anchor="middle" font-size="12" fill="#4d2011">Cómo funciona</text>
+  <text x="712" y="126" text-anchor="middle" font-size="12" fill="#4d2011">el código, con @</text>
+  <text x="712" y="160" text-anchor="middle" font-size="11" fill="#7c2f16">Luego /clear</text>
+  <path d="M162 123 L172 123" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M318 123 L328 123" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M474 123 L484 123" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M630 123 L640 123" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="20" y="210" width="370" height="124" rx="10" fill="#ffffff" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="40" y="236" font-size="13" font-weight="700" fill="#7c2f16">Qué revisar al abrir Claude Code</text>
+  <text x="40" y="260" font-size="12" fill="#4d2011">• El modelo activo, con /model: puede ser</text>
+  <text x="52" y="278" font-size="12" fill="#4d2011">distinto del que usaste en otro proyecto</text>
+  <text x="40" y="300" font-size="12" fill="#4d2011">• La carpeta: Claude solo trabaja donde lo abres</text>
+  <text x="40" y="320" font-size="12" fill="#4d2011">• La pregunta de confianza en la carpeta</text>
+  <rect x="410" y="210" width="370" height="124" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="430" y="236" font-size="13" font-weight="700" fill="#7c2f16">Qué debe tener un buen CLAUDE.md</text>
+  <text x="430" y="260" font-size="12" fill="#4d2011">• Cómo ejecutar y probar el proyecto</text>
+  <text x="430" y="280" font-size="12" fill="#4d2011">• Estructura de archivos y convenciones</text>
+  <text x="430" y="300" font-size="12" fill="#4d2011">• Lo que Claude no puede deducir leyendo el código</text>
+  <text x="430" y="320" font-size="12" fill="#4d2011">• Corto: menos de 200 líneas</text>
+</svg>

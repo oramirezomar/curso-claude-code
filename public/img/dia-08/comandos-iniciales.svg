@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="Helvetica, Arial, sans-serif">
+  <rect width="800" height="400" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Comandos iniciales por grupo</text>
+  <rect x="20" y="56" width="370" height="150" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="40" y="82" font-size="14" font-weight="700" fill="#b8451f">Proyecto y cuenta</text>
+  <text x="40" y="108" font-size="12" font-weight="700" fill="#4d2011" font-family="Menlo, Courier, monospace">/init</text>
+  <text x="130" y="108" font-size="12" fill="#4d2011">crea o mejora CLAUDE.md</text>
+  <text x="40" y="132" font-size="12" font-weight="700" fill="#4d2011" font-family="Menlo, Courier, monospace">/login</text>
+  <text x="130" y="132" font-size="12" fill="#4d2011">inicia sesión con tu cuenta</text>
+  <text x="40" y="156" font-size="12" font-weight="700" fill="#4d2011" font-family="Menlo, Courier, monospace">/logout</text>
+  <text x="130" y="156" font-size="12" fill="#4d2011">cierra la sesión en este equipo</text>
+  <text x="40" y="180" font-size="12" font-weight="700" fill="#4d2011" font-family="Menlo, Courier, monospace">/model</text>
+  <text x="130" y="180" font-size="12" fill="#4d2011">elige el modelo y el esfuerzo</text>
+  <rect x="410" y="56" width="370" height="150" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="430" y="82" font-size="14" font-weight="700" fill="#b8451f">Ajustes</text>
+  <text x="430" y="108" font-size="12" font-weight="700" fill="#4d2011" font-family="Menlo, Courier, monospace">/config</text>
+  <text x="530" y="108" font-size="12" fill="#4d2011">panel de ajustes con búsqueda</text>
+  <text x="430" y="132" font-size="12" font-weight="700" fill="#4d2011" font-family="Menlo, Courier, monospace">/permissions</text>
+  <text x="530" y="132" font-size="12" fill="#4d2011">reglas de permitir, preguntar y denegar</text>
+  <text x="430" y="156" font-size="12" font-weight="700" fill="#4d2011" font-family="Menlo, Courier, monospace">/theme</text>
+  <text x="530" y="156" font-size="12" fill="#4d2011">tema de colores</text>
+  <text x="430" y="180" font-size="12" font-weight="700" fill="#4d2011" font-family="Menlo, Courier, monospace">/terminal-setup</text>
+  <text x="560" y="180" font-size="12" fill="#4d2011">Shift+Enter en algunos editores</text>
+  <rect x="20" y="226" width="370" height="150" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+  <text x="40" y="252" font-size="14" font-weight="700" fill="#2e7d32">Diagnóstico y barra de estado</text>
+  <text x="40" y="278" font-size="12" font-weight="700" fill="#4d2011" font-family="Menlo, Courier, monospace">/doctor</text>
+  <text x="130" y="278" font-size="12" fill="#4d2011">revisa instalación y ajustes, y propone</text>
+  <text x="130" y="296" font-size="12" fill="#4d2011">arreglos que aplicas tú</text>
+  <text x="40" y="322" font-size="12" font-weight="700" fill="#4d2011" font-family="Menlo, Courier, monospace">/statusline</text>
+  <text x="130" y="322" font-size="12" fill="#4d2011">configura la barra inferior</text>
+  <text x="40" y="346" font-size="12" font-weight="700" fill="#4d2011" font-family="Menlo, Courier, monospace">/status</text>
+  <text x="130" y="346" font-size="12" fill="#4d2011">versión, modelo, cuenta y conexión</text>
+  <rect x="410" y="226" width="370" height="150" rx="10" fill="#ffffff" stroke="#ec9f7a" stroke-width="2"/>
+  <text x="430" y="252" font-size="14" font-weight="700" fill="#7c2f16">Integraciones (se ven más adelante)</text>
+  <text x="430" y="278" font-size="12" font-weight="700" fill="#4d2011" font-family="Menlo, Courier, monospace">/mcp</text>
+  <text x="520" y="278" font-size="12" fill="#4d2011">servidores MCP</text>
+  <text x="430" y="302" font-size="12" font-weight="700" fill="#4d2011" font-family="Menlo, Courier, monospace">/hooks</text>
+  <text x="520" y="302" font-size="12" fill="#4d2011">ver los hooks configurados</text>
+  <text x="430" y="326" font-size="12" font-weight="700" fill="#4d2011" font-family="Menlo, Courier, monospace">/chrome</text>
+  <text x="520" y="326" font-size="12" fill="#4d2011">Claude en Chrome</text>
+  <text x="430" y="350" font-size="12" font-weight="700" fill="#4d2011" font-family="Menlo, Courier, monospace">/install-github-app</text>
+  <text x="590" y="350" font-size="12" fill="#4d2011">app de GitHub</text>
+</svg>
