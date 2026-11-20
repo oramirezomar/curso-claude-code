@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" width="800" height="380" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0 0 L6 3 L0 6 Z" fill="#7c2f16"/>
+    </marker>
+  </defs>
+  <rect width="800" height="380" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Formas de darle contexto a Claude</text>
+
+  <rect x="24" y="60" width="300" height="52" rx="8" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="40" y="82" font-size="13" font-weight="700" fill="#b8451f">Pegar una imagen</text>
+  <text x="40" y="100" font-size="12" fill="#4d2011">Ctrl+V (Cmd+V en iTerm2, Alt+V en Windows)</text>
+
+  <rect x="24" y="124" width="300" height="52" rx="8" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="40" y="146" font-size="13" font-weight="700" fill="#b8451f">Pegar un texto largo</text>
+  <text x="40" y="164" font-size="12" fill="#4d2011">Se muestra compacto en el cuadro</text>
+
+  <rect x="24" y="188" width="300" height="52" rx="8" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="40" y="210" font-size="13" font-weight="700" fill="#b8451f">Pegar un archivo copiado</text>
+  <text x="40" y="228" font-size="12" fill="#4d2011">Pega su ruta, y Claude lo lee</text>
+
+  <rect x="24" y="252" width="300" height="52" rx="8" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="40" y="274" font-size="13" font-weight="700" fill="#b8451f">Mencionar con @</text>
+  <text x="40" y="292" font-size="12" fill="#4d2011">Autocompleta rutas de archivos y carpetas</text>
+
+  <path d="M326 86 L420 160" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M326 150 L420 172" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M326 214 L420 190" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M326 278 L420 206" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="424" y="130" width="352" height="96" rx="10" fill="#fae4d8" stroke="#b8451f" stroke-width="2"/>
+  <text x="600" y="158" text-anchor="middle" font-size="14" font-weight="700" fill="#7c2f16">Entra en el cuadro de mensaje</text>
+  <text x="600" y="182" text-anchor="middle" font-size="12" fill="#4d2011">como una referencia numerada, por ejemplo [Image #1],</text>
+  <text x="600" y="200" text-anchor="middle" font-size="12" fill="#4d2011">y se envía junto con tu texto cuando pulsas Enter</text>
+
+  <rect x="24" y="324" width="752" height="40" rx="8" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="400" y="349" text-anchor="middle" font-size="12" fill="#4d2011">Esc dos veces con texto escrito borra el cuadro entero, imágenes incluidas. Con el cuadro vacío abre el rebobinado.</text>
+</svg>

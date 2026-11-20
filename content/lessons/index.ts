@@ -12,15 +12,16 @@ import { day02 } from "./day-02";
 import { day03 } from "./day-03";
 import { day04 } from "./day-04";
 import { day05 } from "./day-05";
+import { day06 } from "./day-06";
 
 export const sections: CourseSection[] = [
   { title: "Introducción", dayRange: [1, 1], icon: "🧭" },
   { title: "Instalación y consumo de tokens", dayRange: [2, 3], icon: "⚙️" },
   { title: "Claude Code con modelos de Ollama", dayRange: [4, 4], icon: "🖥️" },
-  { title: "Fundamentos 101", dayRange: [5, 5], icon: "🧱" },
+  { title: "Fundamentos 101", dayRange: [5, 6], icon: "🧱" },
 ];
 
-export const lessons: Lesson[] = [day01, day02, day03, day04, day05];
+export const lessons: Lesson[] = [day01, day02, day03, day04, day05, day06];
 
 export function getLessonByDay(day: number): Lesson | undefined {
   return lessons.find((lesson) => lesson.day === day);

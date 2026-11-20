@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" width="800" height="360" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0 0 L6 3 L0 6 Z" fill="#7c2f16"/>
+    </marker>
+  </defs>
+  <rect width="800" height="360" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Conocer un proyecto desconocido</text>
+
+  <rect x="20" y="60" width="140" height="120" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="90" y="86" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">1. Carpeta</text>
+  <text x="90" y="110" text-anchor="middle" font-size="12" fill="#4d2011">Descarga o clona</text>
+  <text x="90" y="128" text-anchor="middle" font-size="12" fill="#4d2011">y entra en ella</text>
+  <text x="90" y="156" text-anchor="middle" font-size="11" fill="#7c2f16">cd carpeta</text>
+
+  <rect x="176" y="60" width="140" height="120" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="246" y="86" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">2. Iniciar</text>
+  <text x="246" y="110" text-anchor="middle" font-size="12" fill="#4d2011">Ejecuta claude y</text>
+  <text x="246" y="128" text-anchor="middle" font-size="12" fill="#4d2011">decide si confías</text>
+  <text x="246" y="156" text-anchor="middle" font-size="11" fill="#7c2f16">Revisa el modelo activo</text>
+
+  <rect x="332" y="60" width="140" height="120" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="402" y="86" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">3. Preguntar</text>
+  <text x="402" y="110" text-anchor="middle" font-size="12" fill="#4d2011">Pide cómo funciona</text>
+  <text x="402" y="128" text-anchor="middle" font-size="12" fill="#4d2011">el proyecto</text>
+  <text x="402" y="156" text-anchor="middle" font-size="11" fill="#7c2f16">Sin tocar el código</text>
+
+  <rect x="488" y="60" width="140" height="120" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="558" y="86" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">4. Leer el mapa</text>
+  <text x="558" y="110" text-anchor="middle" font-size="12" fill="#4d2011">Tecnología y estructura,</text>
+  <text x="558" y="128" text-anchor="middle" font-size="12" fill="#4d2011">clases y ejecución</text>
+  <text x="558" y="156" text-anchor="middle" font-size="11" fill="#7c2f16">Compáralo con el código</text>
+
+  <rect x="644" y="60" width="140" height="120" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+  <text x="714" y="86" text-anchor="middle" font-size="13" font-weight="700" fill="#2e7d32">5. Profundizar</text>
+  <text x="714" y="110" text-anchor="middle" font-size="12" fill="#4d2011">Pregunta por una</text>
+  <text x="714" y="128" text-anchor="middle" font-size="12" fill="#4d2011">parte concreta</text>
+  <text x="714" y="156" text-anchor="middle" font-size="11" fill="#7c2f16">Teclas, colisiones...</text>
+
+  <path d="M162 120 L172 120" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M318 120 L328 120" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M474 120 L484 120" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M630 120 L640 120" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="20" y="206" width="764" height="132" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="40" y="232" font-size="13" font-weight="700" fill="#7c2f16">Buenas prácticas al explorar</text>
+  <text x="40" y="256" font-size="13" fill="#4d2011">Antes de ejecutar nada, pregunta. Claude lee archivos y usa herramientas para responder.</text>
+  <text x="40" y="276" font-size="13" fill="#4d2011">Para señalar una carpeta concreta, menciónala con @ y su ruta.</text>
+  <text x="40" y="296" font-size="13" fill="#4d2011">Si vas a pedir cambios en el código, entra antes en modo plan.</text>
+  <text x="40" y="316" font-size="13" fill="#4d2011">Para volver a una sesión que cerraste: claude --resume nombre.</text>
+</svg>

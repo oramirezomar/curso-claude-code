@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="Helvetica, Arial, sans-serif">
+  <rect width="800" height="400" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Dos memorias que se cargan en cada sesión</text>
+
+  <rect x="24" y="56" width="368" height="290" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <rect x="24" y="56" width="368" height="44" rx="10" fill="#b8451f"/>
+  <rect x="24" y="86" width="368" height="14" fill="#b8451f"/>
+  <text x="208" y="85" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">CLAUDE.md</text>
+  <text x="44" y="128" font-size="13" font-weight="700" fill="#7c2f16">Quién lo escribe</text>
+  <text x="44" y="148" font-size="13" fill="#4d2011">Tú, o Claude cuando se lo pides</text>
+  <text x="44" y="180" font-size="13" font-weight="700" fill="#7c2f16">Qué contiene</text>
+  <text x="44" y="200" font-size="13" fill="#4d2011">Reglas, arquitectura y comandos</text>
+  <text x="44" y="232" font-size="13" font-weight="700" fill="#7c2f16">Cuánto se carga</text>
+  <text x="44" y="252" font-size="13" fill="#4d2011">El archivo entero. Conviene menos de 200 líneas</text>
+  <text x="44" y="284" font-size="13" font-weight="700" fill="#7c2f16">Dónde</text>
+  <text x="44" y="304" font-size="13" fill="#4d2011">En tu usuario, tu proyecto o tu carpeta local</text>
+  <text x="44" y="330" font-size="12" font-style="italic" fill="#7c2f16">Para guiar el comportamiento</text>
+
+  <rect x="408" y="56" width="368" height="290" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+  <rect x="408" y="56" width="368" height="44" rx="10" fill="#2e7d32"/>
+  <rect x="408" y="86" width="368" height="14" fill="#2e7d32"/>
+  <text x="592" y="85" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">Memoria automática</text>
+  <text x="428" y="128" font-size="13" font-weight="700" fill="#7c2f16">Quién la escribe</text>
+  <text x="428" y="148" font-size="13" fill="#4d2011">Claude, a partir de tus correcciones</text>
+  <text x="428" y="180" font-size="13" font-weight="700" fill="#7c2f16">Qué contiene</text>
+  <text x="428" y="200" font-size="13" fill="#4d2011">Preferencias y datos que no salen del código</text>
+  <text x="428" y="232" font-size="13" font-weight="700" fill="#7c2f16">Cuánto se carga</text>
+  <text x="428" y="252" font-size="13" fill="#4d2011">Primeras 200 líneas o 25 KB de MEMORY.md</text>
+  <text x="428" y="284" font-size="13" font-weight="700" fill="#7c2f16">Dónde</text>
+  <text x="428" y="304" font-size="12" font-family="Menlo, Consolas, monospace" fill="#4d2011">~/.claude/projects/proyecto/memory/</text>
+  <text x="428" y="330" font-size="12" font-style="italic" fill="#7c2f16">Para que Claude aprenda de ti</text>
+
+  <rect x="24" y="360" width="752" height="30" rx="8" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="400" y="380" text-anchor="middle" font-size="12" fill="#4d2011">Ambas son contexto, no reglas obligatorias. Para bloquear una acción de forma segura se usan hooks.</text>
+</svg>
