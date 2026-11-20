@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" width="800" height="380" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0 0 L6 3 L0 6 Z" fill="#7c2f16"/>
+    </marker>
+  </defs>
+  <rect width="800" height="380" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">El historial de Git como pista</text>
+
+  <path d="M70 120 L700 120" stroke="#b8451f" stroke-width="3"/>
+
+  <circle cx="110" cy="120" r="16" fill="#2e7d32"/>
+  <text x="110" y="125" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">A</text>
+  <text x="110" y="156" text-anchor="middle" font-size="12" fill="#4d2011">feat: nave</text>
+  <text x="110" y="172" text-anchor="middle" font-size="12" fill="#4d2011">con teclado</text>
+  <text x="110" y="192" text-anchor="middle" font-size="11" font-weight="700" fill="#2e7d32">funciona</text>
+
+  <circle cx="290" cy="120" r="16" fill="#2e7d32"/>
+  <text x="290" y="125" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">B</text>
+  <text x="290" y="156" text-anchor="middle" font-size="12" fill="#4d2011">feat: disparo</text>
+  <text x="290" y="172" text-anchor="middle" font-size="12" fill="#4d2011">triple</text>
+  <text x="290" y="192" text-anchor="middle" font-size="11" font-weight="700" fill="#2e7d32">funciona</text>
+
+  <circle cx="470" cy="120" r="16" fill="#c0392b"/>
+  <text x="470" y="125" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">C</text>
+  <text x="470" y="156" text-anchor="middle" font-size="12" fill="#4d2011">refactor: quitar</text>
+  <text x="470" y="172" text-anchor="middle" font-size="12" fill="#4d2011">listeners</text>
+  <text x="470" y="192" text-anchor="middle" font-size="11" font-weight="700" fill="#c0392b">rompe el juego</text>
+
+  <circle cx="680" cy="120" r="16" fill="#2e7d32"/>
+  <text x="680" y="125" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">D</text>
+  <text x="680" y="156" text-anchor="middle" font-size="12" fill="#4d2011">Revert de C</text>
+  <text x="680" y="172" text-anchor="middle" font-size="12" fill="#4d2011">(nuevo commit)</text>
+  <text x="680" y="192" text-anchor="middle" font-size="11" font-weight="700" fill="#2e7d32">funciona</text>
+
+  <path d="M488 104 C540 60 620 60 668 104" fill="none" stroke="#7c2f16" stroke-width="1.5" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+  <text x="578" y="62" text-anchor="middle" font-size="12" font-weight="700" fill="#7c2f16">git revert</text>
+
+  <rect x="24" y="224" width="752" height="136" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="44" y="250" font-size="13" font-weight="700" fill="#7c2f16">Cómo ayuda Claude Code</text>
+  <text x="44" y="274" font-size="13" fill="#4d2011">Dile que antes funcionaba y que revise el historial de Git. Lee el registro de commits y busca</text>
+  <text x="44" y="292" font-size="13" fill="#4d2011">el cambio sospechoso, por ejemplo con git log --oneline.</text>
+  <text x="44" y="316" font-size="13" fill="#4d2011">Si el commit roto ya está publicado, git revert crea un commit nuevo que lo deshace y no</text>
+  <text x="44" y="334" font-size="13" fill="#4d2011">reescribe la historia. Antes de commitear, comprueba que el programa sigue funcionando.</text>
+</svg>

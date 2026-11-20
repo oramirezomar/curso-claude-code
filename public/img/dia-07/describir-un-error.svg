@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="Helvetica, Arial, sans-serif">
+  <rect width="800" height="400" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Cómo describir un error a Claude</text>
+
+  <rect x="24" y="56" width="368" height="250" rx="10" fill="#ffffff" stroke="#c0392b" stroke-width="2"/>
+  <rect x="24" y="56" width="368" height="40" rx="10" fill="#c0392b"/>
+  <rect x="24" y="84" width="368" height="12" fill="#c0392b"/>
+  <text x="208" y="82" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">Vago: gasta tokens explorando</text>
+  <text x="44" y="128" font-size="13" font-style="italic" fill="#4d2011">"Arregla el error."</text>
+  <text x="44" y="164" font-size="13" fill="#4d2011">• No dice qué hiciste</text>
+  <text x="44" y="188" font-size="13" fill="#4d2011">• No muestra el mensaje exacto</text>
+  <text x="44" y="212" font-size="13" fill="#4d2011">• No señala dónde mirar</text>
+  <text x="44" y="236" font-size="13" fill="#4d2011">• Claude lee medio proyecto para adivinar</text>
+  <text x="44" y="282" font-size="12" font-weight="700" fill="#c0392b">Resultado: más lecturas, más costo</text>
+
+  <rect x="408" y="56" width="368" height="250" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+  <rect x="408" y="56" width="368" height="40" rx="10" fill="#2e7d32"/>
+  <rect x="408" y="84" width="368" height="12" fill="#2e7d32"/>
+  <text x="592" y="82" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">Concreto: va directo al grano</text>
+  <text x="428" y="124" font-size="12" font-style="italic" fill="#4d2011">"Cargué index.html y la consola muestra:</text>
+  <text x="428" y="142" font-size="12" font-style="italic" fill="#4d2011">ReferenceError: keys is not defined."</text>
+  <text x="428" y="176" font-size="13" fill="#4d2011">• Qué hiciste y qué esperabas</text>
+  <text x="428" y="200" font-size="13" fill="#4d2011">• El mensaje exacto, como texto o imagen</text>
+  <text x="428" y="224" font-size="13" fill="#4d2011">• El archivo o el comando que lo provoca</text>
+  <text x="428" y="248" font-size="13" fill="#4d2011">• Si falla siempre o a veces</text>
+  <text x="428" y="282" font-size="12" font-weight="700" fill="#2e7d32">Resultado: lee lo justo y corrige</text>
+
+  <rect x="24" y="326" width="752" height="50" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="400" y="348" text-anchor="middle" font-size="13" fill="#4d2011">Sin mensaje de error, describe el síntoma: qué debería pasar, qué pasa y qué dice la consola.</text>
+  <text x="400" y="366" text-anchor="middle" font-size="13" fill="#4d2011">Pide que reproduzca el problema o que muestre cómo lo comprobó.</text>
+</svg>

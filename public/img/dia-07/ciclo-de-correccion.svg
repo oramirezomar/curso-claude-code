@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" width="800" height="340" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0 0 L6 3 L0 6 Z" fill="#7c2f16"/>
+    </marker>
+  </defs>
+  <rect width="800" height="340" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Ciclo para corregir un error</text>
+
+  <rect x="20" y="62" width="140" height="120" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="90" y="88" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">1. Reproducir</text>
+  <text x="90" y="112" text-anchor="middle" font-size="12" fill="#4d2011">Recarga la página</text>
+  <text x="90" y="130" text-anchor="middle" font-size="12" fill="#4d2011">y abre la consola</text>
+  <text x="90" y="158" text-anchor="middle" font-size="11" fill="#7c2f16">Anota el mensaje</text>
+
+  <rect x="176" y="62" width="140" height="120" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="246" y="88" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">2. Contexto</text>
+  <text x="246" y="112" text-anchor="middle" font-size="12" fill="#4d2011">Mensaje exacto,</text>
+  <text x="246" y="130" text-anchor="middle" font-size="12" fill="#4d2011">qué hiciste, dónde</text>
+  <text x="246" y="158" text-anchor="middle" font-size="11" fill="#7c2f16">Texto o imagen</text>
+
+  <rect x="332" y="62" width="140" height="120" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="402" y="88" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">3. Diagnóstico</text>
+  <text x="402" y="112" text-anchor="middle" font-size="12" fill="#4d2011">Claude busca la</text>
+  <text x="402" y="130" text-anchor="middle" font-size="12" fill="#4d2011">causa y la explica</text>
+  <text x="402" y="158" text-anchor="middle" font-size="11" fill="#7c2f16">Léela</text>
+
+  <rect x="488" y="62" width="140" height="120" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="558" y="88" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">4. Corrección</text>
+  <text x="558" y="112" text-anchor="middle" font-size="12" fill="#4d2011">Propone y aplica</text>
+  <text x="558" y="130" text-anchor="middle" font-size="12" fill="#4d2011">un cambio</text>
+  <text x="558" y="158" text-anchor="middle" font-size="11" fill="#7c2f16">Revisa el diff</text>
+
+  <rect x="644" y="62" width="136" height="120" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+  <text x="712" y="88" text-anchor="middle" font-size="13" font-weight="700" fill="#2e7d32">5. Comprobar</text>
+  <text x="712" y="112" text-anchor="middle" font-size="12" fill="#4d2011">Recarga y prueba</text>
+  <text x="712" y="130" text-anchor="middle" font-size="12" fill="#4d2011">el comportamiento</text>
+  <text x="712" y="158" text-anchor="middle" font-size="11" fill="#7c2f16">Luego, commit</text>
+
+  <path d="M162 122 L172 122" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M318 122 L328 122" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M474 122 L484 122" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M630 122 L640 122" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M712 184 L712 214 L246 214 L246 186" fill="none" stroke="#7c2f16" stroke-width="1.5" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+  <rect x="330" y="200" width="300" height="28" rx="6" fill="#fdf4ef"/>
+  <text x="480" y="219" text-anchor="middle" font-size="12" font-weight="700" fill="#7c2f16">si sigue fallando, aporta el nuevo mensaje</text>
+
+  <rect x="20" y="248" width="760" height="70" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="40" y="272" font-size="13" font-weight="700" fill="#7c2f16">Entre un problema y otro</text>
+  <text x="40" y="294" font-size="13" fill="#4d2011">Si el nuevo problema no tiene relación con el anterior, usa /clear. El historial viejo no ayuda a diagnosticarlo.</text>
+</svg>
