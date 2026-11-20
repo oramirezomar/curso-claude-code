@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" width="800" height="440" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0 0 L6 3 L0 6 Z" fill="#7c2f16"/>
+    </marker>
+  </defs>
+  <rect width="800" height="440" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">El ciclo del agente</text>
+
+  <rect x="24" y="64" width="170" height="70" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="109" y="92" text-anchor="middle" font-size="14" font-weight="700" fill="#b8451f">1. Tu mensaje</text>
+  <text x="109" y="112" text-anchor="middle" font-size="12" fill="#4d2011">Se prepara en tu equipo</text>
+
+  <rect x="226" y="64" width="170" height="70" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="311" y="92" text-anchor="middle" font-size="14" font-weight="700" fill="#b8451f">2. Contexto</text>
+  <text x="311" y="112" text-anchor="middle" font-size="12" fill="#4d2011">Historial y base fija</text>
+
+  <rect x="428" y="64" width="170" height="70" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="513" y="92" text-anchor="middle" font-size="14" font-weight="700" fill="#b8451f">3. El modelo</text>
+  <text x="513" y="112" text-anchor="middle" font-size="12" fill="#4d2011">Razona y decide el paso</text>
+
+  <rect x="630" y="64" width="146" height="70" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="703" y="92" text-anchor="middle" font-size="14" font-weight="700" fill="#b8451f">4. Herramientas</text>
+  <text x="703" y="112" text-anchor="middle" font-size="12" fill="#4d2011">Leer, editar, ejecutar</text>
+
+  <path d="M196 99 L222 99" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M398 99 L424 99" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M600 99 L626 99" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <path d="M703 136 L703 178 L513 178 L513 138" fill="none" stroke="#7c2f16" stroke-width="1.5" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+  <rect x="540" y="164" width="140" height="28" rx="6" fill="#fdf4ef"/>
+  <text x="610" y="183" text-anchor="middle" font-size="12" font-weight="700" fill="#7c2f16">el resultado vuelve</text>
+
+  <rect x="24" y="216" width="752" height="86" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="44" y="242" font-size="13" font-weight="700" fill="#7c2f16">Tres fases que se mezclan, según la documentación</text>
+  <text x="44" y="266" font-size="13" fill="#4d2011">Reunir contexto (buscar y leer), actuar (editar y ejecutar) y verificar (probar). Una pregunta solo reúne</text>
+  <text x="44" y="284" font-size="13" fill="#4d2011">contexto. Corregir un error recorre las tres fases varias veces.</text>
+
+  <rect x="24" y="320" width="366" height="96" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+  <text x="207" y="346" text-anchor="middle" font-size="14" font-weight="700" fill="#2e7d32">5. Respuesta y hooks</text>
+  <text x="207" y="370" text-anchor="middle" font-size="12" fill="#4d2011">Cuando termina muestra el resultado y</text>
+  <text x="207" y="388" text-anchor="middle" font-size="12" fill="#4d2011">se pueden disparar acciones propias:</text>
+  <text x="207" y="404" text-anchor="middle" font-size="12" fill="#4d2011">un aviso sonoro o una revisión</text>
+
+  <rect x="410" y="320" width="366" height="96" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="593" y="346" text-anchor="middle" font-size="14" font-weight="700" fill="#b8451f">Tú también estás en el ciclo</text>
+  <text x="593" y="370" text-anchor="middle" font-size="12" fill="#4d2011">Esc detiene el trabajo en cualquier momento</text>
+  <text x="593" y="388" text-anchor="middle" font-size="12" fill="#4d2011">y puedes aportar contexto o cambiar</text>
+  <text x="593" y="404" text-anchor="middle" font-size="12" fill="#4d2011">de dirección. Después espera tu siguiente mensaje</text>
+</svg>

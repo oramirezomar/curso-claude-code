@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420" font-family="Helvetica, Arial, sans-serif">
+  <rect width="800" height="420" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Las piezas de la pantalla de Claude Code</text>
+
+  <rect x="24" y="56" width="500" height="300" rx="10" fill="#0d1117"/>
+  <rect x="40" y="72" width="468" height="70" rx="6" fill="#161b22" stroke="#30363d"/>
+  <text x="54" y="94" font-size="13" font-family="Menlo, Consolas, monospace" fill="#e6edf3">Claude Code  v2.x.x</text>
+  <text x="54" y="114" font-size="12" font-family="Menlo, Consolas, monospace" fill="#8b949e">modelo · esfuerzo · plan</text>
+  <text x="54" y="132" font-size="12" font-family="Menlo, Consolas, monospace" fill="#8b949e">~/ClaudeCode/02-tour</text>
+
+  <rect x="40" y="160" width="468" height="62" rx="6" fill="#161b22" stroke="#b8451f" stroke-width="2"/>
+  <text x="54" y="186" font-size="13" font-family="Menlo, Consolas, monospace" fill="#e6edf3">&gt; Escribe aquí tu mensaje</text>
+  <text x="54" y="208" font-size="12" font-family="Menlo, Consolas, monospace" fill="#8b949e">/ comandos   @ archivos   ! shell   ? ayuda</text>
+
+  <text x="54" y="258" font-size="12" font-family="Menlo, Consolas, monospace" fill="#8b949e">Esc Esc: rebobinar    Shift+Tab: cambiar modo</text>
+  <rect x="40" y="276" width="468" height="26" rx="4" fill="#21262d"/>
+  <text x="54" y="294" font-size="12" font-family="Menlo, Consolas, monospace" fill="#58a6ff">accept edits on (shift+tab to cycle)</text>
+  <text x="54" y="334" font-size="11" font-family="Menlo, Consolas, monospace" fill="#8b949e">Barra de estado: modo actual y, si la configuras, uso del contexto</text>
+
+  <path d="M524 106 L560 106" stroke="#7c2f16" stroke-width="1.5"/>
+  <rect x="560" y="72" width="216" height="72" rx="8" fill="#ffffff" stroke="#b8451f" stroke-width="1.5"/>
+  <text x="668" y="96" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">Cabecera</text>
+  <text x="668" y="116" text-anchor="middle" font-size="12" fill="#4d2011">Versión, modelo, esfuerzo,</text>
+  <text x="668" y="134" text-anchor="middle" font-size="12" fill="#4d2011">plan y carpeta de trabajo</text>
+
+  <path d="M524 190 L560 190" stroke="#7c2f16" stroke-width="1.5"/>
+  <rect x="560" y="154" width="216" height="72" rx="8" fill="#ffffff" stroke="#b8451f" stroke-width="1.5"/>
+  <text x="668" y="176" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">Cuadro de mensaje</text>
+  <text x="668" y="194" text-anchor="middle" font-size="12" fill="#4d2011">Admite arrastrar archivos,</text>
+  <text x="668" y="210" text-anchor="middle" font-size="12" fill="#4d2011">pegar imágenes y rutas</text>
+
+  <path d="M524 289 L560 289" stroke="#7c2f16" stroke-width="1.5"/>
+  <rect x="560" y="256" width="216" height="66" rx="8" fill="#ffffff" stroke="#b8451f" stroke-width="1.5"/>
+  <text x="668" y="278" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">Modo de permisos</text>
+  <text x="668" y="296" text-anchor="middle" font-size="12" fill="#4d2011">Qué puede hacer sin</text>
+  <text x="668" y="312" text-anchor="middle" font-size="12" fill="#4d2011">pedirte permiso</text>
+
+  <rect x="24" y="372" width="752" height="36" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="400" y="395" text-anchor="middle" font-size="13" fill="#4d2011">Esquema orientativo: el aspecto exacto cambia con la versión y con tu terminal.</text>
+</svg>
