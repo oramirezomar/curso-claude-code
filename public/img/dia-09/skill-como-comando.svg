@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0 0 L6 3 L0 6 Z" fill="#7c2f16"/>
+    </marker>
+  </defs>
+  <rect width="800" height="400" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Un skill de proyecto es un comando</text>
+  <rect x="20" y="56" width="330" height="150" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="40" y="82" font-size="13" font-weight="700" fill="#b8451f">Estructura de carpetas</text>
+  <text x="40" y="110" font-size="12" fill="#4d2011" font-family="Menlo, Courier, monospace">04-tetris/</text>
+  <text x="60" y="130" font-size="12" fill="#4d2011" font-family="Menlo, Courier, monospace">.claude/</text>
+  <text x="80" y="150" font-size="12" fill="#4d2011" font-family="Menlo, Courier, monospace">skills/</text>
+  <text x="100" y="170" font-size="12" fill="#b8451f" font-weight="700" font-family="Menlo, Courier, monospace">piezas/</text>
+  <text x="120" y="190" font-size="12" fill="#4d2011" font-family="Menlo, Courier, monospace">SKILL.md</text>
+  <path d="M352 130 L412 130" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="382" y="122" text-anchor="middle" font-size="11" fill="#7c2f16">nombre</text>
+  <rect x="420" y="86" width="360" height="90" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+  <text x="600" y="116" text-anchor="middle" font-size="13" font-weight="700" fill="#2e7d32">El comando es el nombre de la carpeta</text>
+  <text x="600" y="146" text-anchor="middle" font-size="18" font-weight="700" fill="#4d2011" font-family="Menlo, Courier, monospace">/piezas T</text>
+  <text x="600" y="166" text-anchor="middle" font-size="11" fill="#7c2f16">El texto tras el nombre llega como argumento</text>
+  <rect x="20" y="226" width="760" height="156" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="40" y="252" font-size="13" font-weight="700" fill="#7c2f16">Dentro de SKILL.md</text>
+  <text x="40" y="278" font-size="12" fill="#4d2011">• La descripción entre guiones le dice a Claude cuándo usarlo por su cuenta.</text>
+  <text x="40" y="300" font-size="12" fill="#4d2011">• Una línea que empieza por signo de exclamación y comillas invertidas se ejecuta antes de que Claude lea el skill.</text>
+  <text x="40" y="322" font-size="12" fill="#4d2011">• La palabra ARGUMENTS con signo de dólar se sustituye por lo que escribas después del nombre.</text>
+  <text x="40" y="344" font-size="12" fill="#4d2011">• Los cambios se detectan sin reiniciar. Si no aparece, usa /reload-skills.</text>
+  <text x="40" y="368" font-size="12" font-weight="700" fill="#7c2f16">Los archivos antiguos en .claude/commands siguen funcionando, pero prefiere un skill.</text>
+</svg>

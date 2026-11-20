@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="Helvetica, Arial, sans-serif">
+  <rect width="800" height="400" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Tres maneras de liberar contexto</text>
+  <rect x="20" y="56" width="240" height="170" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+  <text x="140" y="84" text-anchor="middle" font-size="15" font-weight="700" fill="#2e7d32" font-family="Menlo, Courier, monospace">/clear</text>
+  <text x="140" y="110" text-anchor="middle" font-size="12" fill="#4d2011">Empieza una conversación</text>
+  <text x="140" y="128" text-anchor="middle" font-size="12" fill="#4d2011">nueva y vacía</text>
+  <text x="140" y="158" text-anchor="middle" font-size="12" font-weight="700" fill="#2e7d32">No cuesta nada</text>
+  <text x="140" y="184" text-anchor="middle" font-size="11" fill="#7c2f16">Úsalo al cambiar de tema</text>
+  <text x="140" y="204" text-anchor="middle" font-size="11" fill="#7c2f16">Se recupera con /resume</text>
+  <rect x="280" y="56" width="240" height="170" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="400" y="84" text-anchor="middle" font-size="15" font-weight="700" fill="#b8451f" font-family="Menlo, Courier, monospace">/compact [texto]</text>
+  <text x="400" y="110" text-anchor="middle" font-size="12" fill="#4d2011">Resume la conversación</text>
+  <text x="400" y="128" text-anchor="middle" font-size="12" fill="#4d2011">y sigue en la misma</text>
+  <text x="400" y="158" text-anchor="middle" font-size="12" font-weight="700" fill="#b8451f">Hace una petición grande</text>
+  <text x="400" y="184" text-anchor="middle" font-size="11" fill="#7c2f16">El texto indica qué conservar</text>
+  <text x="400" y="204" text-anchor="middle" font-size="11" fill="#7c2f16">Puede perder detalles</text>
+  <rect x="540" y="56" width="240" height="170" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="660" y="84" text-anchor="middle" font-size="15" font-weight="700" fill="#b8451f">Compactación automática</text>
+  <text x="660" y="110" text-anchor="middle" font-size="12" fill="#4d2011">Resume sola al acercarse</text>
+  <text x="660" y="128" text-anchor="middle" font-size="12" fill="#4d2011">al límite de la ventana</text>
+  <text x="660" y="158" text-anchor="middle" font-size="12" font-weight="700" fill="#b8451f">Ajustable</text>
+  <text x="660" y="184" text-anchor="middle" font-size="11" fill="#7c2f16" font-family="Menlo, Courier, monospace">/autocompact 500k</text>
+  <text x="660" y="204" text-anchor="middle" font-size="11" fill="#7c2f16">Auto para volver al valor base</text>
+  <rect x="20" y="246" width="760" height="136" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="40" y="272" font-size="13" font-weight="700" fill="#7c2f16">Qué sobrevive a una compactación</text>
+  <text x="40" y="296" font-size="12" fill="#4d2011">• Vuelven a cargarse desde disco: el CLAUDE.md de la raíz, la memoria automática y el plan del modo plan.</text>
+  <text x="40" y="318" font-size="12" fill="#4d2011">• Se vuelven a leer hasta cinco archivos: los últimos que Claude leyó o editó.</text>
+  <text x="40" y="340" font-size="12" fill="#4d2011">• Se resume junto con la conversación todo lo demás: instrucciones dichas solo en el chat y salidas largas.</text>
+  <text x="40" y="364" font-size="12" font-weight="700" fill="#7c2f16">Lo importante vive en el CLAUDE.md, no en la conversación.</text>
+</svg>

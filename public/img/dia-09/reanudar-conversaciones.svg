@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" width="800" height="360" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0 0 L6 3 L0 6 Z" fill="#7c2f16"/>
+    </marker>
+  </defs>
+  <rect width="800" height="360" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Volver a una conversación anterior</text>
+  <rect x="20" y="60" width="150" height="100" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="95" y="88" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">Sesión abierta</text>
+  <text x="95" y="112" text-anchor="middle" font-size="12" fill="#4d2011">Tu conversación</text>
+  <text x="95" y="130" text-anchor="middle" font-size="12" fill="#4d2011">con Claude</text>
+  <rect x="220" y="60" width="150" height="100" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="295" y="88" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">Se guarda en local</text>
+  <text x="295" y="112" text-anchor="middle" font-size="12" fill="#4d2011">Archivo .jsonl en</text>
+  <text x="295" y="130" text-anchor="middle" font-size="11" fill="#4d2011" font-family="Menlo, Courier, monospace">~/.claude/projects</text>
+  <rect x="420" y="60" width="150" height="100" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="495" y="88" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">Cierras Claude</text>
+  <text x="495" y="112" text-anchor="middle" font-size="12" fill="#4d2011">Ctrl+C dos veces</text>
+  <text x="495" y="130" text-anchor="middle" font-size="12" fill="#4d2011">o /exit</text>
+  <rect x="620" y="60" width="160" height="100" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+  <text x="700" y="88" text-anchor="middle" font-size="13" font-weight="700" fill="#2e7d32">Nueva sesión</text>
+  <text x="700" y="112" text-anchor="middle" font-size="12" fill="#4d2011">Contexto limpio,</text>
+  <text x="700" y="130" text-anchor="middle" font-size="12" fill="#4d2011">sin lo anterior</text>
+  <path d="M172 110 L216 110" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M372 110 L416 110" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M572 110 L616 110" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="20" y="190" width="760" height="150" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="40" y="216" font-size="13" font-weight="700" fill="#7c2f16">Para recuperarla</text>
+  <text x="40" y="242" font-size="12" font-weight="700" fill="#4d2011" font-family="Menlo, Courier, monospace">/resume</text>
+  <text x="220" y="242" font-size="12" fill="#4d2011">dentro de Claude: abre el selector de sesiones, o recibe un identificador o un nombre</text>
+  <text x="40" y="266" font-size="12" font-weight="700" fill="#4d2011" font-family="Menlo, Courier, monospace">claude --continue</text>
+  <text x="220" y="266" font-size="12" fill="#4d2011">desde la terminal: reabre la sesión más reciente de la carpeta actual</text>
+  <text x="40" y="290" font-size="12" font-weight="700" fill="#4d2011" font-family="Menlo, Courier, monospace">claude --resume</text>
+  <text x="220" y="290" font-size="12" fill="#4d2011">abre el selector, o continúa una sesión con su nombre o identificador</text>
+  <text x="40" y="314" font-size="12" font-weight="700" fill="#4d2011" font-family="Menlo, Courier, monospace">/rename nombre</text>
+  <text x="220" y="314" font-size="12" fill="#4d2011">ponle nombre a la sesión para encontrarla fácil después</text>
+</svg>

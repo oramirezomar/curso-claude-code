@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" width="800" height="380" font-family="Helvetica, Arial, sans-serif">
+  <rect width="800" height="380" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Tareas repetidas: tres opciones</text>
+  <rect x="20" y="56" width="240" height="224" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+  <text x="140" y="84" text-anchor="middle" font-size="15" font-weight="700" fill="#2e7d32" font-family="Menlo, Courier, monospace">/loop</text>
+  <text x="140" y="106" text-anchor="middle" font-size="12" fill="#4d2011">Dentro de tu sesión</text>
+  <text x="40" y="138" font-size="12" fill="#4d2011">• Corre en tu equipo</text>
+  <text x="40" y="160" font-size="12" fill="#4d2011">• Necesita la sesión abierta</text>
+  <text x="40" y="182" font-size="12" fill="#4d2011">• Accede a tus archivos</text>
+  <text x="40" y="204" font-size="12" fill="#4d2011">• Intervalo mínimo: 1 minuto</text>
+  <text x="40" y="226" font-size="12" fill="#4d2011">• Caduca a los 7 días</text>
+  <text x="140" y="262" text-anchor="middle" font-size="12" font-weight="700" fill="#2e7d32">Para vigilar algo un rato</text>
+  <rect x="280" y="56" width="240" height="224" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="400" y="84" text-anchor="middle" font-size="15" font-weight="700" fill="#b8451f">Escritorio</text>
+  <text x="400" y="106" text-anchor="middle" font-size="12" fill="#4d2011">Tareas de la aplicación</text>
+  <text x="300" y="138" font-size="12" fill="#4d2011">• Corre en tu equipo</text>
+  <text x="300" y="160" font-size="12" fill="#4d2011">• La sesión no hace falta</text>
+  <text x="300" y="182" font-size="12" fill="#4d2011">• Accede a tus archivos</text>
+  <text x="300" y="204" font-size="12" fill="#4d2011">• Mínimo: 1 min (1 h en formularios)</text>
+  <text x="300" y="226" font-size="12" fill="#4d2011">• Persiste al reiniciar</text>
+  <text x="400" y="262" text-anchor="middle" font-size="12" font-weight="700" fill="#b8451f">Para trabajo local periódico</text>
+  <rect x="540" y="56" width="240" height="224" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="660" y="84" text-anchor="middle" font-size="15" font-weight="700" fill="#b8451f" font-family="Menlo, Courier, monospace">/schedule</text>
+  <text x="660" y="106" text-anchor="middle" font-size="12" fill="#4d2011">Tareas programadas en la nube</text>
+  <text x="560" y="138" font-size="12" fill="#4d2011">• Corre en la nube</text>
+  <text x="560" y="160" font-size="12" fill="#4d2011">• Tu equipo puede estar apagado</text>
+  <text x="560" y="182" font-size="12" fill="#4d2011">• Clon nuevo del repositorio</text>
+  <text x="560" y="204" font-size="12" fill="#4d2011">• Intervalo mínimo: 1 hora</text>
+  <text x="560" y="226" font-size="12" fill="#4d2011">• Persiste al reiniciar</text>
+  <text x="660" y="262" text-anchor="middle" font-size="12" font-weight="700" fill="#b8451f">Para rutinas fiables</text>
+  <rect x="20" y="298" width="760" height="68" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="40" y="322" font-size="13" font-weight="700" fill="#7c2f16">Para detener un loop</text>
+  <text x="40" y="346" font-size="12" fill="#4d2011">Pídele a Claude que lo cancele. Esc y Ctrl+C no lo detienen. Las tres opciones consumen la cuota de tu plan.</text>
+</svg>
