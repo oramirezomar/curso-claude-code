@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0 0 L6 3 L0 6 Z" fill="#7c2f16"/>
+    </marker>
+  </defs>
+  <rect width="800" height="420" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">De un issue a un sitio publicado</text>
+  <rect x="20" y="56" width="140" height="112" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="90" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">1. Issue</text>
+  <text x="90" y="106" text-anchor="middle" font-size="12" fill="#4d2011">Pides una función</text>
+  <text x="90" y="124" text-anchor="middle" font-size="12" fill="#4d2011">y el clasificador</text>
+  <text x="90" y="142" text-anchor="middle" font-size="12" fill="#4d2011">lo etiqueta</text>
+  <rect x="176" y="56" width="140" height="112" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="246" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">2. @claude</text>
+  <text x="246" y="106" text-anchor="middle" font-size="12" fill="#4d2011">Un comentario pide</text>
+  <text x="246" y="124" text-anchor="middle" font-size="12" fill="#4d2011">implementar la</text>
+  <text x="246" y="142" text-anchor="middle" font-size="12" fill="#4d2011">solución</text>
+  <rect x="332" y="56" width="140" height="112" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="402" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">3. Rama</text>
+  <text x="402" y="106" text-anchor="middle" font-size="12" fill="#4d2011">Claude deja una</text>
+  <text x="402" y="124" text-anchor="middle" font-size="12" fill="#4d2011">rama y un enlace</text>
+  <text x="402" y="142" text-anchor="middle" font-size="12" fill="#4d2011">al pull request</text>
+  <rect x="488" y="56" width="140" height="112" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="558" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">4. Revisión</text>
+  <text x="558" y="106" text-anchor="middle" font-size="12" fill="#4d2011">Pruebas la rama y</text>
+  <text x="558" y="124" text-anchor="middle" font-size="12" fill="#4d2011">esperas la revisión</text>
+  <text x="558" y="142" text-anchor="middle" font-size="12" fill="#4d2011">automática</text>
+  <rect x="644" y="56" width="136" height="112" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+  <text x="712" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#2e7d32">5. Fusionar</text>
+  <text x="712" y="106" text-anchor="middle" font-size="12" fill="#4d2011">Pages vuelve a</text>
+  <text x="712" y="124" text-anchor="middle" font-size="12" fill="#4d2011">publicar solo y el</text>
+  <text x="712" y="142" text-anchor="middle" font-size="12" fill="#4d2011">sitio se actualiza</text>
+  <path d="M162 112 L172 112" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M318 112 L328 112" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M474 112 L484 112" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M630 112 L640 112" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="20" y="190" width="370" height="212" rx="10" fill="#ffffff" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="40" y="216" font-size="13" font-weight="700" fill="#7c2f16">Publicar con GitHub Pages</text>
+  <text x="40" y="242" font-size="12" fill="#4d2011">1. Settings, apartado Pages</text>
+  <text x="40" y="264" font-size="12" fill="#4d2011">2. Fuente: Deploy from a branch</text>
+  <text x="40" y="286" font-size="12" fill="#4d2011">3. Rama main, carpeta raíz, y Save</text>
+  <text x="40" y="308" font-size="12" fill="#4d2011">4. Espera al workflow pages-build-deployment</text>
+  <text x="40" y="338" font-size="11" fill="#7c2f16">Busca un index.html en la raíz y lo sirve tal cual.</text>
+  <text x="40" y="356" font-size="11" fill="#7c2f16">Cada fusión en main lo vuelve a publicar.</text>
+  <text x="40" y="380" font-size="11" fill="#7c2f16">Si ves lo anterior, recarga sin caché.</text>
+  <rect x="410" y="190" width="370" height="212" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="430" y="216" font-size="13" font-weight="700" fill="#7c2f16">Antes de publicar</text>
+  <text x="430" y="242" font-size="12" fill="#4d2011">• Con el plan Free, el repositorio debe ser público.</text>
+  <text x="430" y="264" font-size="12" fill="#4d2011">• Un repositorio privado necesita un plan de pago.</text>
+  <text x="430" y="288" font-size="12" fill="#4d2011">• El sitio es público en internet, incluso si el</text>
+  <text x="442" y="306" font-size="12" fill="#4d2011">repositorio es privado.</text>
+  <text x="430" y="330" font-size="12" fill="#4d2011">• No publiques datos sensibles.</text>
+  <text x="430" y="358" font-size="12" fill="#4d2011">• Para otros formatos de compilación, GitHub</text>
+  <text x="442" y="376" font-size="12" fill="#4d2011">recomienda un workflow de Actions.</text>
+</svg>

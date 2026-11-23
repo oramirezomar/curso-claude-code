@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" width="800" height="380" font-family="Helvetica, Arial, sans-serif">
+  <rect width="800" height="380" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Una pieza nueva: la tuerca de 3 por 3</text>
+  <rect x="20" y="56" width="250" height="300" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="145" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">Cómo se ve</text>
+  <rect x="70" y="100" width="48" height="48" fill="#9e9e9e" stroke="#616161" stroke-width="2"/>
+  <rect x="122" y="100" width="48" height="48" fill="#9e9e9e" stroke="#616161" stroke-width="2"/>
+  <rect x="174" y="100" width="48" height="48" fill="#9e9e9e" stroke="#616161" stroke-width="2"/>
+  <rect x="70" y="152" width="48" height="48" fill="#9e9e9e" stroke="#616161" stroke-width="2"/>
+  <rect x="122" y="152" width="48" height="48" fill="#fdf4ef" stroke="#ec9f7a" stroke-width="2" stroke-dasharray="4 3"/>
+  <rect x="174" y="152" width="48" height="48" fill="#9e9e9e" stroke="#616161" stroke-width="2"/>
+  <rect x="70" y="204" width="48" height="48" fill="#9e9e9e" stroke="#616161" stroke-width="2"/>
+  <rect x="122" y="204" width="48" height="48" fill="#9e9e9e" stroke="#616161" stroke-width="2"/>
+  <rect x="174" y="204" width="48" height="48" fill="#9e9e9e" stroke="#616161" stroke-width="2"/>
+  <text x="145" y="282" text-anchor="middle" font-size="12" fill="#4d2011">Ocho celdas y un hueco central</text>
+  <text x="145" y="304" text-anchor="middle" font-size="12" fill="#4d2011">No gira distinto: es simétrica</text>
+  <text x="145" y="332" text-anchor="middle" font-size="11" fill="#7c2f16">El hueco hace difícil rellenar líneas</text>
+  <rect x="290" y="56" width="490" height="150" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="310" y="82" font-size="13" font-weight="700" fill="#b8451f">Cómo se define en game.js</text>
+  <text x="310" y="112" font-size="12" fill="#4d2011" font-family="Menlo, Courier, monospace">N: {</text>
+  <text x="330" y="132" font-size="12" fill="#4d2011" font-family="Menlo, Courier, monospace">color: "#9e9e9e",</text>
+  <text x="330" y="152" font-size="12" fill="#4d2011" font-family="Menlo, Courier, monospace">forma: [[1, 1, 1], [1, 0, 1], [1, 1, 1]],</text>
+  <text x="310" y="172" font-size="12" fill="#4d2011" font-family="Menlo, Courier, monospace">},</text>
+  <text x="310" y="196" font-size="11" fill="#7c2f16">Una entrada más en PIEZAS: el resto del juego no cambia.</text>
+  <rect x="290" y="222" width="490" height="134" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="310" y="248" font-size="13" font-weight="700" fill="#7c2f16">Qué revisar al pedirla</text>
+  <text x="310" y="272" font-size="12" fill="#4d2011">• Que respete la estructura actual: color y matriz.</text>
+  <text x="310" y="294" font-size="12" fill="#4d2011">• Con qué frecuencia sale: igual que las demás es 1 de 8.</text>
+  <text x="310" y="316" font-size="12" fill="#4d2011">• Que deje un comentario para futuras sesiones.</text>
+  <text x="310" y="338" font-size="12" fill="#4d2011">• Hazlo en una rama propia, con plan aprobado antes.</text>
+</svg>

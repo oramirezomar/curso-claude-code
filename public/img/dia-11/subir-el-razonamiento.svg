@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="Helvetica, Arial, sans-serif">
+  <rect width="800" height="400" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Cuatro formas de pedir más razonamiento</text>
+  <rect x="20" y="56" width="760" height="62" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="40" y="82" font-size="14" font-weight="700" fill="#b8451f">1. Un mensaje claro</text>
+  <text x="40" y="104" font-size="12" fill="#4d2011">Qué pasa, en qué estado, qué archivo y qué esperas. Sin esto, ningún nivel de esfuerzo compensa.</text>
+  <rect x="20" y="130" width="760" height="62" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="40" y="156" font-size="14" font-weight="700" fill="#b8451f">2. Modo plan</text>
+  <text x="40" y="178" font-size="12" fill="#4d2011">Claude lee y propone sin editar. Tú revisas el plan, lo ajustas y recién entonces lo apruebas.</text>
+  <rect x="20" y="204" width="760" height="62" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="40" y="230" font-size="14" font-weight="700" fill="#b8451f">3. /effort, para toda la sesión</text>
+  <text x="40" y="252" font-size="12" fill="#4d2011">low, medium, high, xhigh o max. Los modelos 5.5 empiezan en medium. Más nivel, más tokens y más espera.</text>
+  <rect x="20" y="278" width="760" height="62" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+  <text x="40" y="304" font-size="14" font-weight="700" fill="#2e7d32">4. ultrathink, para un solo mensaje</text>
+  <text x="40" y="326" font-size="12" fill="#4d2011">La palabra en el mensaje pide razonar más ese turno, sin cambiar el esfuerzo de la sesión.</text>
+  <rect x="20" y="352" width="760" height="38" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="40" y="376" font-size="12" fill="#4d2011">Frases como think, think hard o think more son texto normal: Claude Code no las reconoce como palabras clave.</text>
+</svg>
