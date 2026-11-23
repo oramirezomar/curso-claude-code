@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0 0 L6 3 L0 6 Z" fill="#7c2f16"/>
+    </marker>
+  </defs>
+  <rect width="800" height="400" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Instalar la integración con GitHub</text>
+  <rect x="20" y="56" width="140" height="120" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="90" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">1. Prepararse</text>
+  <text x="90" y="106" text-anchor="middle" font-size="12" fill="#4d2011">gh auth login</text>
+  <text x="90" y="124" text-anchor="middle" font-size="12" fill="#4d2011">y permisos de admin</text>
+  <text x="90" y="152" text-anchor="middle" font-size="11" fill="#7c2f16">Tu repositorio</text>
+  <rect x="176" y="56" width="140" height="120" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="246" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">2. Comando</text>
+  <text x="246" y="106" text-anchor="middle" font-size="10" fill="#4d2011" font-family="Menlo, Courier, monospace">/install-github-app</text>
+  <text x="246" y="152" text-anchor="middle" font-size="11" fill="#7c2f16">Dentro de claude</text>
+  <rect x="332" y="56" width="140" height="120" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="402" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">3. La app</text>
+  <text x="402" y="106" text-anchor="middle" font-size="12" fill="#4d2011">Se instala en el</text>
+  <text x="402" y="124" text-anchor="middle" font-size="12" fill="#4d2011">navegador</text>
+  <text x="402" y="152" text-anchor="middle" font-size="11" fill="#7c2f16">Solo repos elegidos</text>
+  <rect x="488" y="56" width="140" height="120" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="558" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">4. Credencial</text>
+  <text x="558" y="106" text-anchor="middle" font-size="12" fill="#4d2011">Token de tu</text>
+  <text x="558" y="124" text-anchor="middle" font-size="12" fill="#4d2011">suscripción o clave</text>
+  <text x="558" y="152" text-anchor="middle" font-size="11" fill="#7c2f16">Secreto del repositorio</text>
+  <rect x="644" y="56" width="136" height="120" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+  <text x="712" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#2e7d32">5. Pull request</text>
+  <text x="712" y="106" text-anchor="middle" font-size="12" fill="#4d2011">Con los workflows</text>
+  <text x="712" y="124" text-anchor="middle" font-size="12" fill="#4d2011">Espera y fusiona</text>
+  <text x="712" y="152" text-anchor="middle" font-size="11" fill="#7c2f16">Luego git pull</text>
+  <path d="M162 116 L172 116" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M318 116 L328 116" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M474 116 L484 116" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M630 116 L640 116" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="20" y="198" width="370" height="184" rx="10" fill="#ffffff" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="40" y="224" font-size="13" font-weight="700" fill="#7c2f16">Qué obtiene tu repositorio</text>
+  <text x="40" y="250" font-size="12" fill="#4d2011">• La aplicación de GitHub de Claude</text>
+  <text x="40" y="272" font-size="12" fill="#4d2011">• Un secreto: CLAUDE_CODE_OAUTH_TOKEN</text>
+  <text x="40" y="294" font-size="12" fill="#4d2011">• .github/workflows/claude.yml</text>
+  <text x="40" y="316" font-size="12" fill="#4d2011">• .github/workflows/claude-code-review.yml</text>
+  <text x="40" y="344" font-size="11" fill="#7c2f16">Los dos archivos llegan en un pull request que tú</text>
+  <text x="40" y="362" font-size="11" fill="#7c2f16">fusionas. Hasta entonces no hay nada activo.</text>
+  <rect x="410" y="198" width="370" height="184" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="430" y="224" font-size="13" font-weight="700" fill="#7c2f16">Cuidado</text>
+  <text x="430" y="250" font-size="12" fill="#4d2011">• La app pide su conjunto completo de permisos:</text>
+  <text x="442" y="268" font-size="12" fill="#4d2011">no se puede aceptar solo una parte.</text>
+  <text x="430" y="292" font-size="12" fill="#4d2011">• Instálala solo en los repositorios que lo necesiten.</text>
+  <text x="430" y="316" font-size="12" fill="#4d2011">• En un fork, GitHub no ejecuta workflows hasta que</text>
+  <text x="442" y="334" font-size="12" fill="#4d2011">actives Actions en la pestaña Actions.</text>
+  <text x="430" y="362" font-size="12" fill="#4d2011">• Solo funciona con repositorios de github.com.</text>
+</svg>

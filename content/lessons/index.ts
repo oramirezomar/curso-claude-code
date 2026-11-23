@@ -16,16 +16,17 @@ import { day06 } from "./day-06";
 import { day07 } from "./day-07";
 import { day08 } from "./day-08";
 import { day09 } from "./day-09";
+import { day10 } from "./day-10";
 
 export const sections: CourseSection[] = [
   { title: "Introducción", dayRange: [1, 1], icon: "🧭" },
   { title: "Instalación y consumo de tokens", dayRange: [2, 3], icon: "⚙️" },
   { title: "Claude Code con modelos de Ollama", dayRange: [4, 4], icon: "🖥️" },
   { title: "Fundamentos 101", dayRange: [5, 7], icon: "🧱" },
-  { title: "Flujo de trabajo", dayRange: [8, 9], icon: "🔁" },
+  { title: "Flujo de trabajo", dayRange: [8, 10], icon: "🔁" },
 ];
 
-export const lessons: Lesson[] = [day01, day02, day03, day04, day05, day06, day07, day08, day09];
+export const lessons: Lesson[] = [day01, day02, day03, day04, day05, day06, day07, day08, day09, day10];
 
 export function getLessonByDay(day: number): Lesson | undefined {
   return lessons.find((lesson) => lesson.day === day);

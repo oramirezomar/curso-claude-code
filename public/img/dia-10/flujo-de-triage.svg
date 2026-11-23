@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0 0 L6 3 L0 6 Z" fill="#7c2f16"/>
+    </marker>
+  </defs>
+  <rect width="800" height="400" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Un workflow que clasifica los issues</text>
+  <rect x="20" y="56" width="170" height="120" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="105" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">Alguien abre un issue</text>
+  <text x="105" y="110" text-anchor="middle" font-size="12" fill="#4d2011">Poco detalle, sin</text>
+  <text x="105" y="128" text-anchor="middle" font-size="12" fill="#4d2011">etiquetas, sin</text>
+  <text x="105" y="146" text-anchor="middle" font-size="12" fill="#4d2011">diagnóstico</text>
+  <rect x="315" y="56" width="170" height="120" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="400" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">Se dispara el workflow</text>
+  <text x="400" y="110" text-anchor="middle" font-size="12" fill="#4d2011">Evento: issue abierto</text>
+  <text x="400" y="128" text-anchor="middle" font-size="12" fill="#4d2011">Permiso: issues escritura</text>
+  <text x="400" y="146" text-anchor="middle" font-size="12" fill="#4d2011">Límite de 10 minutos</text>
+  <rect x="610" y="56" width="170" height="120" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+  <text x="695" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#2e7d32">El issue queda listo</text>
+  <text x="695" y="110" text-anchor="middle" font-size="12" fill="#4d2011">Etiquetas aplicadas</text>
+  <text x="695" y="128" text-anchor="middle" font-size="12" fill="#4d2011">Comentario con un</text>
+  <text x="695" y="146" text-anchor="middle" font-size="12" fill="#4d2011">diagnóstico en Markdown</text>
+  <path d="M192 116 L311 116" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M487 116 L606 116" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="252" y="108" text-anchor="middle" font-size="11" fill="#7c2f16">evento</text>
+  <text x="546" y="108" text-anchor="middle" font-size="11" fill="#7c2f16">Claude actúa</text>
+  <rect x="20" y="198" width="370" height="184" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+  <text x="40" y="224" font-size="13" font-weight="700" fill="#2e7d32">Límites que conviene poner</text>
+  <text x="40" y="250" font-size="12" fill="#4d2011">• Herramientas permitidas: solo los comandos gh</text>
+  <text x="52" y="268" font-size="12" fill="#4d2011">de leer, etiquetar y comentar</text>
+  <text x="40" y="292" font-size="12" fill="#4d2011">• Número máximo de turnos y tiempo máximo</text>
+  <text x="40" y="316" font-size="12" fill="#4d2011">• Solo etiquetas que ya existen en el repositorio</text>
+  <text x="40" y="340" font-size="12" fill="#4d2011">• Permisos mínimos: sin escritura en el código</text>
+  <text x="40" y="364" font-size="12" fill="#4d2011">• Solo al abrir el issue, no en cada edición</text>
+  <rect x="410" y="198" width="370" height="184" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="430" y="224" font-size="13" font-weight="700" fill="#7c2f16">El texto del issue no es de confianza</text>
+  <text x="430" y="250" font-size="12" fill="#4d2011">• Cualquiera puede escribir ahí instrucciones</text>
+  <text x="442" y="268" font-size="12" fill="#4d2011">dirigidas a Claude, y por eso se le indica que</text>
+  <text x="442" y="286" font-size="12" fill="#4d2011">lo trate como datos.</text>
+  <text x="430" y="310" font-size="12" fill="#4d2011">• Permitir que usuarios sin escritura lo disparen es</text>
+  <text x="442" y="328" font-size="12" fill="#4d2011">un riesgo serio: úsalo solo con permisos mínimos.</text>
+  <text x="430" y="356" font-size="12" fill="#4d2011">• Revisa lo que publica antes de fiarte de ello.</text>
+</svg>

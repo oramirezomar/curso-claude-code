@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0 0 L6 3 L0 6 Z" fill="#7c2f16"/>
+    </marker>
+  </defs>
+  <rect width="800" height="400" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Del issue al código fusionado</text>
+  <rect x="20" y="56" width="140" height="110" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="90" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">1. Issue</text>
+  <text x="90" y="106" text-anchor="middle" font-size="12" fill="#4d2011">Describe el</text>
+  <text x="90" y="124" text-anchor="middle" font-size="12" fill="#4d2011">problema y</text>
+  <text x="90" y="142" text-anchor="middle" font-size="12" fill="#4d2011">menciona @claude</text>
+  <rect x="176" y="56" width="140" height="110" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="246" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">2. Claude trabaja</text>
+  <text x="246" y="106" text-anchor="middle" font-size="12" fill="#4d2011">Crea una rama y</text>
+  <text x="246" y="124" text-anchor="middle" font-size="12" fill="#4d2011">deja un enlace</text>
+  <text x="246" y="142" text-anchor="middle" font-size="12" fill="#4d2011">para el pull request</text>
+  <rect x="332" y="56" width="140" height="110" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="402" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">3. Tú revisas</text>
+  <text x="402" y="106" text-anchor="middle" font-size="12" fill="#4d2011">Traes la rama,</text>
+  <text x="402" y="124" text-anchor="middle" font-size="12" fill="#4d2011">la pruebas y la</text>
+  <text x="402" y="142" text-anchor="middle" font-size="12" fill="#4d2011">lees completa</text>
+  <rect x="488" y="56" width="140" height="110" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="558" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">4. Pull request</text>
+  <text x="558" y="106" text-anchor="middle" font-size="12" fill="#4d2011">Con la palabra</text>
+  <text x="558" y="124" text-anchor="middle" font-size="12" fill="#4d2011">clave fixes #2 y</text>
+  <text x="558" y="142" text-anchor="middle" font-size="12" fill="#4d2011">revisión automática</text>
+  <rect x="644" y="56" width="136" height="110" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+  <text x="712" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#2e7d32">5. Fusionar</text>
+  <text x="712" y="106" text-anchor="middle" font-size="12" fill="#4d2011">Al fusionar con</text>
+  <text x="712" y="124" text-anchor="middle" font-size="12" fill="#4d2011">la rama principal,</text>
+  <text x="712" y="142" text-anchor="middle" font-size="12" fill="#4d2011">el issue se cierra</text>
+  <path d="M162 111 L172 111" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M318 111 L328 111" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M474 111 L484 111" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M630 111 L640 111" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="20" y="190" width="370" height="190" rx="10" fill="#ffffff" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="40" y="216" font-size="13" font-weight="700" fill="#7c2f16">Revisar la rama en tu equipo</text>
+  <text x="40" y="244" font-size="12" fill="#4d2011" font-family="Menlo, Courier, monospace">git fetch</text>
+  <text x="40" y="266" font-size="12" fill="#4d2011" font-family="Menlo, Courier, monospace">git switch nombre-de-la-rama</text>
+  <text x="40" y="288" font-size="12" fill="#4d2011">probar el juego en el navegador</text>
+  <text x="40" y="310" font-size="12" fill="#4d2011" font-family="Menlo, Courier, monospace">git switch main</text>
+  <text x="40" y="332" font-size="12" fill="#4d2011" font-family="Menlo, Courier, monospace">git branch -d nombre-de-la-rama</text>
+  <text x="40" y="362" font-size="11" fill="#7c2f16">Es lo que no cuesta tokens: Git lo hace gratis.</text>
+  <rect x="410" y="190" width="370" height="190" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="430" y="216" font-size="13" font-weight="700" fill="#7c2f16">Por qué no fusionar sin mirar</text>
+  <text x="430" y="244" font-size="12" fill="#4d2011">• La rama principal suele alimentar un despliegue.</text>
+  <text x="430" y="268" font-size="12" fill="#4d2011">• El texto del issue puede ser vago o engañoso.</text>
+  <text x="430" y="292" font-size="12" fill="#4d2011">• La revisión automática tarda unos minutos:</text>
+  <text x="442" y="310" font-size="12" fill="#4d2011">espera a que termine antes de fusionar.</text>
+  <text x="430" y="340" font-size="12" fill="#4d2011">• La palabra clave solo cierra el issue si el pull</text>
+  <text x="442" y="358" font-size="12" fill="#4d2011">request apunta a la rama predeterminada.</text>
+</svg>
