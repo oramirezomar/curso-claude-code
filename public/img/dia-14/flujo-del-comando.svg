@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0 0 L6 3 L0 6 Z" fill="#7c2f16"/>
+    </marker>
+  </defs>
+  <rect width="800" height="420" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Qué hace /worktree al invocarlo</text>
+  <rect x="20" y="56" width="118" height="130" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="79" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">1. Nombre</text>
+  <text x="79" y="106" text-anchor="middle" font-size="12" fill="#4d2011">2 a 4 palabras</text>
+  <text x="79" y="124" text-anchor="middle" font-size="12" fill="#4d2011">del requisito,</text>
+  <text x="79" y="142" text-anchor="middle" font-size="12" fill="#4d2011">con guiones</text>
+  <text x="79" y="168" text-anchor="middle" font-size="11" fill="#7c2f16">menu-pausa</text>
+  <rect x="152" y="56" width="118" height="130" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="211" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">2. Comprueba</text>
+  <text x="211" y="106" text-anchor="middle" font-size="12" fill="#4d2011">Que .trees/ esté</text>
+  <text x="211" y="124" text-anchor="middle" font-size="12" fill="#4d2011">ignorada y que</text>
+  <text x="211" y="142" text-anchor="middle" font-size="12" fill="#4d2011">el nombre libre</text>
+  <text x="211" y="168" text-anchor="middle" font-size="11" fill="#7c2f16">Si no, se detiene</text>
+  <rect x="284" y="56" width="118" height="130" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="343" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">3. Crea</text>
+  <text x="343" y="106" text-anchor="middle" font-size="11" fill="#4d2011" font-family="Menlo, Courier, monospace">git worktree add</text>
+  <text x="343" y="124" text-anchor="middle" font-size="11" fill="#4d2011" font-family="Menlo, Courier, monospace">.trees/nombre</text>
+  <text x="343" y="168" text-anchor="middle" font-size="11" fill="#7c2f16">Carpeta y rama</text>
+  <rect x="416" y="56" width="118" height="130" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="475" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">4. Implementa</text>
+  <text x="475" y="106" text-anchor="middle" font-size="12" fill="#4d2011">Solo con rutas</text>
+  <text x="475" y="124" text-anchor="middle" font-size="12" fill="#4d2011">dentro de la</text>
+  <text x="475" y="142" text-anchor="middle" font-size="12" fill="#4d2011">carpeta nueva</text>
+  <text x="475" y="168" text-anchor="middle" font-size="11" fill="#7c2f16">Prueba la sintaxis</text>
+  <rect x="548" y="56" width="118" height="130" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="607" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">5. Informa</text>
+  <text x="607" y="106" text-anchor="middle" font-size="12" fill="#4d2011">Carpeta, rama,</text>
+  <text x="607" y="124" text-anchor="middle" font-size="12" fill="#4d2011">archivos y cómo</text>
+  <text x="607" y="142" text-anchor="middle" font-size="12" fill="#4d2011">probarlo</text>
+  <rect x="680" y="56" width="100" height="130" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+  <text x="730" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#2e7d32">Te toca</text>
+  <text x="730" y="106" text-anchor="middle" font-size="12" fill="#4d2011">Probar, iterar,</text>
+  <text x="730" y="124" text-anchor="middle" font-size="12" fill="#4d2011">confirmar y</text>
+  <text x="730" y="142" text-anchor="middle" font-size="12" fill="#4d2011">unir</text>
+  <path d="M139 121 L149 121" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M271 121 L281 121" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M403 121 L413 121" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M535 121 L545 121" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M667 121 L677 121" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="20" y="208" width="370" height="196" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+  <text x="40" y="234" font-size="13" font-weight="700" fill="#2e7d32">Lo que decide el comando</text>
+  <text x="40" y="260" font-size="12" fill="#4d2011">• El nombre, la carpeta y la rama: siempre iguales.</text>
+  <text x="40" y="282" font-size="12" fill="#4d2011">• Dónde parte: del commit en el que estás.</text>
+  <text x="40" y="304" font-size="12" fill="#4d2011">• Que trabaje solo dentro de su carpeta.</text>
+  <text x="40" y="326" font-size="12" fill="#4d2011">• Que se detenga antes de confirmar o unir.</text>
+  <text x="40" y="358" font-size="11" fill="#7c2f16">Lo repetitivo se automatiza. Lo importante lo decides tú.</text>
+  <rect x="410" y="208" width="370" height="196" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="430" y="234" font-size="13" font-weight="700" fill="#7c2f16">Para tres requisitos</text>
+  <text x="430" y="260" font-size="12" fill="#4d2011">• Abre tres terminales en la carpeta del proyecto.</text>
+  <text x="430" y="282" font-size="12" fill="#4d2011">• Lanza claude en cada una.</text>
+  <text x="430" y="304" font-size="12" fill="#4d2011">• En cada una, /worktree y un requisito.</text>
+  <text x="430" y="326" font-size="12" fill="#4d2011">• Cada sesión crea su carpeta y rama.</text>
+  <text x="430" y="358" font-size="11" fill="#7c2f16">Pon nombre a cada sesión con /rename para no perderte.</text>
+</svg>

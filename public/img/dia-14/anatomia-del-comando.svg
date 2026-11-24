@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0 0 L6 3 L0 6 Z" fill="#7c2f16"/>
+    </marker>
+  </defs>
+  <rect width="800" height="420" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Anatomía de un comando propio</text>
+  <rect x="20" y="56" width="340" height="140" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="40" y="82" font-size="13" font-weight="700" fill="#b8451f">Dónde se guarda</text>
+  <text x="40" y="108" font-size="12" fill="#4d2011" font-family="Menlo, Courier, monospace">04-tetris/</text>
+  <text x="60" y="126" font-size="12" fill="#4d2011" font-family="Menlo, Courier, monospace">.claude/skills/</text>
+  <text x="80" y="144" font-size="12" fill="#b8451f" font-weight="700" font-family="Menlo, Courier, monospace">worktree/</text>
+  <text x="100" y="162" font-size="12" fill="#4d2011" font-family="Menlo, Courier, monospace">SKILL.md</text>
+  <text x="40" y="186" font-size="11" fill="#7c2f16">Personal: ~/.claude/skills/worktree/SKILL.md</text>
+  <path d="M362 126 L412 126" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="414" y="76" width="366" height="104" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+  <text x="597" y="104" text-anchor="middle" font-size="13" font-weight="700" fill="#2e7d32">El nombre de la carpeta es el comando</text>
+  <text x="597" y="138" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011" font-family="Menlo, Courier, monospace">/worktree requisito</text>
+  <text x="597" y="166" text-anchor="middle" font-size="11" fill="#7c2f16">El texto tras el nombre llega como argumento</text>
+  <rect x="20" y="214" width="760" height="190" rx="10" fill="#1e1e1e"/>
+  <text x="40" y="240" font-size="11" fill="#bdbdbd" font-family="Menlo, Courier, monospace">---</text>
+  <text x="40" y="258" font-size="11" fill="#e0a070" font-family="Menlo, Courier, monospace">description: Crea un worktree y trabaja en él</text>
+  <text x="40" y="276" font-size="11" fill="#e0a070" font-family="Menlo, Courier, monospace">argument-hint: "&lt;requisito&gt;"</text>
+  <text x="40" y="294" font-size="11" fill="#e0a070" font-family="Menlo, Courier, monospace">disable-model-invocation: true</text>
+  <text x="40" y="312" font-size="11" fill="#e0a070" font-family="Menlo, Courier, monospace">allowed-tools: Bash(git worktree add *) ...</text>
+  <text x="40" y="330" font-size="11" fill="#bdbdbd" font-family="Menlo, Courier, monospace">---</text>
+  <text x="40" y="352" font-size="11" fill="#ffffff" font-family="Menlo, Courier, monospace">Rama actual: !`git branch --show-current`</text>
+  <text x="40" y="372" font-size="11" fill="#ffffff" font-family="Menlo, Courier, monospace">Requisito: $ARGUMENTS</text>
+  <text x="40" y="392" font-size="11" fill="#ffffff" font-family="Menlo, Courier, monospace">1. Elige un nombre corto... 2. Crea el worktree...</text>
+  <text x="440" y="258" font-size="11" fill="#bdbdbd">cuándo usarlo</text>
+  <text x="440" y="276" font-size="11" fill="#bdbdbd">qué escribir tras el nombre</text>
+  <text x="440" y="294" font-size="11" fill="#bdbdbd">solo yo lo lanzo: tiene efectos</text>
+  <text x="440" y="312" font-size="11" fill="#bdbdbd">permisos solo en ese turno</text>
+  <text x="440" y="352" font-size="11" fill="#bdbdbd">se ejecuta antes de que Claude lea</text>
+  <text x="440" y="372" font-size="11" fill="#bdbdbd">lo que escribes tras el nombre</text>
+  <text x="440" y="392" font-size="11" fill="#bdbdbd">las instrucciones, paso a paso</text>
+</svg>

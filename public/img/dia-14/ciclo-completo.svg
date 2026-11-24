@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0 0 L6 3 L0 6 Z" fill="#7c2f16"/>
+    </marker>
+  </defs>
+  <rect width="800" height="400" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">El ciclo completo con el comando</text>
+  <rect x="20" y="56" width="140" height="120" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="90" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">1. Preparar</text>
+  <text x="90" y="106" text-anchor="middle" font-size="11" fill="#4d2011">Rama de integración</text>
+  <text x="90" y="124" text-anchor="middle" font-size="11" fill="#4d2011">y .trees/ ignorada</text>
+  <rect x="176" y="56" width="140" height="120" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="246" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">2. Lanzar</text>
+  <text x="246" y="106" text-anchor="middle" font-size="11" fill="#4d2011">/worktree y un</text>
+  <text x="246" y="124" text-anchor="middle" font-size="11" fill="#4d2011">requisito en cada</text>
+  <text x="246" y="142" text-anchor="middle" font-size="11" fill="#4d2011">terminal</text>
+  <rect x="332" y="56" width="140" height="120" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="402" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">3. Revisar</text>
+  <text x="402" y="106" text-anchor="middle" font-size="11" fill="#4d2011">Probar cada carpeta</text>
+  <text x="402" y="124" text-anchor="middle" font-size="11" fill="#4d2011">y pedir ajustes</text>
+  <text x="402" y="142" text-anchor="middle" font-size="11" fill="#4d2011">en su sesión</text>
+  <rect x="488" y="56" width="140" height="120" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="558" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">4. Confirmar</text>
+  <text x="558" y="106" text-anchor="middle" font-size="11" fill="#4d2011">Un commit por rama,</text>
+  <text x="558" y="124" text-anchor="middle" font-size="11" fill="#4d2011">leyendo el mensaje</text>
+  <rect x="644" y="56" width="136" height="120" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+  <text x="712" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#2e7d32">5. Unir y limpiar</text>
+  <text x="712" y="106" text-anchor="middle" font-size="11" fill="#4d2011">merge, comprobar,</text>
+  <text x="712" y="124" text-anchor="middle" font-size="11" fill="#4d2011">remove y branch -d</text>
+  <path d="M162 116 L172 116" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M318 116 L328 116" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M474 116 L484 116" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M630 116 L640 116" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="20" y="198" width="760" height="184" rx="10" fill="#ffffff" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="40" y="224" font-size="13" font-weight="700" fill="#7c2f16">Lo que cambia entre los tres métodos de la sección</text>
+  <text x="40" y="250" font-size="12" font-weight="700" fill="#4d2011">Pasos</text>
+  <text x="190" y="250" font-size="12" font-weight="700" fill="#4d2011">/batch</text>
+  <text x="400" y="250" font-size="12" font-weight="700" fill="#4d2011">A mano</text>
+  <text x="590" y="250" font-size="12" font-weight="700" fill="#4d2011">Comando propio</text>
+  <text x="40" y="274" font-size="12" fill="#4d2011">Crear worktrees</text>
+  <text x="190" y="274" font-size="12" fill="#4d2011">Automático</text>
+  <text x="400" y="274" font-size="12" fill="#4d2011">Tú</text>
+  <text x="590" y="274" font-size="12" fill="#4d2011">El comando</text>
+  <text x="40" y="298" font-size="12" fill="#4d2011">Implementar</text>
+  <text x="190" y="298" font-size="12" fill="#4d2011">Agentes en segundo plano</text>
+  <text x="400" y="298" font-size="12" fill="#4d2011">Un Claude por carpeta</text>
+  <text x="590" y="298" font-size="12" fill="#4d2011">Una sesión por requisito</text>
+  <text x="40" y="322" font-size="12" fill="#4d2011">Commits y unión</text>
+  <text x="190" y="322" font-size="12" fill="#4d2011">Con pull requests</text>
+  <text x="400" y="322" font-size="12" fill="#4d2011">Tú</text>
+  <text x="590" y="322" font-size="12" fill="#4d2011">Tú</text>
+  <text x="40" y="346" font-size="12" fill="#4d2011">Control</text>
+  <text x="190" y="346" font-size="12" fill="#4d2011">Bajo</text>
+  <text x="400" y="346" font-size="12" fill="#4d2011">Total</text>
+  <text x="590" y="346" font-size="12" fill="#4d2011">Alto</text>
+  <text x="40" y="370" font-size="11" fill="#7c2f16">Los tres consumen más tokens que un solo agente, porque trabajan a la vez.</text>
+</svg>

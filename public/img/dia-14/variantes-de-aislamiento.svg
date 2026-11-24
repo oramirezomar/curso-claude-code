@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="Helvetica, Arial, sans-serif">
+  <rect width="800" height="400" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Tres variantes de worktree con Claude Code</text>
+  <rect x="20" y="56" width="240" height="250" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="140" y="84" text-anchor="middle" font-size="14" font-weight="700" fill="#b8451f">Comando propio</text>
+  <text x="140" y="104" text-anchor="middle" font-size="12" fill="#4d2011">Este día</text>
+  <text x="36" y="134" font-size="12" font-weight="700" fill="#7c2f16">Parte de</text>
+  <text x="36" y="152" font-size="12" fill="#4d2011">Tu commit actual</text>
+  <text x="36" y="180" font-size="12" font-weight="700" fill="#7c2f16">Aislamiento</text>
+  <text x="36" y="198" font-size="12" fill="#4d2011">Por instrucciones, no forzado</text>
+  <text x="36" y="226" font-size="12" font-weight="700" fill="#7c2f16">Carpeta y nombre</text>
+  <text x="36" y="244" font-size="12" fill="#4d2011">Los que tú decidas</text>
+  <text x="36" y="272" font-size="12" font-weight="700" fill="#7c2f16">Limpieza</text>
+  <text x="36" y="290" font-size="12" fill="#4d2011">Manual</text>
+  <rect x="280" y="56" width="240" height="250" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="400" y="84" text-anchor="middle" font-size="14" font-weight="700" fill="#b8451f" font-family="Menlo, Courier, monospace">claude --worktree</text>
+  <text x="400" y="104" text-anchor="middle" font-size="12" fill="#4d2011">Lo crea Claude Code</text>
+  <text x="296" y="134" font-size="12" font-weight="700" fill="#7c2f16">Parte de</text>
+  <text x="296" y="152" font-size="12" fill="#4d2011">La rama predeterminada del remoto</text>
+  <text x="296" y="180" font-size="12" font-weight="700" fill="#7c2f16">Aislamiento</text>
+  <text x="296" y="198" font-size="12" fill="#4d2011">Forzado: bloquea escrituras fuera</text>
+  <text x="296" y="226" font-size="12" font-weight="700" fill="#7c2f16">Carpeta y nombre</text>
+  <text x="296" y="244" font-size="12" fill="#4d2011">.claude/worktrees/nombre</text>
+  <text x="296" y="272" font-size="12" font-weight="700" fill="#7c2f16">Limpieza</text>
+  <text x="296" y="290" font-size="12" fill="#4d2011">Te lo pregunta al salir</text>
+  <rect x="540" y="56" width="240" height="250" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+  <text x="660" y="84" text-anchor="middle" font-size="14" font-weight="700" fill="#2e7d32">Subagente con aislamiento</text>
+  <text x="660" y="104" text-anchor="middle" font-size="12" fill="#4d2011">isolation: worktree</text>
+  <text x="556" y="134" font-size="12" font-weight="700" fill="#7c2f16">Parte de</text>
+  <text x="556" y="152" font-size="12" fill="#4d2011">La rama predeterminada, no tu HEAD</text>
+  <text x="556" y="180" font-size="12" font-weight="700" fill="#7c2f16">Aislamiento</text>
+  <text x="556" y="198" font-size="12" fill="#4d2011">Forzado dentro del worktree</text>
+  <text x="556" y="226" font-size="12" font-weight="700" fill="#7c2f16">Segundo plano</text>
+  <text x="556" y="244" font-size="12" fill="#4d2011">Por defecto, con un skill fork</text>
+  <text x="556" y="272" font-size="12" font-weight="700" fill="#7c2f16">Limpieza</text>
+  <text x="556" y="290" font-size="12" fill="#4d2011">Automática si no hay cambios</text>
+  <rect x="20" y="324" width="760" height="60" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="40" y="348" font-size="13" font-weight="700" fill="#7c2f16">Cómo elegir</text>
+  <text x="40" y="368" font-size="12" fill="#4d2011">Comando propio: convención y punto de partida a tu medida. Las otras dos: más aislamiento y menos tareas manuales.</text>
+</svg>

@@ -20,6 +20,7 @@ import { day10 } from "./day-10";
 import { day11 } from "./day-11";
 import { day12 } from "./day-12";
 import { day13 } from "./day-13";
+import { day14 } from "./day-14";
 
 export const sections: CourseSection[] = [
   { title: "Introducción", dayRange: [1, 1], icon: "🧭" },
@@ -27,10 +28,10 @@ export const sections: CourseSection[] = [
   { title: "Claude Code con modelos de Ollama", dayRange: [4, 4], icon: "🖥️" },
   { title: "Fundamentos 101", dayRange: [5, 7], icon: "🧱" },
   { title: "Flujo de trabajo", dayRange: [8, 11], icon: "🔁" },
-  { title: "Batch y worktrees", dayRange: [12, 13], icon: "🌿" },
+  { title: "Batch y worktrees", dayRange: [12, 14], icon: "🌿" },
 ];
 
-export const lessons: Lesson[] = [day01, day02, day03, day04, day05, day06, day07, day08, day09, day10, day11, day12, day13];
+export const lessons: Lesson[] = [day01, day02, day03, day04, day05, day06, day07, day08, day09, day10, day11, day12, day13, day14];
 
 export function getLessonByDay(day: number): Lesson | undefined {
   return lessons.find((lesson) => lesson.day === day);
