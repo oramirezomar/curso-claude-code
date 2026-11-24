@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0 0 L6 3 L0 6 Z" fill="#7c2f16"/>
+    </marker>
+  </defs>
+  <rect width="800" height="420" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Qué hace /batch</text>
+  <rect x="20" y="56" width="118" height="116" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="79" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">1. Pides</text>
+  <text x="79" y="106" text-anchor="middle" font-size="12" fill="#4d2011">/batch con las</text>
+  <text x="79" y="124" text-anchor="middle" font-size="12" fill="#4d2011">tareas a hacer</text>
+  <rect x="152" y="56" width="118" height="116" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="211" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">2. Investiga</text>
+  <text x="211" y="106" text-anchor="middle" font-size="12" fill="#4d2011">Lee el código y</text>
+  <text x="211" y="124" text-anchor="middle" font-size="12" fill="#4d2011">divide el trabajo</text>
+  <text x="211" y="142" text-anchor="middle" font-size="12" fill="#4d2011">en unidades</text>
+  <rect x="284" y="56" width="118" height="116" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="343" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">3. Plan</text>
+  <text x="343" y="106" text-anchor="middle" font-size="12" fill="#4d2011">Te lo presenta y</text>
+  <text x="343" y="124" text-anchor="middle" font-size="12" fill="#4d2011">tú lo apruebas</text>
+  <text x="343" y="142" text-anchor="middle" font-size="12" fill="#4d2011">o lo corriges</text>
+  <rect x="416" y="56" width="118" height="116" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="475" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">4. Agentes</text>
+  <text x="475" y="106" text-anchor="middle" font-size="12" fill="#4d2011">Uno por unidad,</text>
+  <text x="475" y="124" text-anchor="middle" font-size="12" fill="#4d2011">en segundo plano</text>
+  <text x="475" y="142" text-anchor="middle" font-size="12" fill="#4d2011">y su worktree</text>
+  <rect x="548" y="56" width="118" height="116" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="607" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">5. Cada uno</text>
+  <text x="607" y="106" text-anchor="middle" font-size="12" fill="#4d2011">Implementa y</text>
+  <text x="607" y="124" text-anchor="middle" font-size="12" fill="#4d2011">ejecuta pruebas</text>
+  <text x="607" y="142" text-anchor="middle" font-size="12" fill="#4d2011">si las hay</text>
+  <rect x="680" y="56" width="100" height="116" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+  <text x="730" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#2e7d32">6. Resultado</text>
+  <text x="730" y="106" text-anchor="middle" font-size="12" fill="#4d2011">Un pull</text>
+  <text x="730" y="124" text-anchor="middle" font-size="12" fill="#4d2011">request o un</text>
+  <text x="730" y="142" text-anchor="middle" font-size="12" fill="#4d2011">informe</text>
+  <path d="M139 114 L149 114" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M271 114 L281 114" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M403 114 L413 114" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M535 114 L545 114" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M667 114 L677 114" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="20" y="194" width="370" height="208" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+  <text x="40" y="220" font-size="13" font-weight="700" fill="#2e7d32">Lo que gana</text>
+  <text x="40" y="246" font-size="12" fill="#4d2011">• Crea los worktrees, las ramas y los commits.</text>
+  <text x="40" y="268" font-size="12" fill="#4d2011">• Abre un pull request por unidad.</text>
+  <text x="40" y="290" font-size="12" fill="#4d2011">• Tú puedes seguir con otro trabajo mientras tanto.</text>
+  <text x="40" y="312" font-size="12" fill="#4d2011">• Con pruebas automáticas, el resultado es más fiable.</text>
+  <text x="40" y="340" font-size="12" fill="#4d2011">Requiere un repositorio de Git y, para los pull</text>
+  <text x="40" y="358" font-size="12" fill="#4d2011">requests, un remoto en GitHub y la CLI gh.</text>
+  <rect x="410" y="194" width="370" height="208" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="430" y="220" font-size="13" font-weight="700" fill="#7c2f16">Lo que cuesta</text>
+  <text x="430" y="246" font-size="12" fill="#4d2011">• Poco control: no sabes qué carpeta es cuál</text>
+  <text x="442" y="264" font-size="12" fill="#4d2011">hasta abrirla.</text>
+  <text x="430" y="288" font-size="12" fill="#4d2011">• Muchas preguntas de permisos en segundo plano.</text>
+  <text x="430" y="312" font-size="12" fill="#4d2011">• Un agente por unidad: los tokens se multiplican.</text>
+  <text x="430" y="336" font-size="12" fill="#4d2011">• Para corregir una unidad, tienes que ir a su rama.</text>
+  <text x="430" y="368" font-size="12" font-weight="700" fill="#7c2f16">Nada llega a main sin que tú lo unas.</text>
+</svg>

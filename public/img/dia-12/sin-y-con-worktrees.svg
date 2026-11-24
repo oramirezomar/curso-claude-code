@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0 0 L6 3 L0 6 Z" fill="#7c2f16"/>
+    </marker>
+  </defs>
+  <rect width="800" height="400" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Tres agentes y un mismo archivo</text>
+  <rect x="20" y="56" width="370" height="250" rx="10" fill="#ffffff" stroke="#c0392b" stroke-width="2"/>
+  <text x="205" y="82" text-anchor="middle" font-size="14" font-weight="700" fill="#c0392b">Una sola carpeta</text>
+  <rect x="40" y="104" width="90" height="34" rx="6" fill="#fae4d8" stroke="#ec9f7a"/>
+  <text x="85" y="126" text-anchor="middle" font-size="12" fill="#4d2011">Agente 1</text>
+  <rect x="40" y="152" width="90" height="34" rx="6" fill="#fae4d8" stroke="#ec9f7a"/>
+  <text x="85" y="174" text-anchor="middle" font-size="12" fill="#4d2011">Agente 2</text>
+  <rect x="40" y="200" width="90" height="34" rx="6" fill="#fae4d8" stroke="#ec9f7a"/>
+  <text x="85" y="222" text-anchor="middle" font-size="12" fill="#4d2011">Agente 3</text>
+  <path d="M132 121 L228 160" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M132 169 L228 169" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M132 217 L228 178" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="230" y="136" width="140" height="66" rx="8" fill="#ffffff" stroke="#c0392b" stroke-width="2.5"/>
+  <text x="300" y="164" text-anchor="middle" font-size="14" font-weight="700" fill="#4d2011" font-family="Menlo, Courier, monospace">game.js</text>
+  <text x="300" y="186" text-anchor="middle" font-size="11" fill="#c0392b">todos lo editan a la vez</text>
+  <text x="40" y="262" font-size="12" fill="#4d2011">• Uno sobrescribe lo que acaba de escribir otro.</text>
+  <text x="40" y="282" font-size="12" fill="#4d2011">• Cada uno detecta errores que causó el anterior.</text>
+  <rect x="410" y="56" width="370" height="250" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+  <text x="595" y="82" text-anchor="middle" font-size="14" font-weight="700" fill="#2e7d32">Un worktree por agente</text>
+  <rect x="430" y="98" width="330" height="46" rx="6" fill="#eaf5ea" stroke="#2e7d32"/>
+  <text x="444" y="118" font-size="12" font-weight="700" fill="#4d2011" font-family="Menlo, Courier, monospace">.claude/worktrees/pausa</text>
+  <text x="444" y="135" font-size="11" fill="#7c2f16">su propia copia de game.js y su propia rama</text>
+  <rect x="430" y="152" width="330" height="46" rx="6" fill="#eaf5ea" stroke="#2e7d32"/>
+  <text x="444" y="172" font-size="12" font-weight="700" fill="#4d2011" font-family="Menlo, Courier, monospace">.claude/worktrees/puntuaciones</text>
+  <text x="444" y="189" font-size="11" fill="#7c2f16">su propia copia de game.js y su propia rama</text>
+  <rect x="430" y="206" width="330" height="46" rx="6" fill="#eaf5ea" stroke="#2e7d32"/>
+  <text x="444" y="226" font-size="12" font-weight="700" fill="#4d2011" font-family="Menlo, Courier, monospace">.claude/worktrees/temas</text>
+  <text x="444" y="243" font-size="11" fill="#7c2f16">su propia copia de game.js y su propia rama</text>
+  <text x="430" y="278" font-size="12" fill="#4d2011">• Nadie pisa el trabajo de otro mientras trabajan.</text>
+  <text x="430" y="298" font-size="12" fill="#4d2011">• Los conflictos aparecen al unir, y se resuelven una vez.</text>
+  <rect x="20" y="322" width="760" height="62" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="40" y="346" font-size="13" font-weight="700" fill="#7c2f16">Cuándo hace falta</text>
+  <text x="40" y="368" font-size="12" fill="#4d2011">Cuando varias tareas largas tocan los mismos archivos y quieres seguir avanzando mientras las otras terminan.</text>
+</svg>

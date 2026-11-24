@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0 0 L6 3 L0 6 Z" fill="#7c2f16"/>
+    </marker>
+  </defs>
+  <rect width="800" height="420" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Unir tres ramas en una de integración</text>
+  <rect x="20" y="60" width="150" height="44" rx="8" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="95" y="87" text-anchor="middle" font-size="12" font-weight="700" fill="#4d2011" font-family="Menlo, Courier, monospace">worktree-pausa</text>
+  <rect x="20" y="124" width="150" height="44" rx="8" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="95" y="151" text-anchor="middle" font-size="12" font-weight="700" fill="#4d2011" font-family="Menlo, Courier, monospace">worktree-puntos</text>
+  <rect x="20" y="188" width="150" height="44" rx="8" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="95" y="215" text-anchor="middle" font-size="12" font-weight="700" fill="#4d2011" font-family="Menlo, Courier, monospace">worktree-temas</text>
+  <path d="M172 82 L318 136" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M172 146 L318 146" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M172 210 L318 156" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="215" y="84" text-anchor="middle" font-size="11" fill="#2e7d32">sin conflicto</text>
+  <text x="245" y="138" text-anchor="middle" font-size="11" fill="#c0392b">conflicto</text>
+  <text x="222" y="212" text-anchor="middle" font-size="11" fill="#c0392b">conflicto</text>
+  <rect x="320" y="106" width="170" height="80" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="2.5"/>
+  <text x="405" y="134" text-anchor="middle" font-size="13" font-weight="700" fill="#2e7d32">integracion-batch</text>
+  <text x="405" y="154" text-anchor="middle" font-size="11" fill="#4d2011">Una rama aparte de main</text>
+  <text x="405" y="172" text-anchor="middle" font-size="11" fill="#4d2011">donde se junta todo</text>
+  <path d="M492 146 L548 146" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="550" y="106" width="230" height="80" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="665" y="134" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">Después, a main</text>
+  <text x="665" y="154" text-anchor="middle" font-size="11" fill="#4d2011">Con un pull request o un merge,</text>
+  <text x="665" y="172" text-anchor="middle" font-size="11" fill="#4d2011">cuando todo funcione junto</text>
+  <rect x="20" y="256" width="370" height="148" rx="10" fill="#ffffff" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="40" y="282" font-size="13" font-weight="700" fill="#7c2f16">Cómo se ve un conflicto</text>
+  <text x="40" y="306" font-size="11" fill="#4d2011" font-family="Menlo, Courier, monospace">&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</text>
+  <text x="40" y="324" font-size="11" fill="#4d2011" font-family="Menlo, Courier, monospace">let pausado = false;</text>
+  <text x="40" y="342" font-size="11" fill="#4d2011" font-family="Menlo, Courier, monospace">=======</text>
+  <text x="40" y="360" font-size="11" fill="#4d2011" font-family="Menlo, Courier, monospace">let mejor = 0;</text>
+  <text x="40" y="378" font-size="11" fill="#4d2011" font-family="Menlo, Courier, monospace">&gt;&gt;&gt;&gt;&gt;&gt;&gt; worktree-puntos</text>
+  <text x="250" y="320" font-size="11" fill="#7c2f16">Arriba: lo que ya hay.</text>
+  <text x="250" y="338" font-size="11" fill="#7c2f16">Abajo: lo que entra.</text>
+  <rect x="410" y="256" width="370" height="148" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="430" y="282" font-size="13" font-weight="700" fill="#7c2f16">Resolver con criterio</text>
+  <text x="430" y="306" font-size="12" fill="#4d2011">1. Lee los dos lados y qué quiere cada rama.</text>
+  <text x="430" y="326" font-size="12" fill="#4d2011">2. Combina el código con sentido, sin marcas.</text>
+  <text x="430" y="346" font-size="12" fill="#4d2011">3. Comprueba la sintaxis y prueba el juego.</text>
+  <text x="430" y="372" font-size="11" fill="#7c2f16">Quedarse con ambos lados sin pensar puede dejar</text>
+  <text x="430" y="390" font-size="11" fill="#7c2f16">llaves sin cerrar o funciones duplicadas.</text>
+</svg>
