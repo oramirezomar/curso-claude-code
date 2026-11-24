@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0 0 L6 3 L0 6 Z" fill="#7c2f16"/>
+    </marker>
+  </defs>
+  <rect width="800" height="420" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">El flujo de trabajo con specs</text>
+  <rect x="20" y="56" width="118" height="130" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="79" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">1. Problema</text>
+  <text x="79" y="106" text-anchor="middle" font-size="11" fill="#4d2011">Describe qué</text>
+  <text x="79" y="122" text-anchor="middle" font-size="11" fill="#4d2011">necesitas, no</text>
+  <text x="79" y="138" text-anchor="middle" font-size="11" fill="#4d2011">cómo resolverlo</text>
+  <rect x="152" y="56" width="118" height="130" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="211" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">2. Discutir</text>
+  <text x="211" y="106" text-anchor="middle" font-size="11" fill="#4d2011">En modo plan,</text>
+  <text x="211" y="122" text-anchor="middle" font-size="11" fill="#4d2011">Claude pregunta</text>
+  <text x="211" y="138" text-anchor="middle" font-size="11" fill="#4d2011">y tú respondes</text>
+  <rect x="284" y="56" width="118" height="130" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="343" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">3. Refinar</text>
+  <text x="343" y="106" text-anchor="middle" font-size="11" fill="#4d2011">Decisiones</text>
+  <text x="343" y="122" text-anchor="middle" font-size="11" fill="#4d2011">concretas, sin</text>
+  <text x="343" y="138" text-anchor="middle" font-size="11" fill="#4d2011">tal vez ni quizá</text>
+  <rect x="416" y="56" width="118" height="130" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="475" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">4. Guardar</text>
+  <text x="475" y="106" text-anchor="middle" font-size="11" fill="#4d2011">Un archivo en</text>
+  <text x="475" y="122" text-anchor="middle" font-size="11" fill="#4d2011">specs/, con número</text>
+  <text x="475" y="138" text-anchor="middle" font-size="11" fill="#4d2011">y estado</text>
+  <rect x="548" y="56" width="118" height="130" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="607" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#b8451f">5. Ejecutar</text>
+  <text x="607" y="106" text-anchor="middle" font-size="11" fill="#4d2011">Paso a paso, con</text>
+  <text x="607" y="122" text-anchor="middle" font-size="11" fill="#4d2011">pausas y cambios</text>
+  <text x="607" y="138" text-anchor="middle" font-size="11" fill="#4d2011">pequeños</text>
+  <rect x="680" y="56" width="100" height="130" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+  <text x="730" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#2e7d32">6. Ajustar</text>
+  <text x="730" y="106" text-anchor="middle" font-size="11" fill="#4d2011">Si algo cambia,</text>
+  <text x="730" y="122" text-anchor="middle" font-size="11" fill="#4d2011">actualiza el</text>
+  <text x="730" y="138" text-anchor="middle" font-size="11" fill="#4d2011">spec</text>
+  <path d="M139 121 L149 121" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M271 121 L281 121" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M403 121 L413 121" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M535 121 L545 121" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M667 121 L677 121" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M343 188 L343 206 L211 206 L211 190" fill="none" stroke="#7c2f16" stroke-width="1.5" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+  <text x="277" y="222" text-anchor="middle" font-size="11" fill="#7c2f16">hasta que todo esté claro</text>
+  <rect x="20" y="238" width="370" height="164" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+  <text x="40" y="264" font-size="13" font-weight="700" fill="#2e7d32">Lo valioso es la conversación</text>
+  <text x="40" y="290" font-size="12" fill="#4d2011">• Tú sabes cosas que Claude no puede ver:</text>
+  <text x="52" y="308" font-size="12" fill="#4d2011">la finalidad, los servicios, tus preferencias.</text>
+  <text x="40" y="332" font-size="12" fill="#4d2011">• Claude conoce opciones que quizá no consideraste.</text>
+  <text x="40" y="356" font-size="12" fill="#4d2011">• Al final hay un documento que ambos entienden.</text>
+  <rect x="410" y="238" width="370" height="164" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="430" y="264" font-size="13" font-weight="700" fill="#7c2f16">Lo que se evita</text>
+  <text x="430" y="290" font-size="12" fill="#4d2011">• El prompt de una frase: hazme un Instagram.</text>
+  <text x="430" y="312" font-size="12" fill="#4d2011">• Decisiones técnicas que Claude inventa solo.</text>
+  <text x="430" y="334" font-size="12" fill="#4d2011">• Veinte archivos nuevos que nadie ha leído.</text>
+  <text x="430" y="358" font-size="12" fill="#4d2011">• Una aplicación que no se parece a la que querías.</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" width="800" height="440" font-family="Helvetica, Arial, sans-serif">
+  <rect width="800" height="440" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Las seis secciones mínimas de un spec</text>
+  <rect x="20" y="56" width="240" height="170" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="36" y="82" font-size="14" font-weight="700" fill="#b8451f">1. Objetivo</text>
+  <text x="36" y="106" font-size="12" fill="#4d2011">Una sola frase.</text>
+  <text x="36" y="126" font-size="11" fill="#7c2f16">Si se alarga, divide el spec</text>
+  <text x="36" y="144" font-size="11" fill="#7c2f16">en dos o tres.</text>
+  <text x="36" y="176" font-size="11" fill="#4d2011" font-style="italic">Que la velocidad suba con</text>
+  <text x="36" y="192" font-size="11" fill="#4d2011" font-style="italic">las líneas borradas.</text>
+  <rect x="280" y="56" width="240" height="170" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="296" y="82" font-size="14" font-weight="700" fill="#b8451f">2. Alcance</text>
+  <text x="296" y="106" font-size="12" fill="#4d2011">Lo que entra y lo que no.</text>
+  <text x="296" y="126" font-size="11" fill="#7c2f16">Lo que no entra evita que</text>
+  <text x="296" y="144" font-size="11" fill="#7c2f16">Claude improvise.</text>
+  <text x="296" y="176" font-size="11" fill="#4d2011" font-style="italic">No entra: sonidos, temas,</text>
+  <text x="296" y="192" font-size="11" fill="#4d2011" font-style="italic">guardar el nivel.</text>
+  <rect x="540" y="56" width="240" height="170" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="556" y="82" font-size="14" font-weight="700" fill="#b8451f">3. Modelo de datos</text>
+  <text x="556" y="106" font-size="12" fill="#4d2011">Las estructuras y nombres.</text>
+  <text x="556" y="126" font-size="11" fill="#7c2f16">Aún no es código, pero deja</text>
+  <text x="556" y="144" font-size="11" fill="#7c2f16">corregir nombres a tiempo.</text>
+  <text x="556" y="176" font-size="11" fill="#4d2011" font-style="italic">nivel = lineas / 10 hacia</text>
+  <text x="556" y="192" font-size="11" fill="#4d2011" font-style="italic">abajo.</text>
+  <rect x="20" y="242" width="240" height="170" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="36" y="268" font-size="14" font-weight="700" fill="#b8451f">4. Plan por pasos</text>
+  <text x="36" y="292" font-size="12" fill="#4d2011">Pasos ordenados.</text>
+  <text x="36" y="312" font-size="11" fill="#7c2f16">Cada uno es un punto de</text>
+  <text x="36" y="330" font-size="11" fill="#7c2f16">control para pausar y corregir.</text>
+  <text x="36" y="362" font-size="11" fill="#4d2011" font-style="italic">1. Calcular el nivel.</text>
+  <text x="36" y="378" font-size="11" fill="#4d2011" font-style="italic">2. Usar el intervalo nuevo.</text>
+  <rect x="280" y="242" width="240" height="170" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+  <text x="296" y="268" font-size="14" font-weight="700" fill="#2e7d32">5. Criterios</text>
+  <text x="296" y="292" font-size="12" fill="#4d2011">Una lista de sí o no.</text>
+  <text x="296" y="312" font-size="11" fill="#7c2f16">Cada punto se puede probar</text>
+  <text x="296" y="330" font-size="11" fill="#7c2f16">por observación o con un comando.</text>
+  <text x="296" y="362" font-size="11" fill="#4d2011" font-style="italic">[ ] Con 10 líneas el nivel</text>
+  <text x="296" y="378" font-size="11" fill="#4d2011" font-style="italic">es 1 y el intervalo, 460 ms.</text>
+  <rect x="540" y="242" width="240" height="170" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="556" y="268" font-size="14" font-weight="700" fill="#b8451f">6. Decisiones</text>
+  <text x="556" y="292" font-size="12" fill="#4d2011">Las tomadas y las descartadas.</text>
+  <text x="556" y="312" font-size="11" fill="#7c2f16">Dicen por qué, para no</text>
+  <text x="556" y="330" font-size="11" fill="#7c2f16">repetir la discusión.</text>
+  <text x="556" y="362" font-size="11" fill="#4d2011" font-style="italic">Descartado: subir de nivel</text>
+  <text x="556" y="378" font-size="11" fill="#4d2011" font-style="italic">por tiempo.</text>
+  <text x="400" y="430" text-anchor="middle" font-size="12" fill="#7c2f16">Puedes añadir más secciones, como el estado, riesgos o referencias. Con menos, el spec no guía bien.</text>
+</svg>

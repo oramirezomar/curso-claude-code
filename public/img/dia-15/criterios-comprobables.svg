@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="Helvetica, Arial, sans-serif">
+  <rect width="800" height="400" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Criterios que se pueden comprobar</text>
+  <rect x="20" y="56" width="370" height="250" rx="10" fill="#ffffff" stroke="#c0392b" stroke-width="2"/>
+  <text x="205" y="84" text-anchor="middle" font-size="15" font-weight="700" fill="#c0392b">Vagos: no se pueden probar</text>
+  <text x="40" y="118" font-size="12" fill="#4d2011">[ ] El juego se ve bonito.</text>
+  <text x="40" y="146" font-size="12" fill="#4d2011">[ ] Funciona bien.</text>
+  <text x="40" y="174" font-size="12" fill="#4d2011">[ ] La pausa es rápida.</text>
+  <text x="40" y="202" font-size="12" fill="#4d2011">[ ] El código es limpio.</text>
+  <text x="40" y="238" font-size="11" fill="#7c2f16">La belleza y la corrección son subjetivas:</text>
+  <text x="40" y="256" font-size="11" fill="#7c2f16">dos personas responderán distinto.</text>
+  <rect x="410" y="56" width="370" height="250" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+  <text x="595" y="84" text-anchor="middle" font-size="15" font-weight="700" fill="#2e7d32">Comprobables: sí o no</text>
+  <text x="430" y="118" font-size="12" fill="#4d2011">[ ] Con 10 líneas, el nivel es 1.</text>
+  <text x="430" y="146" font-size="12" fill="#4d2011">[ ] El intervalo nunca baja de 100 ms.</text>
+  <text x="430" y="174" font-size="12" fill="#4d2011">[ ] node --check game.js no da errores.</text>
+  <text x="430" y="202" font-size="12" fill="#4d2011">[ ] Con la tecla P no cae ninguna pieza.</text>
+  <text x="430" y="238" font-size="11" fill="#7c2f16">Un comando, una cifra o un comportamiento</text>
+  <text x="430" y="256" font-size="11" fill="#7c2f16">observable bastan para responder sí o no.</text>
+  <rect x="20" y="324" width="760" height="60" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="40" y="348" font-size="13" font-weight="700" fill="#7c2f16">Pide evidencia</text>
+  <text x="40" y="368" font-size="12" fill="#4d2011">Al revisar, exige el comando que se ejecutó y su salida, o una captura. Un simple "todo pasa" dice poco.</text>
+</svg>
