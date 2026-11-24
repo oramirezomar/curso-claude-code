@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" width="800" height="380" font-family="Helvetica, Arial, sans-serif">
+  <rect width="800" height="380" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Errores habituales y qué significan</text>
+  <rect x="20" y="56" width="760" height="64" rx="10" fill="#ffffff" stroke="#c0392b" stroke-width="2"/>
+  <text x="36" y="80" font-size="12" font-weight="700" fill="#c0392b" font-family="Menlo, Courier, monospace">fatal: 'pausa' is already used by worktree at '...'</text>
+  <text x="36" y="102" font-size="12" fill="#4d2011">La rama ya está abierta en otro worktree. Entra en esa carpeta, o crea otra rama con -b.</text>
+  <rect x="20" y="132" width="760" height="64" rx="10" fill="#ffffff" stroke="#c0392b" stroke-width="2"/>
+  <text x="36" y="156" font-size="12" font-weight="700" fill="#c0392b" font-family="Menlo, Courier, monospace">fatal: '...' contains modified or untracked files, use --force</text>
+  <text x="36" y="178" font-size="12" fill="#4d2011">Hay trabajo sin confirmar. Haz el commit antes de quitar el worktree; --force lo descarta.</text>
+  <rect x="20" y="208" width="760" height="64" rx="10" fill="#ffffff" stroke="#c0392b" stroke-width="2"/>
+  <text x="36" y="232" font-size="12" font-weight="700" fill="#c0392b" font-family="Menlo, Courier, monospace">error: cannot delete branch 'pausa' used by worktree at '...'</text>
+  <text x="36" y="254" font-size="12" fill="#4d2011">Primero quita el worktree con git worktree remove y luego borra la rama.</text>
+  <rect x="20" y="284" width="760" height="64" rx="10" fill="#ffffff" stroke="#c0392b" stroke-width="2"/>
+  <text x="36" y="308" font-size="12" font-weight="700" fill="#c0392b" font-family="Menlo, Courier, monospace">?? .trees/   (aparece en git status)</text>
+  <text x="36" y="330" font-size="12" fill="#4d2011">No ignoraste la carpeta. Añade .trees/ al .gitignore y confirma el cambio.</text>
+</svg>

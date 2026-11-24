@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="Helvetica, Arial, sans-serif">
+  <rect width="800" height="400" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Un Claude Code por worktree</text>
+  <rect x="20" y="56" width="180" height="170" rx="10" fill="#1e1e1e"/>
+  <text x="34" y="80" font-size="11" fill="#bdbdbd" font-family="Menlo, Courier, monospace">04-tetris</text>
+  <text x="34" y="100" font-size="11" fill="#e0a070" font-family="Menlo, Courier, monospace">[integracion-manual]</text>
+  <text x="34" y="130" font-size="12" fill="#ffffff">Terminal principal</text>
+  <text x="34" y="150" font-size="11" fill="#bdbdbd">Aquí unirás todo</text>
+  <text x="34" y="200" font-size="11" fill="#bdbdbd">Sin agente trabajando</text>
+  <rect x="215" y="56" width="180" height="170" rx="10" fill="#1e1e1e" stroke="#2e7d32" stroke-width="2"/>
+  <text x="229" y="80" font-size="11" fill="#bdbdbd" font-family="Menlo, Courier, monospace">.trees/pausa</text>
+  <text x="229" y="100" font-size="11" fill="#e0a070" font-family="Menlo, Courier, monospace">[pausa]</text>
+  <text x="229" y="130" font-size="12" fill="#ffffff">claude</text>
+  <text x="229" y="150" font-size="11" fill="#bdbdbd">Requisito 1: menú de pausa</text>
+  <rect x="410" y="56" width="180" height="170" rx="10" fill="#1e1e1e" stroke="#2e7d32" stroke-width="2"/>
+  <text x="424" y="80" font-size="11" fill="#bdbdbd" font-family="Menlo, Courier, monospace">.trees/puntuaciones</text>
+  <text x="424" y="100" font-size="11" fill="#e0a070" font-family="Menlo, Courier, monospace">[puntuaciones]</text>
+  <text x="424" y="130" font-size="12" fill="#ffffff">claude</text>
+  <text x="424" y="150" font-size="11" fill="#bdbdbd">Requisito 2: mejor puntuación</text>
+  <rect x="605" y="56" width="175" height="170" rx="10" fill="#1e1e1e" stroke="#2e7d32" stroke-width="2"/>
+  <text x="619" y="80" font-size="11" fill="#bdbdbd" font-family="Menlo, Courier, monospace">.trees/temas</text>
+  <text x="619" y="100" font-size="11" fill="#e0a070" font-family="Menlo, Courier, monospace">[temas]</text>
+  <text x="619" y="130" font-size="12" fill="#ffffff">claude</text>
+  <text x="619" y="150" font-size="11" fill="#bdbdbd">Requisito 3: temas visuales</text>
+  <rect x="20" y="246" width="370" height="136" rx="10" fill="#ffffff" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="40" y="272" font-size="13" font-weight="700" fill="#7c2f16">Reglas del reparto</text>
+  <text x="40" y="296" font-size="12" fill="#4d2011">• Cada requisito va a la terminal de su rama.</text>
+  <text x="40" y="318" font-size="12" fill="#4d2011">• Un nombre claro de carpeta evita confusiones.</text>
+  <text x="40" y="340" font-size="12" fill="#4d2011">• Cada chat es independiente: puedes iterar uno</text>
+  <text x="52" y="358" font-size="12" fill="#4d2011">sin tocar a los demás.</text>
+  <rect x="410" y="246" width="370" height="136" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="430" y="272" font-size="13" font-weight="700" fill="#7c2f16">Lo que comparten</text>
+  <text x="430" y="296" font-size="12" fill="#4d2011">• El mismo repositorio, historial y remoto.</text>
+  <text x="430" y="318" font-size="12" fill="#4d2011">• Los permisos permanentes se guardan en</text>
+  <text x="442" y="336" font-size="12" fill="#4d2011">el settings.local.json del proyecto principal.</text>
+  <text x="430" y="360" font-size="12" fill="#4d2011">• Los skills y comandos del proyecto principal.</text>
+</svg>

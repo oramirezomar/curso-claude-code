@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0 0 L6 3 L0 6 Z" fill="#7c2f16"/>
+    </marker>
+  </defs>
+  <rect width="800" height="400" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Qué crea git worktree add</text>
+  <rect x="20" y="56" width="760" height="56" rx="10" fill="#1e1e1e"/>
+  <text x="40" y="90" font-size="16" fill="#e0a070" font-family="Menlo, Courier, monospace">git worktree add .trees/pausa</text>
+  <path d="M200 114 L200 142" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M600 114 L600 142" stroke="#7c2f16" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="20" y="144" width="370" height="130" rx="10" fill="#ffffff" stroke="#b8451f" stroke-width="2"/>
+  <text x="40" y="170" font-size="13" font-weight="700" fill="#b8451f">Una carpeta nueva</text>
+  <text x="40" y="196" font-size="12" fill="#4d2011" font-family="Menlo, Courier, monospace">04-tetris/</text>
+  <text x="60" y="214" font-size="12" fill="#4d2011" font-family="Menlo, Courier, monospace">.trees/pausa/</text>
+  <text x="80" y="232" font-size="12" fill="#4d2011" font-family="Menlo, Courier, monospace">game.js  index.html</text>
+  <text x="40" y="258" font-size="11" fill="#7c2f16">Tiene los archivos tal como está tu proyecto ahora.</text>
+  <rect x="410" y="144" width="370" height="130" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+  <text x="430" y="170" font-size="13" font-weight="700" fill="#2e7d32">Una rama nueva</text>
+  <text x="430" y="196" font-size="12" fill="#4d2011">Se llama como el último tramo de la ruta:</text>
+  <text x="430" y="218" font-size="14" font-weight="700" fill="#4d2011" font-family="Menlo, Courier, monospace">pausa</text>
+  <text x="430" y="244" font-size="11" fill="#7c2f16">Con -b eliges otro nombre. Con una rama existente</text>
+  <text x="430" y="260" font-size="11" fill="#7c2f16">detrás de la ruta, usa esa en lugar de crear una.</text>
+  <rect x="20" y="294" width="760" height="90" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="40" y="320" font-size="13" font-weight="700" fill="#7c2f16">Reglas que conviene recordar</text>
+  <text x="40" y="344" font-size="12" fill="#4d2011">• Una rama solo puede estar en un worktree a la vez: Git avisa de que ya está en uso.</text>
+  <text x="40" y="364" font-size="12" fill="#4d2011">• Añade .trees/ al .gitignore antes de crearlos, o aparecerán como archivos sin seguimiento.</text>
+</svg>
