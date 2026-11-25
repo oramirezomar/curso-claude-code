@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420" font-family="Helvetica, Arial, sans-serif">
+  <rect width="800" height="420" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Tres preguntas antes de escribir un spec</text>
+  <rect x="20" y="56" width="760" height="86" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="40" y="82" font-size="14" font-weight="700" fill="#b5482a">1. ¿Cambia una regla del juego, un dato o un criterio de un spec?</text>
+  <text x="40" y="106" font-size="12" fill="#4d2011">Si cambia lo que el juego hace o lo que un criterio comprueba, hace falta un spec.</text>
+  <text x="40" y="126" font-size="12" fill="#4d2011">Si solo cambia cómo se ve, probablemente no.</text>
+  <rect x="20" y="152" width="760" height="86" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="40" y="178" font-size="14" font-weight="700" fill="#b5482a">2. ¿Hay que decidir algo que no esté claro?</text>
+  <text x="40" y="202" font-size="12" fill="#4d2011">Si al leer la petición Claude tendría que inventar comportamiento, escribe el spec.</text>
+  <text x="40" y="222" font-size="12" fill="#4d2011">Si tú ya sabes exactamente qué cambia, basta una frase.</text>
+  <rect x="20" y="248" width="760" height="86" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="40" y="274" font-size="14" font-weight="700" fill="#b5482a">3. ¿Podrías revisar el cambio de un vistazo?</text>
+  <text x="40" y="298" font-size="12" fill="#4d2011">Un diff corto que entiendes entero se revisa sin spec.</text>
+  <text x="40" y="318" font-size="12" fill="#4d2011">Si no cabe en tu cabeza de una vez, divídelo en pasos con un spec.</text>
+  <rect x="20" y="348" width="370" height="58" rx="10" fill="#e8f3e8" stroke="#2e7d32" stroke-width="2"/>
+  <text x="36" y="372" font-size="13" font-weight="700" fill="#2e7d32">Prompt directo</text>
+  <text x="36" y="392" font-size="12" fill="#4d2011">Color del fondo, vidas con pelotitas, un texto.</text>
+  <rect x="410" y="348" width="370" height="58" rx="10" fill="#fae4d8" stroke="#b5482a" stroke-width="2"/>
+  <text x="426" y="372" font-size="13" font-weight="700" fill="#b5482a">Spec</text>
+  <text x="426" y="392" font-size="12" fill="#4d2011">Explosiones, varias pelotas, niveles, pelota pegada.</text>
+</svg>

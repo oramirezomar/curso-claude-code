@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7c2f16"/></marker>
+  </defs>
+  <rect width="800" height="400" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">El ciclo de un spec nuevo</text>
+  <rect x="20" y="60" width="170" height="110" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="105" y="86" text-anchor="middle" font-size="14" font-weight="700" fill="#b5482a">1. Contexto limpio</text>
+  <text x="105" y="112" text-anchor="middle" font-size="12" fill="#4d2011">/clear y después</text>
+  <text x="105" y="130" text-anchor="middle" font-size="12" fill="#4d2011">/spec con el problema</text>
+  <text x="105" y="148" text-anchor="middle" font-size="12" fill="#4d2011">en una frase</text>
+  <line x1="190" y1="115" x2="222" y2="115" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="226" y="60" width="170" height="110" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="311" y="86" text-anchor="middle" font-size="14" font-weight="700" fill="#b5482a">2. Entrevista</text>
+  <text x="311" y="112" text-anchor="middle" font-size="12" fill="#4d2011">Respondes con decisiones.</text>
+  <text x="311" y="130" text-anchor="middle" font-size="12" fill="#4d2011">Queda un spec en</text>
+  <text x="311" y="148" text-anchor="middle" font-size="12" fill="#4d2011">estado borrador.</text>
+  <line x1="396" y1="115" x2="428" y2="115" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="432" y="60" width="170" height="110" rx="10" fill="#fae4d8" stroke="#2e7d32" stroke-width="2"/>
+  <text x="517" y="86" text-anchor="middle" font-size="14" font-weight="700" fill="#2e7d32">3. Lo apruebas tú</text>
+  <text x="517" y="112" text-anchor="middle" font-size="12" fill="#4d2011">Lees, validas, cambias</text>
+  <text x="517" y="130" text-anchor="middle" font-size="12" fill="#4d2011">el estado y haces</text>
+  <text x="517" y="148" text-anchor="middle" font-size="12" fill="#4d2011">commit en main.</text>
+  <line x1="602" y1="115" x2="634" y2="115" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="638" y="60" width="142" height="110" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="709" y="86" text-anchor="middle" font-size="14" font-weight="700" fill="#b5482a">4. Otra vez limpio</text>
+  <text x="709" y="112" text-anchor="middle" font-size="12" fill="#4d2011">/clear y después</text>
+  <text x="709" y="130" text-anchor="middle" font-size="12" fill="#4d2011">/spec-impl 002</text>
+  <path d="M709,170 C709,198 105,190 105,226" fill="none" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="20" y="230" width="170" height="110" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="105" y="256" text-anchor="middle" font-size="14" font-weight="700" fill="#b5482a">5. Cinco pasos</text>
+  <text x="105" y="282" text-anchor="middle" font-size="12" fill="#4d2011">Una rama, un commit</text>
+  <text x="105" y="300" text-anchor="middle" font-size="12" fill="#4d2011">por paso y tú miras</text>
+  <text x="105" y="318" text-anchor="middle" font-size="12" fill="#4d2011">cada cambio.</text>
+  <line x1="190" y1="285" x2="222" y2="285" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="226" y="230" width="226" height="110" rx="10" fill="#fae4d8" stroke="#2e7d32" stroke-width="2"/>
+  <text x="339" y="256" text-anchor="middle" font-size="14" font-weight="700" fill="#2e7d32">6. Criterios y regresión</text>
+  <text x="339" y="282" text-anchor="middle" font-size="12" fill="#4d2011">Pasan los criterios del spec</text>
+  <text x="339" y="300" text-anchor="middle" font-size="12" fill="#4d2011">nuevo y los del anterior.</text>
+  <text x="339" y="318" text-anchor="middle" font-size="12" fill="#4d2011">Después, jugar.</text>
+  <line x1="452" y1="285" x2="484" y2="285" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="488" y="230" width="292" height="110" rx="10" fill="#fae4d8" stroke="#2e7d32" stroke-width="2"/>
+  <text x="634" y="256" text-anchor="middle" font-size="14" font-weight="700" fill="#2e7d32">7. Integrar a mano</text>
+  <text x="634" y="282" text-anchor="middle" font-size="12" fill="#4d2011">git switch main y git merge.</text>
+  <text x="634" y="300" text-anchor="middle" font-size="12" fill="#4d2011">Después, git branch -d.</text>
+  <text x="634" y="318" text-anchor="middle" font-size="12" fill="#4d2011">En equipo: pull request.</text>
+  <text x="400" y="376" text-anchor="middle" font-size="12" fill="#7c2f16">Tú decides en los pasos 3, 6 y 7. Claude trabaja en el 2 y en el 5.</text>
+</svg>
