@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" width="800" height="380" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7c2f16"/></marker>
+  </defs>
+  <rect width="800" height="380" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Quién hace qué</text>
+  <rect x="300" y="56" width="200" height="70" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="400" y="84" text-anchor="middle" font-size="14" font-weight="700" fill="#b5482a">index.html</text>
+  <text x="400" y="106" text-anchor="middle" font-size="12" fill="#4d2011">Lienzo de 800 por 600</text>
+  <line x1="350" y1="126" x2="210" y2="168" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="450" y1="126" x2="590" y2="168" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="60" y="172" width="300" height="104" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+  <text x="210" y="198" text-anchor="middle" font-size="14" font-weight="700" fill="#2e7d32">logica.js</text>
+  <text x="210" y="220" text-anchor="middle" font-size="12" fill="#4d2011">Reglas del juego: estado, paso,</text>
+  <text x="210" y="238" text-anchor="middle" font-size="12" fill="#4d2011">choques, vidas y puntos.</text>
+  <text x="210" y="260" text-anchor="middle" font-size="12" font-weight="700" fill="#2e7d32">No toca el DOM</text>
+  <rect x="440" y="172" width="300" height="104" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="590" y="198" text-anchor="middle" font-size="14" font-weight="700" fill="#b5482a">game.js</text>
+  <text x="590" y="220" text-anchor="middle" font-size="12" fill="#4d2011">Dibuja en el lienzo y lee el</text>
+  <text x="590" y="238" text-anchor="middle" font-size="12" fill="#4d2011">ratón y el teclado.</text>
+  <text x="590" y="260" text-anchor="middle" font-size="12" font-weight="700" fill="#b5482a">Usa las funciones de logica.js</text>
+  <line x1="210" y1="276" x2="210" y2="306" stroke="#7c2f16" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#a)"/>
+  <rect x="60" y="310" width="300" height="52" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="210" y="332" text-anchor="middle" font-size="13" font-weight="700" fill="#7c2f16">scripts/probar-criterios.js</text>
+  <text x="210" y="350" text-anchor="middle" font-size="12" fill="#4d2011">Comprueba el spec con Node</text>
+  <rect x="440" y="310" width="300" height="52" rx="10" fill="#ffffff" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="590" y="332" text-anchor="middle" font-size="13" font-weight="700" fill="#7c2f16">Tu navegador</text>
+  <text x="590" y="350" text-anchor="middle" font-size="12" fill="#4d2011">Es donde de verdad lo juegas</text>
+  <line x1="590" y1="276" x2="590" y2="306" stroke="#7c2f16" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#a)"/>
+</svg>

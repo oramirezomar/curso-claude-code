@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" width="800" height="360" font-family="Helvetica, Arial, sans-serif">
+  <rect width="800" height="360" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Una rama, ocho pasos, ocho commits</text>
+  <text x="20" y="92" font-size="13" font-weight="700" fill="#4d2011">main</text>
+  <line x1="70" y1="88" x2="760" y2="88" stroke="#7c2f16" stroke-width="3"/>
+  <circle cx="90" cy="88" r="9" fill="#7c2f16"/>
+  <text x="90" y="68" text-anchor="middle" font-size="11" fill="#4d2011">primer commit</text>
+  <text x="90" y="52" text-anchor="middle" font-size="11" fill="#4d2011">spec aprobado</text>
+  <circle cx="740" cy="88" r="9" fill="#2e7d32"/>
+  <text x="740" y="68" text-anchor="middle" font-size="11" fill="#2e7d32" font-weight="700">merge a mano</text>
+  <path d="M90,97 C90,150 120,170 150,170" fill="none" stroke="#b5482a" stroke-width="3"/>
+  <path d="M690,170 C730,170 740,150 740,97" fill="none" stroke="#2e7d32" stroke-width="3" stroke-dasharray="6 4"/>
+  <text x="20" y="176" font-size="13" font-weight="700" fill="#b5482a">spec/001</text>
+  <line x1="150" y1="170" x2="690" y2="170" stroke="#b5482a" stroke-width="3"/>
+  <circle cx="170" cy="170" r="12" fill="#ffffff" stroke="#b5482a" stroke-width="2.5"/>
+  <circle cx="237" cy="170" r="12" fill="#ffffff" stroke="#b5482a" stroke-width="2.5"/>
+  <circle cx="304" cy="170" r="12" fill="#ffffff" stroke="#b5482a" stroke-width="2.5"/>
+  <circle cx="371" cy="170" r="12" fill="#ffffff" stroke="#b5482a" stroke-width="2.5"/>
+  <circle cx="438" cy="170" r="12" fill="#ffffff" stroke="#b5482a" stroke-width="2.5"/>
+  <circle cx="505" cy="170" r="12" fill="#ffffff" stroke="#b5482a" stroke-width="2.5"/>
+  <circle cx="572" cy="170" r="12" fill="#ffffff" stroke="#b5482a" stroke-width="2.5"/>
+  <circle cx="639" cy="170" r="12" fill="#ffffff" stroke="#2e7d32" stroke-width="2.5"/>
+  <text x="170" y="175" text-anchor="middle" font-size="12" font-weight="700" fill="#b5482a">1</text>
+  <text x="237" y="175" text-anchor="middle" font-size="12" font-weight="700" fill="#b5482a">2</text>
+  <text x="304" y="175" text-anchor="middle" font-size="12" font-weight="700" fill="#b5482a">3</text>
+  <text x="371" y="175" text-anchor="middle" font-size="12" font-weight="700" fill="#b5482a">4</text>
+  <text x="438" y="175" text-anchor="middle" font-size="12" font-weight="700" fill="#b5482a">5</text>
+  <text x="505" y="175" text-anchor="middle" font-size="12" font-weight="700" fill="#b5482a">6</text>
+  <text x="572" y="175" text-anchor="middle" font-size="12" font-weight="700" fill="#b5482a">7</text>
+  <text x="639" y="175" text-anchor="middle" font-size="12" font-weight="700" fill="#2e7d32">8</text>
+  <text x="170" y="204" text-anchor="middle" font-size="11" fill="#4d2011">lienzo</text>
+  <text x="237" y="204" text-anchor="middle" font-size="11" fill="#4d2011">bucle</text>
+  <text x="304" y="204" text-anchor="middle" font-size="11" fill="#4d2011">paleta</text>
+  <text x="371" y="204" text-anchor="middle" font-size="11" fill="#4d2011">pelota</text>
+  <text x="438" y="204" text-anchor="middle" font-size="11" fill="#4d2011">bloques</text>
+  <text x="505" y="204" text-anchor="middle" font-size="11" fill="#4d2011">vidas</text>
+  <text x="572" y="204" text-anchor="middle" font-size="11" fill="#4d2011">victoria</text>
+  <text x="639" y="204" text-anchor="middle" font-size="11" fill="#2e7d32">criterios</text>
+  <rect x="20" y="236" width="370" height="104" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="36" y="260" font-size="14" font-weight="700" fill="#b5482a">En cada paso</text>
+  <text x="36" y="282" font-size="12" fill="#4d2011">1. Claude cambia poco código.</text>
+  <text x="36" y="302" font-size="12" fill="#4d2011">2. Tú miras el commit con git show.</text>
+  <text x="36" y="322" font-size="12" fill="#4d2011">3. Hay commit y sigues, o corriges.</text>
+  <rect x="410" y="236" width="370" height="104" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="426" y="260" font-size="14" font-weight="700" fill="#7c2f16">Qué se gana</text>
+  <text x="426" y="282" font-size="12" fill="#4d2011">main queda intacta. Si algo sale mal,</text>
+  <text x="426" y="302" font-size="12" fill="#4d2011">se descarta la rama. El merge es un</text>
+  <text x="426" y="322" font-size="12" fill="#4d2011">paso manual tuyo, nunca automático.</text>
+</svg>
