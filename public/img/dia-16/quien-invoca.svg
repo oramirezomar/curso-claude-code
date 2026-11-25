@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="Helvetica, Arial, sans-serif">
+  <rect width="800" height="400" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">¿Quién puede invocar un skill?</text>
+  <rect x="20" y="52" width="250" height="238" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="145" y="78" text-anchor="middle" font-size="14" font-weight="700" fill="#b5482a">Por defecto</text>
+  <text x="145" y="98" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#7c2f16">sin campos extra</text>
+  <text x="40" y="136" font-size="12" fill="#4d2011">Tú con /nombre</text>
+  <text x="250" y="136" text-anchor="end" font-size="13" font-weight="700" fill="#2e7d32">Sí</text>
+  <text x="40" y="176" font-size="12" fill="#4d2011">Claude por su cuenta</text>
+  <text x="250" y="176" text-anchor="end" font-size="13" font-weight="700" fill="#2e7d32">Sí</text>
+  <text x="40" y="216" font-size="12" fill="#4d2011">Descripción en contexto</text>
+  <text x="250" y="216" text-anchor="end" font-size="13" font-weight="700" fill="#2e7d32">Sí</text>
+  <text x="40" y="262" font-size="11" fill="#7c2f16">Para ayudas sin efectos.</text>
+  <rect x="285" y="52" width="250" height="238" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="410" y="78" text-anchor="middle" font-size="14" font-weight="700" fill="#b5482a">Solo tú</text>
+  <text x="410" y="98" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#7c2f16">disable-model-invocation: true</text>
+  <text x="305" y="136" font-size="12" fill="#4d2011">Tú con /nombre</text>
+  <text x="515" y="136" text-anchor="end" font-size="13" font-weight="700" fill="#2e7d32">Sí</text>
+  <text x="305" y="176" font-size="12" fill="#4d2011">Claude por su cuenta</text>
+  <text x="515" y="176" text-anchor="end" font-size="13" font-weight="700" fill="#c0392b">No</text>
+  <text x="305" y="216" font-size="12" fill="#4d2011">Descripción en contexto</text>
+  <text x="515" y="216" text-anchor="end" font-size="13" font-weight="700" fill="#c0392b">No</text>
+  <text x="305" y="262" font-size="11" fill="#7c2f16">Para flujos con efectos y</text>
+  <text x="305" y="278" font-size="11" fill="#7c2f16">momento propio: commit, deploy.</text>
+  <rect x="550" y="52" width="230" height="238" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="665" y="78" text-anchor="middle" font-size="14" font-weight="700" fill="#b5482a">Solo Claude</text>
+  <text x="665" y="98" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#7c2f16">user-invocable: false</text>
+  <text x="570" y="136" font-size="12" fill="#4d2011">Tú con /nombre</text>
+  <text x="760" y="136" text-anchor="end" font-size="13" font-weight="700" fill="#c0392b">No</text>
+  <text x="570" y="176" font-size="12" fill="#4d2011">Claude por su cuenta</text>
+  <text x="760" y="176" text-anchor="end" font-size="13" font-weight="700" fill="#2e7d32">Sí</text>
+  <text x="570" y="216" font-size="12" fill="#4d2011">Descripción en contexto</text>
+  <text x="760" y="216" text-anchor="end" font-size="13" font-weight="700" fill="#2e7d32">Sí</text>
+  <text x="570" y="262" font-size="11" fill="#7c2f16">Para conocimiento de fondo,</text>
+  <text x="570" y="278" font-size="11" fill="#7c2f16">no una acción.</text>
+  <rect x="20" y="308" width="760" height="68" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="40" y="332" font-size="13" font-weight="700" fill="#7c2f16">Regla práctica</text>
+  <text x="40" y="352" font-size="12" fill="#4d2011">Si no quieres que Claude decida cuándo ejecutarlo, ponlo en solo tú. Los skills spec y spec-impl de esta</text>
+  <text x="40" y="368" font-size="12" fill="#4d2011">lección lo usan: tú apruebas el spec y tú eliges cuándo empieza la implementación.</text>
+</svg>

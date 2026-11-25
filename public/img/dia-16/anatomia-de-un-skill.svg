@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" width="800" height="460" font-family="Helvetica, Arial, sans-serif">
+  <rect width="800" height="460" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Anatomía de un skill</text>
+  <rect x="20" y="56" width="300" height="300" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="40" y="84" font-size="15" font-weight="700" fill="#b5482a">La carpeta</text>
+  <text x="40" y="120" font-size="13" font-family="Menlo, Consolas, monospace" fill="#4d2011">.claude/skills/spec/</text>
+  <text x="40" y="146" font-size="13" font-family="Menlo, Consolas, monospace" fill="#4d2011">├── SKILL.md</text>
+  <text x="180" y="146" font-size="11" fill="#2e7d32" font-weight="700">obligatorio</text>
+  <text x="40" y="172" font-size="13" font-family="Menlo, Consolas, monospace" fill="#4d2011">├── plantilla.md</text>
+  <text x="196" y="172" font-size="11" fill="#7c2f16">apoyo</text>
+  <text x="40" y="198" font-size="13" font-family="Menlo, Consolas, monospace" fill="#4d2011">└── scripts/</text>
+  <text x="156" y="198" font-size="11" fill="#7c2f16">opcional</text>
+  <text x="40" y="244" font-size="12" fill="#4d2011">El nombre de la carpeta es el comando:</text>
+  <text x="40" y="264" font-size="12" fill="#4d2011">se escribe /spec.</text>
+  <text x="40" y="296" font-size="12" fill="#7c2f16">Los archivos de apoyo se leen solo</text>
+  <text x="40" y="314" font-size="12" fill="#7c2f16">cuando el skill los necesita.</text>
+  <rect x="340" y="56" width="440" height="300" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="360" y="84" font-size="15" font-weight="700" fill="#b5482a">El archivo SKILL.md</text>
+  <rect x="360" y="98" width="400" height="140" rx="6" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="374" y="118" font-size="11" font-weight="700" fill="#7c2f16">Frontmatter: entre dos líneas ---</text>
+  <text x="374" y="140" font-size="12" font-family="Menlo, Consolas, monospace" fill="#4d2011">name: spec</text>
+  <text x="374" y="160" font-size="12" font-family="Menlo, Consolas, monospace" fill="#4d2011">description: Escribe un spec de seis secciones</text>
+  <text x="374" y="180" font-size="12" font-family="Menlo, Consolas, monospace" fill="#4d2011">argument-hint: [problema en una frase]</text>
+  <text x="374" y="200" font-size="12" font-family="Menlo, Consolas, monospace" fill="#4d2011">disable-model-invocation: true</text>
+  <text x="374" y="220" font-size="12" font-family="Menlo, Consolas, monospace" fill="#4d2011">allowed-tools: Read Glob Grep</text>
+  <rect x="360" y="250" width="400" height="94" rx="6" fill="#ffffff" stroke="#2e7d32" stroke-width="1.5"/>
+  <text x="374" y="270" font-size="11" font-weight="700" fill="#2e7d32">Cuerpo: instrucciones en Markdown</text>
+  <text x="374" y="292" font-size="12" font-family="Menlo, Consolas, monospace" fill="#4d2011">Problema recibido: $ARGUMENTS</text>
+  <text x="374" y="312" font-size="12" font-family="Menlo, Consolas, monospace" fill="#4d2011">1. Entrevista a la persona...</text>
+  <text x="374" y="330" font-size="12" font-family="Menlo, Consolas, monospace" fill="#4d2011">2. Guarda el archivo en specs/</text>
+  <rect x="20" y="376" width="370" height="70" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="36" y="398" font-size="13" font-weight="700" fill="#7c2f16">Siempre en contexto</text>
+  <text x="36" y="418" font-size="12" fill="#4d2011">El nombre y la descripción, para que Claude sepa</text>
+  <text x="36" y="436" font-size="12" fill="#4d2011">que el skill existe.</text>
+  <rect x="410" y="376" width="370" height="70" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="426" y="398" font-size="13" font-weight="700" fill="#7c2f16">Solo al invocarlo</text>
+  <text x="426" y="418" font-size="12" fill="#4d2011">El cuerpo entra a la conversación y se queda ahí</text>
+  <text x="426" y="436" font-size="12" fill="#4d2011">como un mensaje más.</text>
+</svg>

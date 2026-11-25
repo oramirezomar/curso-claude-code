@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" width="800" height="380" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7c2f16"/></marker>
+  </defs>
+  <rect width="800" height="380" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Dos skills, dos momentos</text>
+  <rect x="20" y="60" width="160" height="130" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="100" y="86" text-anchor="middle" font-size="15" font-weight="700" fill="#b5482a">/spec</text>
+  <text x="100" y="110" text-anchor="middle" font-size="12" fill="#4d2011">Entrevista a la persona</text>
+  <text x="100" y="128" text-anchor="middle" font-size="12" fill="#4d2011">y escribe el spec.</text>
+  <text x="100" y="156" text-anchor="middle" font-size="12" font-weight="700" fill="#c0392b">No escribe código</text>
+  <line x1="180" y1="125" x2="212" y2="125" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="216" y="60" width="160" height="130" rx="10" fill="#ffffff" stroke="#ec9f7a" stroke-width="2"/>
+  <text x="296" y="86" text-anchor="middle" font-size="13" font-weight="700" fill="#7c2f16">specs/001-nombre.md</text>
+  <text x="296" y="112" text-anchor="middle" font-size="12" fill="#4d2011">estado: borrador</text>
+  <text x="296" y="138" text-anchor="middle" font-size="12" fill="#4d2011">Seis secciones y</text>
+  <text x="296" y="156" text-anchor="middle" font-size="12" fill="#4d2011">criterios de sí o no.</text>
+  <line x1="376" y1="125" x2="408" y2="125" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="412" y="60" width="160" height="130" rx="10" fill="#fae4d8" stroke="#2e7d32" stroke-width="2"/>
+  <text x="492" y="86" text-anchor="middle" font-size="15" font-weight="700" fill="#2e7d32">Tú apruebas</text>
+  <text x="492" y="112" text-anchor="middle" font-size="12" fill="#4d2011">Lees el spec entero</text>
+  <text x="492" y="130" text-anchor="middle" font-size="12" fill="#4d2011">y cambias el estado a</text>
+  <text x="492" y="148" text-anchor="middle" font-size="12" fill="#4d2011">aprobado.</text>
+  <line x1="572" y1="125" x2="604" y2="125" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="608" y="60" width="172" height="130" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="694" y="86" text-anchor="middle" font-size="15" font-weight="700" fill="#b5482a">/spec-impl 001</text>
+  <text x="694" y="110" text-anchor="middle" font-size="12" fill="#4d2011">Crea la rama</text>
+  <text x="694" y="128" text-anchor="middle" font-size="12" fill="#4d2011">spec/001-nombre y avanza</text>
+  <text x="694" y="146" text-anchor="middle" font-size="12" fill="#4d2011">por pasos con commit.</text>
+  <text x="694" y="174" text-anchor="middle" font-size="12" font-weight="700" fill="#c0392b">Sin merge ni push</text>
+  <rect x="20" y="214" width="370" height="140" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="36" y="240" font-size="14" font-weight="700" fill="#b5482a">Por qué dos y no uno</text>
+  <text x="36" y="264" font-size="12" fill="#4d2011">Pensar y construir son trabajos distintos.</text>
+  <text x="36" y="284" font-size="12" fill="#4d2011">Entre los dos hay una persona que decide.</text>
+  <text x="36" y="304" font-size="12" fill="#4d2011">Los dos son solo tuyos: Claude no los</text>
+  <text x="36" y="322" font-size="12" fill="#4d2011">lanza por su cuenta.</text>
+  <rect x="410" y="214" width="370" height="140" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="426" y="240" font-size="14" font-weight="700" fill="#7c2f16">Al terminar /spec-impl</text>
+  <text x="426" y="264" font-size="12" fill="#4d2011">Muestra cada criterio con su evidencia:</text>
+  <text x="426" y="282" font-size="12" fill="#4d2011">el comando y su salida.</text>
+  <text x="426" y="306" font-size="12" fill="#4d2011">Si todos pasan, el estado queda en</text>
+  <text x="426" y="324" font-size="12" fill="#4d2011">implementado y se hace un último commit.</text>
+</svg>
