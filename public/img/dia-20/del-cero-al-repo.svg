@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" width="800" height="360" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7c2f16"/></marker>
+  </defs>
+  <rect width="800" height="360" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Del proyecto vacío al repositorio</text>
+  <rect x="20" y="58" width="170" height="96" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="105" y="84" text-anchor="middle" font-size="14" font-weight="700" fill="#b5482a">1. Crear</text>
+  <text x="105" y="108" text-anchor="middle" font-size="12" fill="#4d2011">create-next-app con los</text>
+  <text x="105" y="126" text-anchor="middle" font-size="12" fill="#4d2011">valores recomendados.</text>
+  <line x1="190" y1="106" x2="222" y2="106" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="226" y="58" width="170" height="96" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="311" y="84" text-anchor="middle" font-size="14" font-weight="700" fill="#b5482a">2. Describir</text>
+  <text x="311" y="108" text-anchor="middle" font-size="12" fill="#4d2011">README y CLAUDE.md</text>
+  <text x="311" y="126" text-anchor="middle" font-size="12" fill="#4d2011">con @AGENTS.md.</text>
+  <line x1="396" y1="106" x2="428" y2="106" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="432" y="58" width="170" height="96" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="517" y="84" text-anchor="middle" font-size="14" font-weight="700" fill="#b5482a">3. Equipar</text>
+  <text x="517" y="108" text-anchor="middle" font-size="12" fill="#4d2011">Los skills spec y</text>
+  <text x="517" y="126" text-anchor="middle" font-size="12" fill="#4d2011">spec-impl, y references/.</text>
+  <line x1="602" y1="106" x2="634" y2="106" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="638" y="58" width="142" height="96" rx="10" fill="#fae4d8" stroke="#2e7d32" stroke-width="2"/>
+  <text x="709" y="84" text-anchor="middle" font-size="14" font-weight="700" fill="#2e7d32">4. Comprobar</text>
+  <text x="709" y="108" text-anchor="middle" font-size="12" fill="#4d2011">npm run lint y</text>
+  <text x="709" y="126" text-anchor="middle" font-size="12" fill="#4d2011">npm run build.</text>
+  <path d="M709,154 C709,190 105,176 105,206" fill="none" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="20" y="210" width="170" height="96" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="105" y="236" text-anchor="middle" font-size="14" font-weight="700" fill="#b5482a">5. Guardar</text>
+  <text x="105" y="260" text-anchor="middle" font-size="12" fill="#4d2011">Un commit con todo lo</text>
+  <text x="105" y="278" text-anchor="middle" font-size="12" fill="#4d2011">anterior, en main.</text>
+  <line x1="190" y1="258" x2="222" y2="258" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="226" y="210" width="170" height="96" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="311" y="236" text-anchor="middle" font-size="14" font-weight="700" fill="#b5482a">6. Publicar</text>
+  <text x="311" y="260" text-anchor="middle" font-size="12" fill="#4d2011">Un repositorio en GitHub</text>
+  <text x="311" y="278" text-anchor="middle" font-size="12" fill="#4d2011">y git push de main.</text>
+  <line x1="396" y1="258" x2="428" y2="258" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="432" y="210" width="348" height="96" rx="10" fill="#fae4d8" stroke="#2e7d32" stroke-width="2"/>
+  <text x="606" y="236" text-anchor="middle" font-size="14" font-weight="700" fill="#2e7d32">7. Proteger main</text>
+  <text x="606" y="260" text-anchor="middle" font-size="12" fill="#4d2011">Desde ahora, todo llega por una rama y un pull request.</text>
+  <text x="606" y="278" text-anchor="middle" font-size="12" fill="#4d2011">Incluso lo tuyo.</text>
+  <text x="400" y="340" text-anchor="middle" font-size="12" fill="#7c2f16">El primer commit directo en main es el último que haces ahí.</text>
+</svg>

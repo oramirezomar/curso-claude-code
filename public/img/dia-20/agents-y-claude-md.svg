@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" width="800" height="380" font-family="Helvetica, Arial, sans-serif">
+  <rect width="800" height="380" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Qué instrucciones lee Claude Code</text>
+  <text x="40" y="66" font-size="13" font-weight="700" fill="#7c2f16">El repositorio tiene</text>
+  <text x="440" y="66" font-size="13" font-weight="700" fill="#7c2f16">Claude lee</text>
+  <rect x="20" y="78" width="760" height="62" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="40" y="104" font-size="13" font-family="Menlo, Consolas, monospace" fill="#4d2011">AGENTS.md</text>
+  <text x="40" y="124" font-size="12" fill="#4d2011">Es la situación justo después de create-next-app.</text>
+  <text x="440" y="108" font-size="13" font-weight="700" fill="#2e7d32">AGENTS.md</text>
+  <rect x="20" y="150" width="760" height="62" rx="10" fill="#ffffff" stroke="#c0392b" stroke-width="2"/>
+  <text x="40" y="176" font-size="13" font-family="Menlo, Consolas, monospace" fill="#4d2011">AGENTS.md + CLAUDE.md</text>
+  <text x="40" y="196" font-size="12" fill="#4d2011">Es lo que queda tras /init.</text>
+  <text x="440" y="180" font-size="13" font-weight="700" fill="#c0392b">Solo CLAUDE.md</text>
+  <text x="440" y="198" font-size="12" fill="#4d2011">AGENTS.md deja de leerse.</text>
+  <rect x="20" y="222" width="760" height="62" rx="10" fill="#fae4d8" stroke="#2e7d32" stroke-width="2"/>
+  <text x="40" y="248" font-size="13" font-family="Menlo, Consolas, monospace" fill="#4d2011">CLAUDE.md que empieza con @AGENTS.md</text>
+  <text x="40" y="268" font-size="12" fill="#4d2011">La solución: se importa el archivo de las demás herramientas.</text>
+  <text x="440" y="252" font-size="13" font-weight="700" fill="#2e7d32">CLAUDE.md y AGENTS.md</text>
+  <text x="440" y="270" font-size="12" fill="#4d2011">El importado se lee primero.</text>
+  <rect x="20" y="298" width="760" height="64" rx="10" fill="#ffffff" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="36" y="322" font-size="13" font-weight="700" fill="#7c2f16">Por qué importa en este proyecto</text>
+  <text x="36" y="342" font-size="12" fill="#4d2011">El AGENTS.md de Next.js pide leer su documentación incluida en node_modules antes de escribir código.</text>
+  <text x="36" y="358" font-size="12" fill="#4d2011">Compruébalo con /context all: CLAUDE.md debe aparecer en Memory files, con el contenido importado.</text>
+</svg>

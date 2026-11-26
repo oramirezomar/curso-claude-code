@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 456" width="800" height="456" font-family="Helvetica, Arial, sans-serif">
+  <rect width="800" height="456" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Las seis pantallas del MVP</text>
+  <rect x="20" y="52" width="240" height="176" rx="10" fill="#0b0d1a" stroke="#b5482a" stroke-width="2"/>
+  <rect x="30" y="62" width="220" height="14" rx="3" fill="#151933"/>
+  <rect x="34" y="65" width="40" height="8" rx="2" fill="#ff3d81"/>
+  <rect x="190" y="65" width="22" height="8" rx="2" fill="#29f0ff"/>
+  <rect x="218" y="65" width="28" height="8" rx="2" fill="#ffd166"/>
+  <rect x="30" y="86" width="68" height="50" rx="4" fill="#151933" stroke="#29f0ff" stroke-width="1"/>
+  <rect x="36" y="92" width="40" height="5" rx="2" fill="#ff3d81"/>
+  <rect x="36" y="122" width="30" height="4" rx="2" fill="#ffd166"/>
+  <rect x="104" y="86" width="68" height="50" rx="4" fill="#151933" stroke="#29f0ff" stroke-width="1"/>
+  <rect x="110" y="92" width="40" height="5" rx="2" fill="#ff3d81"/>
+  <rect x="110" y="122" width="30" height="4" rx="2" fill="#ffd166"/>
+  <rect x="178" y="86" width="68" height="50" rx="4" fill="#151933" stroke="#29f0ff" stroke-width="1"/>
+  <rect x="184" y="92" width="40" height="5" rx="2" fill="#ff3d81"/>
+  <rect x="184" y="122" width="30" height="4" rx="2" fill="#ffd166"/>
+  <rect x="30" y="142" width="68" height="50" rx="4" fill="#151933" stroke="#29f0ff" stroke-width="1"/>
+  <rect x="36" y="148" width="40" height="5" rx="2" fill="#ff3d81"/>
+  <rect x="36" y="178" width="30" height="4" rx="2" fill="#ffd166"/>
+  <rect x="104" y="142" width="68" height="50" rx="4" fill="#151933" stroke="#29f0ff" stroke-width="1"/>
+  <rect x="110" y="148" width="40" height="5" rx="2" fill="#ff3d81"/>
+  <rect x="110" y="178" width="30" height="4" rx="2" fill="#ffd166"/>
+  <rect x="178" y="142" width="68" height="50" rx="4" fill="#151933" stroke="#29f0ff" stroke-width="1"/>
+  <rect x="184" y="148" width="40" height="5" rx="2" fill="#ff3d81"/>
+  <rect x="184" y="178" width="30" height="4" rx="2" fill="#ffd166"/>
+  <text x="140" y="220" text-anchor="middle" font-size="12" font-weight="700" fill="#e8ecff">1. Inicio: selección de juegos</text>
+  <rect x="280" y="52" width="240" height="176" rx="10" fill="#0b0d1a" stroke="#b5482a" stroke-width="2"/>
+  <rect x="290" y="62" width="220" height="14" rx="3" fill="#151933"/>
+  <rect x="294" y="65" width="40" height="8" rx="2" fill="#ff3d81"/>
+  <rect x="450" y="65" width="22" height="8" rx="2" fill="#29f0ff"/>
+  <rect x="478" y="65" width="28" height="8" rx="2" fill="#ffd166"/>
+  <rect x="290" y="86" width="100" height="96" rx="4" fill="#151933" stroke="#ff3d81" stroke-width="1"/>
+  <rect x="402" y="90" width="90" height="6" rx="2" fill="#e8ecff" fill-opacity="0.7"/>
+  <rect x="402" y="104" width="100" height="6" rx="2" fill="#e8ecff" fill-opacity="0.7"/>
+  <rect x="402" y="118" width="70" height="6" rx="2" fill="#e8ecff" fill-opacity="0.7"/>
+  <rect x="402" y="132" width="80" height="6" rx="2" fill="#e8ecff" fill-opacity="0.7"/>
+  <rect x="402" y="156" width="70" height="22" rx="4" fill="#ff3d81"/>
+  <text x="437" y="171" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">Jugar</text>
+  <text x="400" y="220" text-anchor="middle" font-size="12" font-weight="700" fill="#e8ecff">2. Previsualización</text>
+  <rect x="540" y="52" width="240" height="176" rx="10" fill="#0b0d1a" stroke="#b5482a" stroke-width="2"/>
+  <rect x="550" y="62" width="220" height="14" rx="3" fill="#151933"/>
+  <rect x="554" y="65" width="40" height="8" rx="2" fill="#ff3d81"/>
+  <rect x="710" y="65" width="22" height="8" rx="2" fill="#29f0ff"/>
+  <rect x="738" y="65" width="28" height="8" rx="2" fill="#ffd166"/>
+  <rect x="550" y="86" width="220" height="96" rx="4" fill="#151933" stroke="#29f0ff" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="660" y="138" text-anchor="middle" font-size="11" fill="#e8ecff">área de juego (marcador)</text>
+  <text x="556" y="100" font-size="10" fill="#ffd166">Puntos 0</text>
+  <rect x="730" y="90" width="34" height="14" rx="3" fill="#ff3d81"/>
+  <text x="660" y="220" text-anchor="middle" font-size="12" font-weight="700" fill="#e8ecff">3. Jugar</text>
+  <rect x="20" y="242" width="240" height="176" rx="10" fill="#0b0d1a" stroke="#b5482a" stroke-width="2"/>
+  <rect x="30" y="252" width="220" height="14" rx="3" fill="#151933"/>
+  <rect x="34" y="255" width="40" height="8" rx="2" fill="#ff3d81"/>
+  <rect x="190" y="255" width="22" height="8" rx="2" fill="#29f0ff"/>
+  <rect x="218" y="255" width="28" height="8" rx="2" fill="#ffd166"/>
+  <rect x="30" y="276" width="48" height="14" rx="3" fill="#151933" stroke="#ff3d81" stroke-width="1"/>
+  <rect x="82" y="276" width="48" height="14" rx="3" fill="#151933" stroke="#29f0ff" stroke-width="1"/>
+  <rect x="134" y="276" width="48" height="14" rx="3" fill="#151933" stroke="#29f0ff" stroke-width="1"/>
+  <rect x="30" y="298" width="220" height="10" rx="2" fill="#151933"/>
+  <rect x="34" y="301" width="12" height="4" rx="2" fill="#ffd166"/>
+  <rect x="54" y="301" width="60" height="4" rx="2" fill="#e8ecff" fill-opacity="0.7"/>
+  <rect x="210" y="301" width="30" height="4" rx="2" fill="#29f0ff"/>
+  <rect x="30" y="312" width="220" height="10" rx="2" fill="#151933"/>
+  <rect x="34" y="315" width="12" height="4" rx="2" fill="#ffd166"/>
+  <rect x="54" y="315" width="60" height="4" rx="2" fill="#e8ecff" fill-opacity="0.7"/>
+  <rect x="210" y="315" width="30" height="4" rx="2" fill="#29f0ff"/>
+  <rect x="30" y="326" width="220" height="10" rx="2" fill="#151933"/>
+  <rect x="34" y="329" width="12" height="4" rx="2" fill="#ffd166"/>
+  <rect x="54" y="329" width="60" height="4" rx="2" fill="#e8ecff" fill-opacity="0.7"/>
+  <rect x="210" y="329" width="30" height="4" rx="2" fill="#29f0ff"/>
+  <rect x="30" y="340" width="220" height="10" rx="2" fill="#151933"/>
+  <rect x="34" y="343" width="12" height="4" rx="2" fill="#ffd166"/>
+  <rect x="54" y="343" width="60" height="4" rx="2" fill="#e8ecff" fill-opacity="0.7"/>
+  <rect x="210" y="343" width="30" height="4" rx="2" fill="#29f0ff"/>
+  <rect x="30" y="354" width="220" height="10" rx="2" fill="#151933"/>
+  <rect x="34" y="357" width="12" height="4" rx="2" fill="#ffd166"/>
+  <rect x="54" y="357" width="60" height="4" rx="2" fill="#e8ecff" fill-opacity="0.7"/>
+  <rect x="210" y="357" width="30" height="4" rx="2" fill="#29f0ff"/>
+  <text x="140" y="410" text-anchor="middle" font-size="12" font-weight="700" fill="#e8ecff">4. Salón de la fama</text>
+  <rect x="280" y="242" width="240" height="176" rx="10" fill="#0b0d1a" stroke="#b5482a" stroke-width="2"/>
+  <rect x="290" y="252" width="220" height="14" rx="3" fill="#151933"/>
+  <rect x="294" y="255" width="40" height="8" rx="2" fill="#ff3d81"/>
+  <rect x="450" y="255" width="22" height="8" rx="2" fill="#29f0ff"/>
+  <rect x="478" y="255" width="28" height="8" rx="2" fill="#ffd166"/>
+  <rect x="340" y="276" width="120" height="16" rx="3" fill="#151933" stroke="#e8ecff" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="340" y="298" width="120" height="16" rx="3" fill="#151933" stroke="#e8ecff" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="340" y="320" width="120" height="18" rx="4" fill="#ff3d81"/>
+  <rect x="340" y="344" width="56" height="16" rx="4" fill="#151933" stroke="#29f0ff" stroke-width="1"/>
+  <rect x="404" y="344" width="56" height="16" rx="4" fill="#151933" stroke="#ffd166" stroke-width="1"/>
+  <text x="400" y="410" text-anchor="middle" font-size="12" font-weight="700" fill="#e8ecff">5. Iniciar sesión</text>
+  <rect x="540" y="242" width="240" height="176" rx="10" fill="#0b0d1a" stroke="#b5482a" stroke-width="2"/>
+  <rect x="550" y="252" width="220" height="14" rx="3" fill="#151933"/>
+  <rect x="554" y="255" width="40" height="8" rx="2" fill="#ff3d81"/>
+  <rect x="710" y="255" width="22" height="8" rx="2" fill="#29f0ff"/>
+  <rect x="738" y="255" width="28" height="8" rx="2" fill="#ffd166"/>
+  <rect x="600" y="276" width="120" height="16" rx="3" fill="#151933" stroke="#e8ecff" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="600" y="298" width="120" height="16" rx="3" fill="#151933" stroke="#e8ecff" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="600" y="320" width="120" height="16" rx="3" fill="#151933" stroke="#e8ecff" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="600" y="342" width="120" height="18" rx="4" fill="#ff3d81"/>
+  <rect x="600" y="366" width="56" height="16" rx="4" fill="#151933" stroke="#29f0ff" stroke-width="1"/>
+  <rect x="664" y="366" width="56" height="16" rx="4" fill="#151933" stroke="#ffd166" stroke-width="1"/>
+  <text x="660" y="410" text-anchor="middle" font-size="12" font-weight="700" fill="#e8ecff">6. Crear cuenta</text>
+  <text x="400" y="446" text-anchor="middle" font-size="12" fill="#7c2f16">Esquemas orientativos. Los diseños completos viven en references/.</text>
+</svg>

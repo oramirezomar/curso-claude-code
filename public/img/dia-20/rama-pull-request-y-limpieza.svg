@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7c2f16"/></marker>
+  </defs>
+  <rect width="800" height="420" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Rama, pull request y limpieza</text>
+  <rect x="20" y="56" width="150" height="76" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="95" y="82" text-anchor="middle" font-size="14" font-weight="700" fill="#b5482a">1. Rama</text>
+  <text x="95" y="104" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#4d2011">git switch -c</text>
+  <text x="95" y="120" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#4d2011">01-config</text>
+  <line x1="170" y1="94" x2="196" y2="94" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="200" y="56" width="150" height="76" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="275" y="82" text-anchor="middle" font-size="14" font-weight="700" fill="#b5482a">2. Subir</text>
+  <text x="275" y="104" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#4d2011">git push -u origin</text>
+  <text x="275" y="120" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#4d2011">01-config</text>
+  <line x1="350" y1="94" x2="376" y2="94" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="380" y="56" width="190" height="76" rx="10" fill="#fae4d8" stroke="#2e7d32" stroke-width="2"/>
+  <text x="475" y="82" text-anchor="middle" font-size="14" font-weight="700" fill="#2e7d32">3. Pull request</text>
+  <text x="475" y="104" text-anchor="middle" font-size="12" fill="#4d2011">Lo revisas y lo integras</text>
+  <text x="475" y="120" text-anchor="middle" font-size="12" fill="#4d2011">en GitHub.</text>
+  <line x1="570" y1="94" x2="596" y2="94" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="600" y="56" width="180" height="76" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="690" y="82" text-anchor="middle" font-size="14" font-weight="700" fill="#b5482a">4. Traer</text>
+  <text x="690" y="104" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#4d2011">git switch main</text>
+  <text x="690" y="120" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#4d2011">git pull --prune</text>
+  <text x="400" y="164" text-anchor="middle" font-size="14" font-weight="700" fill="#4d2011">5. git branch -d 01-config: depende de cómo se integró</text>
+  <rect x="20" y="178" width="250" height="150" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+  <text x="145" y="204" text-anchor="middle" font-size="14" font-weight="700" fill="#2e7d32">Merge commit</text>
+  <text x="145" y="228" text-anchor="middle" font-size="12" fill="#4d2011">Los commits de la rama</text>
+  <text x="145" y="246" text-anchor="middle" font-size="12" fill="#4d2011">forman parte de main.</text>
+  <text x="145" y="278" text-anchor="middle" font-size="13" font-weight="700" fill="#2e7d32">Deleted branch 01-config</text>
+  <text x="145" y="304" text-anchor="middle" font-size="12" fill="#4d2011">-d funciona.</text>
+  <rect x="285" y="178" width="250" height="150" rx="10" fill="#ffffff" stroke="#c0392b" stroke-width="2"/>
+  <text x="410" y="204" text-anchor="middle" font-size="14" font-weight="700" fill="#c0392b">Squash and merge</text>
+  <text x="410" y="228" text-anchor="middle" font-size="12" fill="#4d2011">Main recibe un commit</text>
+  <text x="410" y="246" text-anchor="middle" font-size="12" fill="#4d2011">nuevo con el mismo cambio.</text>
+  <text x="410" y="278" text-anchor="middle" font-size="12" font-weight="700" fill="#c0392b">error: the branch is</text>
+  <text x="410" y="294" text-anchor="middle" font-size="12" font-weight="700" fill="#c0392b">not fully merged</text>
+  <text x="410" y="318" text-anchor="middle" font-size="12" fill="#4d2011">Hace falta -D.</text>
+  <rect x="550" y="178" width="230" height="150" rx="10" fill="#ffffff" stroke="#c0392b" stroke-width="2"/>
+  <text x="665" y="204" text-anchor="middle" font-size="14" font-weight="700" fill="#c0392b">Rebase and merge</text>
+  <text x="665" y="228" text-anchor="middle" font-size="12" fill="#4d2011">Los commits se reescriben</text>
+  <text x="665" y="246" text-anchor="middle" font-size="12" fill="#4d2011">con otros identificadores.</text>
+  <text x="665" y="278" text-anchor="middle" font-size="12" font-weight="700" fill="#c0392b">Pasa lo mismo que</text>
+  <text x="665" y="294" text-anchor="middle" font-size="12" font-weight="700" fill="#c0392b">con el squash.</text>
+  <text x="665" y="318" text-anchor="middle" font-size="12" fill="#4d2011">Hace falta -D.</text>
+  <rect x="20" y="344" width="760" height="62" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="36" y="368" font-size="13" font-weight="700" fill="#7c2f16">Antes de usar -D</text>
+  <text x="36" y="388" font-size="12" fill="#4d2011">Comprueba en GitHub que el pull request figura como integrado. -D borra sin preguntar y, si no estaba integrado, pierdes el trabajo.</text>
+</svg>
