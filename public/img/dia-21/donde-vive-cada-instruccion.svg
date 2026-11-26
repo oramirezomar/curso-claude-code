@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="Helvetica, Arial, sans-serif">
+  <rect width="800" height="400" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Dónde poner cada instrucción</text>
+  <text x="40" y="66" font-size="13" font-weight="700" fill="#7c2f16">Lugar</text>
+  <text x="290" y="66" font-size="13" font-weight="700" fill="#7c2f16">Cuándo llega a Claude</text>
+  <text x="560" y="66" font-size="13" font-weight="700" fill="#7c2f16">Para qué sirve</text>
+  <rect x="20" y="76" width="760" height="56" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="40" y="100" font-size="13" font-family="Menlo, Consolas, monospace" fill="#4d2011">CLAUDE.md</text>
+  <text x="290" y="100" font-size="12" fill="#c0392b" font-weight="700">En cada sesión</text>
+  <text x="560" y="100" font-size="12" fill="#4d2011">Lo que vale siempre.</text>
+  <text x="560" y="118" font-size="12" fill="#4d2011">Debe ser corto.</text>
+  <rect x="20" y="142" width="760" height="56" rx="10" fill="#fae4d8" stroke="#2e7d32" stroke-width="2"/>
+  <text x="40" y="166" font-size="13" font-family="Menlo, Consolas, monospace" fill="#4d2011">.claude/rules/</text>
+  <text x="290" y="166" font-size="12" fill="#2e7d32" font-weight="700">Al tocar un archivo que encaja</text>
+  <text x="290" y="184" font-size="12" fill="#4d2011">con paths, por ejemplo los .tsx de app</text>
+  <text x="560" y="166" font-size="12" fill="#4d2011">Reglas que solo importan</text>
+  <text x="560" y="184" font-size="12" fill="#4d2011">en una parte del código.</text>
+  <rect x="20" y="208" width="760" height="56" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="40" y="232" font-size="13" font-family="Menlo, Consolas, monospace" fill="#4d2011">Skill frontend-design</text>
+  <text x="290" y="232" font-size="12" fill="#b5482a" font-weight="700">La descripción, siempre</text>
+  <text x="290" y="250" font-size="12" fill="#4d2011">El cuerpo, al usarlo</text>
+  <text x="560" y="232" font-size="12" fill="#4d2011">Un método de trabajo para</text>
+  <text x="560" y="250" font-size="12" fill="#4d2011">diseñar interfaces.</text>
+  <rect x="20" y="274" width="760" height="56" rx="10" fill="#ffffff" stroke="#ec9f7a" stroke-width="2"/>
+  <text x="40" y="298" font-size="13" font-family="Menlo, Consolas, monospace" fill="#4d2011">references/</text>
+  <text x="290" y="298" font-size="12" fill="#7c2f16" font-weight="700">Cuando Claude lo lee</text>
+  <text x="290" y="316" font-size="12" fill="#4d2011">porque lo necesita</text>
+  <text x="560" y="298" font-size="12" fill="#4d2011">Los diseños de las pantallas.</text>
+  <text x="560" y="316" font-size="12" fill="#4d2011">Se cita con su ruta en texto.</text>
+  <rect x="20" y="344" width="760" height="40" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="400" y="369" text-anchor="middle" font-size="12" fill="#4d2011">Cuanto más específica es una instrucción, más lejos del CLAUDE.md debe vivir.</text>
+</svg>

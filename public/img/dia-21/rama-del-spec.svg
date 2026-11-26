@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7c2f16"/></marker>
+  </defs>
+  <rect width="800" height="400" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Con main protegida, el spec también va en una rama</text>
+  <rect x="20" y="56" width="760" height="64" rx="10" fill="#ffffff" stroke="#ec9f7a" stroke-width="2"/>
+  <text x="36" y="80" font-size="13" font-weight="700" fill="#7c2f16">main</text>
+  <text x="36" y="102" font-size="12" fill="#4d2011">Solo recibe pull requests. No se puede dejar ahí un spec sin guardar ni hacer commits directos.</text>
+  <rect x="20" y="140" width="170" height="104" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="105" y="166" text-anchor="middle" font-size="14" font-weight="700" fill="#b5482a">1. La rama</text>
+  <text x="105" y="190" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#4d2011">git switch -c</text>
+  <text x="105" y="206" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#4d2011">spec/001-mvp-</text>
+  <text x="105" y="222" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#4d2011">arcade-vault</text>
+  <line x1="190" y1="192" x2="222" y2="192" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="226" y="140" width="170" height="104" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="311" y="166" text-anchor="middle" font-size="14" font-weight="700" fill="#b5482a">2. /spec</text>
+  <text x="311" y="190" text-anchor="middle" font-size="12" fill="#4d2011">Entrevista y escribe</text>
+  <text x="311" y="208" text-anchor="middle" font-size="12" fill="#4d2011">specs/001-... en borrador.</text>
+  <text x="311" y="228" text-anchor="middle" font-size="12" fill="#4d2011">Commit.</text>
+  <line x1="396" y1="192" x2="428" y2="192" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="432" y="140" width="170" height="104" rx="10" fill="#fae4d8" stroke="#2e7d32" stroke-width="2"/>
+  <text x="517" y="166" text-anchor="middle" font-size="14" font-weight="700" fill="#2e7d32">3. Tú apruebas</text>
+  <text x="517" y="190" text-anchor="middle" font-size="12" fill="#4d2011">Lees, validas y cambias</text>
+  <text x="517" y="208" text-anchor="middle" font-size="12" fill="#4d2011">el estado a aprobado.</text>
+  <text x="517" y="228" text-anchor="middle" font-size="12" fill="#4d2011">Otro commit.</text>
+  <line x1="602" y1="192" x2="634" y2="192" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="638" y="140" width="142" height="104" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="709" y="166" text-anchor="middle" font-size="14" font-weight="700" fill="#b5482a">4. /spec-impl</text>
+  <text x="709" y="190" text-anchor="middle" font-size="12" fill="#4d2011">Día 22. Ve que ya</text>
+  <text x="709" y="208" text-anchor="middle" font-size="12" fill="#4d2011">estás en la rama y</text>
+  <text x="709" y="226" text-anchor="middle" font-size="12" fill="#4d2011">la usa.</text>
+  <rect x="20" y="264" width="370" height="116" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="36" y="290" font-size="14" font-weight="700" fill="#b5482a">Un solo pull request</text>
+  <text x="36" y="314" font-size="12" fill="#4d2011">El spec y su implementación llegan juntos.</text>
+  <text x="36" y="332" font-size="12" fill="#4d2011">Quien revisa lee primero el spec y después</text>
+  <text x="36" y="350" font-size="12" fill="#4d2011">comprueba que el código lo cumple.</text>
+  <rect x="410" y="264" width="370" height="116" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="426" y="290" font-size="14" font-weight="700" fill="#7c2f16">Qué cambió en spec-impl</text>
+  <text x="426" y="314" font-size="12" fill="#4d2011">Antes siempre creaba la rama. Ahora, si ya</text>
+  <text x="426" y="332" font-size="12" fill="#4d2011">estás en spec/ con el nombre del archivo,</text>
+  <text x="426" y="350" font-size="12" fill="#4d2011">la reutiliza, y si no, la crea.</text>
+</svg>

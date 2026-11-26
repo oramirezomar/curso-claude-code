@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" width="800" height="380" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7c2f16"/></marker>
+  </defs>
+  <rect width="800" height="380" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">De styles.css a globals.css</text>
+  <rect x="20" y="56" width="220" height="110" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="130" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#b5482a">references/templates/</text>
+  <text x="130" y="100" text-anchor="middle" font-size="13" font-weight="700" fill="#b5482a">styles.css</text>
+  <text x="130" y="124" text-anchor="middle" font-size="12" fill="#4d2011">Variables, clases y</text>
+  <text x="130" y="142" text-anchor="middle" font-size="12" fill="#4d2011">animaciones: 92 líneas.</text>
+  <line x1="240" y1="111" x2="290" y2="111" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="294" y="56" width="486" height="110" rx="10" fill="#fae4d8" stroke="#2e7d32" stroke-width="2"/>
+  <text x="310" y="82" font-size="13" font-weight="700" fill="#2e7d32">app/globals.css</text>
+  <text x="310" y="104" font-size="12" font-family="Menlo, Consolas, monospace" fill="#4d2011">@import "tailwindcss";</text>
+  <text x="310" y="122" font-size="12" font-family="Menlo, Consolas, monospace" fill="#4d2011">@theme inline { --color-rosa: var(--rosa); ... }</text>
+  <text x="310" y="140" font-size="12" font-family="Menlo, Consolas, monospace" fill="#4d2011">y debajo, el contenido de styles.css</text>
+  <text x="310" y="158" font-size="11" fill="#7c2f16">unas 103 líneas en total</text>
+  <rect x="20" y="190" width="370" height="170" rx="10" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+  <text x="36" y="216" font-size="14" font-weight="700" fill="#2e7d32">Con el import de Tailwind</text>
+  <text x="36" y="240" font-size="12" fill="#4d2011">La compilación termina sin avisos.</text>
+  <text x="36" y="260" font-size="12" fill="#4d2011">El CSS generado pesa unos 18,9 KB.</text>
+  <text x="36" y="280" font-size="12" fill="#4d2011">Las clases flex, grid y gap existen.</text>
+  <text x="36" y="308" font-size="12" font-weight="700" fill="#2e7d32">Es lo que se espera.</text>
+  <rect x="410" y="190" width="370" height="170" rx="10" fill="#ffffff" stroke="#c0392b" stroke-width="2"/>
+  <text x="426" y="216" font-size="14" font-weight="700" fill="#c0392b">Sin el import</text>
+  <text x="426" y="240" font-size="12" fill="#4d2011">La compilación termina, pero avisa:</text>
+  <text x="426" y="258" font-size="12" font-family="Menlo, Consolas, monospace" fill="#c0392b">Unknown at rule: @theme</text>
+  <text x="426" y="280" font-size="12" fill="#4d2011">El CSS pesa unos 8,1 KB y no hay</text>
+  <text x="426" y="298" font-size="12" fill="#4d2011">utilidades de Tailwind.</text>
+  <text x="426" y="326" font-size="12" font-weight="700" fill="#c0392b">Falla en silencio: la página se ve mal.</text>
+</svg>
