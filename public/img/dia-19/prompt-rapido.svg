@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" width="800" height="340" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7c2f16"/></marker>
+  </defs>
+  <rect width="800" height="340" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Un prompt rápido también tiene su ciclo</text>
+  <rect x="20" y="56" width="170" height="92" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="105" y="82" text-anchor="middle" font-size="14" font-weight="700" fill="#b5482a">1. Una rama</text>
+  <text x="105" y="106" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#4d2011">git switch -c</text>
+  <text x="105" y="124" text-anchor="middle" font-size="11" font-family="Menlo, Consolas, monospace" fill="#4d2011">ajustes-visuales</text>
+  <line x1="190" y1="102" x2="220" y2="102" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="224" y="56" width="170" height="92" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="309" y="82" text-anchor="middle" font-size="14" font-weight="700" fill="#b5482a">2. Contexto</text>
+  <text x="309" y="106" text-anchor="middle" font-size="12" fill="#4d2011">/clear y, si es visual,</text>
+  <text x="309" y="124" text-anchor="middle" font-size="12" fill="#4d2011">una captura.</text>
+  <line x1="394" y1="102" x2="424" y2="102" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="428" y="56" width="170" height="92" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="513" y="82" text-anchor="middle" font-size="14" font-weight="700" fill="#b5482a">3. Un prompt</text>
+  <text x="513" y="106" text-anchor="middle" font-size="12" fill="#4d2011">Con cifras: la mitad</text>
+  <text x="513" y="124" text-anchor="middle" font-size="12" fill="#4d2011">del tamaño actual.</text>
+  <line x1="598" y1="102" x2="628" y2="102" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="632" y="56" width="148" height="92" rx="10" fill="#fae4d8" stroke="#2e7d32" stroke-width="2"/>
+  <text x="706" y="82" text-anchor="middle" font-size="14" font-weight="700" fill="#2e7d32">4. Lo revisas</text>
+  <text x="706" y="106" text-anchor="middle" font-size="12" fill="#4d2011">git diff y jugar.</text>
+  <text x="706" y="124" text-anchor="middle" font-size="12" fill="#4d2011">Todo en verde.</text>
+  <path d="M706,148 C706,190 105,176 105,200" fill="none" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="20" y="204" width="370" height="116" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="36" y="230" font-size="14" font-weight="700" fill="#b5482a">5. Regresión y commit</text>
+  <text x="36" y="254" font-size="12" fill="#4d2011">Los tres scripts de criterios deben seguir en</text>
+  <text x="36" y="272" font-size="12" fill="#4d2011">verde. Los criterios usan los datos del</text>
+  <text x="36" y="290" font-size="12" fill="#4d2011">juego, y no cifras fijas, así un cambio</text>
+  <text x="36" y="308" font-size="12" fill="#4d2011">de tamaño no los rompe.</text>
+  <rect x="410" y="204" width="370" height="116" rx="10" fill="#fae4d8" stroke="#2e7d32" stroke-width="2"/>
+  <text x="426" y="230" font-size="14" font-weight="700" fill="#2e7d32">6. Integrar y borrar la rama</text>
+  <text x="426" y="254" font-size="12" fill="#4d2011">git switch main, git merge y git branch -d.</text>
+  <text x="426" y="278" font-size="12" fill="#4d2011">Si el resultado no te gusta, borras la rama</text>
+  <text x="426" y="296" font-size="12" fill="#4d2011">con -D y main no ha cambiado.</text>
+</svg>

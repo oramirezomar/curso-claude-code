@@ -1,0 +1,227 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 330" width="800" height="330" font-family="Helvetica, Arial, sans-serif">
+  <rect width="800" height="330" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Cinco niveles, cada uno un 10 % más rápido</text>
+  <rect x="12" y="52" width="148" height="190" rx="10" fill="#000000" stroke="#b5482a" stroke-width="2"/>
+  <text x="86" y="76" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">1. Parrilla</text>
+  <rect x="22" y="92" width="11" height="8" fill="#ef476f"/>
+  <rect x="35" y="92" width="11" height="8" fill="#ef476f"/>
+  <rect x="48" y="92" width="11" height="8" fill="#ef476f"/>
+  <rect x="61" y="92" width="11" height="8" fill="#ef476f"/>
+  <rect x="74" y="92" width="11" height="8" fill="#ef476f"/>
+  <rect x="87" y="92" width="11" height="8" fill="#ef476f"/>
+  <rect x="100" y="92" width="11" height="8" fill="#ef476f"/>
+  <rect x="113" y="92" width="11" height="8" fill="#ef476f"/>
+  <rect x="126" y="92" width="11" height="8" fill="#ef476f"/>
+  <rect x="139" y="92" width="11" height="8" fill="#ef476f"/>
+  <rect x="22" y="102" width="11" height="8" fill="#f78c6b"/>
+  <rect x="35" y="102" width="11" height="8" fill="#f78c6b"/>
+  <rect x="48" y="102" width="11" height="8" fill="#f78c6b"/>
+  <rect x="61" y="102" width="11" height="8" fill="#f78c6b"/>
+  <rect x="74" y="102" width="11" height="8" fill="#f78c6b"/>
+  <rect x="87" y="102" width="11" height="8" fill="#f78c6b"/>
+  <rect x="100" y="102" width="11" height="8" fill="#f78c6b"/>
+  <rect x="113" y="102" width="11" height="8" fill="#f78c6b"/>
+  <rect x="126" y="102" width="11" height="8" fill="#f78c6b"/>
+  <rect x="139" y="102" width="11" height="8" fill="#f78c6b"/>
+  <rect x="22" y="112" width="11" height="8" fill="#ffd166"/>
+  <rect x="35" y="112" width="11" height="8" fill="#ffd166"/>
+  <rect x="48" y="112" width="11" height="8" fill="#ffd166"/>
+  <rect x="61" y="112" width="11" height="8" fill="#ffd166"/>
+  <rect x="74" y="112" width="11" height="8" fill="#ffd166"/>
+  <rect x="87" y="112" width="11" height="8" fill="#ffd166"/>
+  <rect x="100" y="112" width="11" height="8" fill="#ffd166"/>
+  <rect x="113" y="112" width="11" height="8" fill="#ffd166"/>
+  <rect x="126" y="112" width="11" height="8" fill="#ffd166"/>
+  <rect x="139" y="112" width="11" height="8" fill="#ffd166"/>
+  <rect x="22" y="122" width="11" height="8" fill="#06d6a0"/>
+  <rect x="35" y="122" width="11" height="8" fill="#06d6a0"/>
+  <rect x="48" y="122" width="11" height="8" fill="#06d6a0"/>
+  <rect x="61" y="122" width="11" height="8" fill="#06d6a0"/>
+  <rect x="74" y="122" width="11" height="8" fill="#06d6a0"/>
+  <rect x="87" y="122" width="11" height="8" fill="#06d6a0"/>
+  <rect x="100" y="122" width="11" height="8" fill="#06d6a0"/>
+  <rect x="113" y="122" width="11" height="8" fill="#06d6a0"/>
+  <rect x="126" y="122" width="11" height="8" fill="#06d6a0"/>
+  <rect x="139" y="122" width="11" height="8" fill="#06d6a0"/>
+  <rect x="22" y="132" width="11" height="8" fill="#118ab2"/>
+  <rect x="35" y="132" width="11" height="8" fill="#118ab2"/>
+  <rect x="48" y="132" width="11" height="8" fill="#118ab2"/>
+  <rect x="61" y="132" width="11" height="8" fill="#118ab2"/>
+  <rect x="74" y="132" width="11" height="8" fill="#118ab2"/>
+  <rect x="87" y="132" width="11" height="8" fill="#118ab2"/>
+  <rect x="100" y="132" width="11" height="8" fill="#118ab2"/>
+  <rect x="113" y="132" width="11" height="8" fill="#118ab2"/>
+  <rect x="126" y="132" width="11" height="8" fill="#118ab2"/>
+  <rect x="139" y="132" width="11" height="8" fill="#118ab2"/>
+  <rect x="22" y="142" width="11" height="8" fill="#9b5de5"/>
+  <rect x="35" y="142" width="11" height="8" fill="#9b5de5"/>
+  <rect x="48" y="142" width="11" height="8" fill="#9b5de5"/>
+  <rect x="61" y="142" width="11" height="8" fill="#9b5de5"/>
+  <rect x="74" y="142" width="11" height="8" fill="#9b5de5"/>
+  <rect x="87" y="142" width="11" height="8" fill="#9b5de5"/>
+  <rect x="100" y="142" width="11" height="8" fill="#9b5de5"/>
+  <rect x="113" y="142" width="11" height="8" fill="#9b5de5"/>
+  <rect x="126" y="142" width="11" height="8" fill="#9b5de5"/>
+  <rect x="139" y="142" width="11" height="8" fill="#9b5de5"/>
+  <text x="86" y="190" text-anchor="middle" font-size="12" fill="#ffffff">60 bloques</text>
+  <text x="86" y="212" text-anchor="middle" font-size="12" fill="#ffd166">320 px/s</text>
+  <rect x="169" y="52" width="148" height="190" rx="10" fill="#000000" stroke="#b5482a" stroke-width="2"/>
+  <text x="243" y="76" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">2. Pirámide</text>
+  <rect x="231" y="92" width="11" height="8" fill="#ef476f"/>
+  <rect x="244" y="92" width="11" height="8" fill="#ef476f"/>
+  <rect x="218" y="102" width="11" height="8" fill="#f78c6b"/>
+  <rect x="231" y="102" width="11" height="8" fill="#f78c6b"/>
+  <rect x="244" y="102" width="11" height="8" fill="#f78c6b"/>
+  <rect x="257" y="102" width="11" height="8" fill="#f78c6b"/>
+  <rect x="205" y="112" width="11" height="8" fill="#ffd166"/>
+  <rect x="218" y="112" width="11" height="8" fill="#ffd166"/>
+  <rect x="231" y="112" width="11" height="8" fill="#ffd166"/>
+  <rect x="244" y="112" width="11" height="8" fill="#ffd166"/>
+  <rect x="257" y="112" width="11" height="8" fill="#ffd166"/>
+  <rect x="270" y="112" width="11" height="8" fill="#ffd166"/>
+  <rect x="192" y="122" width="11" height="8" fill="#06d6a0"/>
+  <rect x="205" y="122" width="11" height="8" fill="#06d6a0"/>
+  <rect x="218" y="122" width="11" height="8" fill="#06d6a0"/>
+  <rect x="231" y="122" width="11" height="8" fill="#06d6a0"/>
+  <rect x="244" y="122" width="11" height="8" fill="#06d6a0"/>
+  <rect x="257" y="122" width="11" height="8" fill="#06d6a0"/>
+  <rect x="270" y="122" width="11" height="8" fill="#06d6a0"/>
+  <rect x="283" y="122" width="11" height="8" fill="#06d6a0"/>
+  <rect x="179" y="132" width="11" height="8" fill="#118ab2"/>
+  <rect x="192" y="132" width="11" height="8" fill="#118ab2"/>
+  <rect x="205" y="132" width="11" height="8" fill="#118ab2"/>
+  <rect x="218" y="132" width="11" height="8" fill="#118ab2"/>
+  <rect x="231" y="132" width="11" height="8" fill="#118ab2"/>
+  <rect x="244" y="132" width="11" height="8" fill="#118ab2"/>
+  <rect x="257" y="132" width="11" height="8" fill="#118ab2"/>
+  <rect x="270" y="132" width="11" height="8" fill="#118ab2"/>
+  <rect x="283" y="132" width="11" height="8" fill="#118ab2"/>
+  <rect x="296" y="132" width="11" height="8" fill="#118ab2"/>
+  <rect x="179" y="142" width="11" height="8" fill="#9b5de5"/>
+  <rect x="192" y="142" width="11" height="8" fill="#9b5de5"/>
+  <rect x="205" y="142" width="11" height="8" fill="#9b5de5"/>
+  <rect x="218" y="142" width="11" height="8" fill="#9b5de5"/>
+  <rect x="231" y="142" width="11" height="8" fill="#9b5de5"/>
+  <rect x="244" y="142" width="11" height="8" fill="#9b5de5"/>
+  <rect x="257" y="142" width="11" height="8" fill="#9b5de5"/>
+  <rect x="270" y="142" width="11" height="8" fill="#9b5de5"/>
+  <rect x="283" y="142" width="11" height="8" fill="#9b5de5"/>
+  <rect x="296" y="142" width="11" height="8" fill="#9b5de5"/>
+  <text x="243" y="190" text-anchor="middle" font-size="12" fill="#ffffff">40 bloques</text>
+  <text x="243" y="212" text-anchor="middle" font-size="12" fill="#ffd166">352 px/s</text>
+  <rect x="326" y="52" width="148" height="190" rx="10" fill="#000000" stroke="#b5482a" stroke-width="2"/>
+  <text x="400" y="76" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">3. Tablero</text>
+  <rect x="336" y="92" width="11" height="8" fill="#ef476f"/>
+  <rect x="362" y="92" width="11" height="8" fill="#ef476f"/>
+  <rect x="388" y="92" width="11" height="8" fill="#ef476f"/>
+  <rect x="414" y="92" width="11" height="8" fill="#ef476f"/>
+  <rect x="440" y="92" width="11" height="8" fill="#ef476f"/>
+  <rect x="349" y="102" width="11" height="8" fill="#f78c6b"/>
+  <rect x="375" y="102" width="11" height="8" fill="#f78c6b"/>
+  <rect x="401" y="102" width="11" height="8" fill="#f78c6b"/>
+  <rect x="427" y="102" width="11" height="8" fill="#f78c6b"/>
+  <rect x="453" y="102" width="11" height="8" fill="#f78c6b"/>
+  <rect x="336" y="112" width="11" height="8" fill="#ffd166"/>
+  <rect x="362" y="112" width="11" height="8" fill="#ffd166"/>
+  <rect x="388" y="112" width="11" height="8" fill="#ffd166"/>
+  <rect x="414" y="112" width="11" height="8" fill="#ffd166"/>
+  <rect x="440" y="112" width="11" height="8" fill="#ffd166"/>
+  <rect x="349" y="122" width="11" height="8" fill="#06d6a0"/>
+  <rect x="375" y="122" width="11" height="8" fill="#06d6a0"/>
+  <rect x="401" y="122" width="11" height="8" fill="#06d6a0"/>
+  <rect x="427" y="122" width="11" height="8" fill="#06d6a0"/>
+  <rect x="453" y="122" width="11" height="8" fill="#06d6a0"/>
+  <rect x="336" y="132" width="11" height="8" fill="#118ab2"/>
+  <rect x="362" y="132" width="11" height="8" fill="#118ab2"/>
+  <rect x="388" y="132" width="11" height="8" fill="#118ab2"/>
+  <rect x="414" y="132" width="11" height="8" fill="#118ab2"/>
+  <rect x="440" y="132" width="11" height="8" fill="#118ab2"/>
+  <rect x="349" y="142" width="11" height="8" fill="#9b5de5"/>
+  <rect x="375" y="142" width="11" height="8" fill="#9b5de5"/>
+  <rect x="401" y="142" width="11" height="8" fill="#9b5de5"/>
+  <rect x="427" y="142" width="11" height="8" fill="#9b5de5"/>
+  <rect x="453" y="142" width="11" height="8" fill="#9b5de5"/>
+  <text x="400" y="190" text-anchor="middle" font-size="12" fill="#ffffff">30 bloques</text>
+  <text x="400" y="212" text-anchor="middle" font-size="12" fill="#ffd166">387 px/s</text>
+  <rect x="483" y="52" width="148" height="190" rx="10" fill="#000000" stroke="#b5482a" stroke-width="2"/>
+  <text x="557" y="76" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">4. Franjas</text>
+  <rect x="493" y="92" width="11" height="8" fill="#ef476f"/>
+  <rect x="506" y="92" width="11" height="8" fill="#ef476f"/>
+  <rect x="519" y="92" width="11" height="8" fill="#ef476f"/>
+  <rect x="532" y="92" width="11" height="8" fill="#ef476f"/>
+  <rect x="545" y="92" width="11" height="8" fill="#ef476f"/>
+  <rect x="558" y="92" width="11" height="8" fill="#ef476f"/>
+  <rect x="571" y="92" width="11" height="8" fill="#ef476f"/>
+  <rect x="584" y="92" width="11" height="8" fill="#ef476f"/>
+  <rect x="597" y="92" width="11" height="8" fill="#ef476f"/>
+  <rect x="610" y="92" width="11" height="8" fill="#ef476f"/>
+  <rect x="493" y="112" width="11" height="8" fill="#ffd166"/>
+  <rect x="506" y="112" width="11" height="8" fill="#ffd166"/>
+  <rect x="519" y="112" width="11" height="8" fill="#ffd166"/>
+  <rect x="532" y="112" width="11" height="8" fill="#ffd166"/>
+  <rect x="545" y="112" width="11" height="8" fill="#ffd166"/>
+  <rect x="558" y="112" width="11" height="8" fill="#ffd166"/>
+  <rect x="571" y="112" width="11" height="8" fill="#ffd166"/>
+  <rect x="584" y="112" width="11" height="8" fill="#ffd166"/>
+  <rect x="597" y="112" width="11" height="8" fill="#ffd166"/>
+  <rect x="610" y="112" width="11" height="8" fill="#ffd166"/>
+  <rect x="493" y="132" width="11" height="8" fill="#118ab2"/>
+  <rect x="506" y="132" width="11" height="8" fill="#118ab2"/>
+  <rect x="519" y="132" width="11" height="8" fill="#118ab2"/>
+  <rect x="532" y="132" width="11" height="8" fill="#118ab2"/>
+  <rect x="545" y="132" width="11" height="8" fill="#118ab2"/>
+  <rect x="558" y="132" width="11" height="8" fill="#118ab2"/>
+  <rect x="571" y="132" width="11" height="8" fill="#118ab2"/>
+  <rect x="584" y="132" width="11" height="8" fill="#118ab2"/>
+  <rect x="597" y="132" width="11" height="8" fill="#118ab2"/>
+  <rect x="610" y="132" width="11" height="8" fill="#118ab2"/>
+  <text x="557" y="190" text-anchor="middle" font-size="12" fill="#ffffff">30 bloques</text>
+  <text x="557" y="212" text-anchor="middle" font-size="12" fill="#ffd166">426 px/s</text>
+  <rect x="640" y="52" width="148" height="190" rx="10" fill="#000000" stroke="#b5482a" stroke-width="2"/>
+  <text x="714" y="76" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">5. Marco</text>
+  <rect x="650" y="92" width="11" height="8" fill="#ef476f"/>
+  <rect x="663" y="92" width="11" height="8" fill="#ef476f"/>
+  <rect x="676" y="92" width="11" height="8" fill="#ef476f"/>
+  <rect x="689" y="92" width="11" height="8" fill="#ef476f"/>
+  <rect x="702" y="92" width="11" height="8" fill="#ef476f"/>
+  <rect x="715" y="92" width="11" height="8" fill="#ef476f"/>
+  <rect x="728" y="92" width="11" height="8" fill="#ef476f"/>
+  <rect x="741" y="92" width="11" height="8" fill="#ef476f"/>
+  <rect x="754" y="92" width="11" height="8" fill="#ef476f"/>
+  <rect x="767" y="92" width="11" height="8" fill="#ef476f"/>
+  <rect x="650" y="102" width="11" height="8" fill="#f78c6b"/>
+  <rect x="767" y="102" width="11" height="8" fill="#f78c6b"/>
+  <rect x="650" y="112" width="11" height="8" fill="#ffd166"/>
+  <rect x="676" y="112" width="11" height="8" fill="#ffd166"/>
+  <rect x="689" y="112" width="11" height="8" fill="#ffd166"/>
+  <rect x="702" y="112" width="11" height="8" fill="#ffd166"/>
+  <rect x="715" y="112" width="11" height="8" fill="#ffd166"/>
+  <rect x="728" y="112" width="11" height="8" fill="#ffd166"/>
+  <rect x="741" y="112" width="11" height="8" fill="#ffd166"/>
+  <rect x="767" y="112" width="11" height="8" fill="#ffd166"/>
+  <rect x="650" y="122" width="11" height="8" fill="#06d6a0"/>
+  <rect x="676" y="122" width="11" height="8" fill="#06d6a0"/>
+  <rect x="689" y="122" width="11" height="8" fill="#06d6a0"/>
+  <rect x="702" y="122" width="11" height="8" fill="#06d6a0"/>
+  <rect x="715" y="122" width="11" height="8" fill="#06d6a0"/>
+  <rect x="728" y="122" width="11" height="8" fill="#06d6a0"/>
+  <rect x="741" y="122" width="11" height="8" fill="#06d6a0"/>
+  <rect x="767" y="122" width="11" height="8" fill="#06d6a0"/>
+  <rect x="650" y="132" width="11" height="8" fill="#118ab2"/>
+  <rect x="767" y="132" width="11" height="8" fill="#118ab2"/>
+  <rect x="650" y="142" width="11" height="8" fill="#9b5de5"/>
+  <rect x="663" y="142" width="11" height="8" fill="#9b5de5"/>
+  <rect x="676" y="142" width="11" height="8" fill="#9b5de5"/>
+  <rect x="689" y="142" width="11" height="8" fill="#9b5de5"/>
+  <rect x="702" y="142" width="11" height="8" fill="#9b5de5"/>
+  <rect x="715" y="142" width="11" height="8" fill="#9b5de5"/>
+  <rect x="728" y="142" width="11" height="8" fill="#9b5de5"/>
+  <rect x="741" y="142" width="11" height="8" fill="#9b5de5"/>
+  <rect x="754" y="142" width="11" height="8" fill="#9b5de5"/>
+  <rect x="767" y="142" width="11" height="8" fill="#9b5de5"/>
+  <text x="714" y="190" text-anchor="middle" font-size="12" fill="#ffffff">40 bloques</text>
+  <text x="714" y="212" text-anchor="middle" font-size="12" fill="#ffd166">469 px/s</text>
+  <rect x="20" y="258" width="760" height="56" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="36" y="282" font-size="13" font-weight="700" fill="#7c2f16">Un nivel es una lista de textos</text>
+  <text x="36" y="300" font-size="12" fill="#4d2011">Cada # es un bloque y cada . es un hueco. Cambiar un nivel es cambiar texto, no código. Velocidad = 320 × 1,1 elevado a (nivel − 1).</text>
+</svg>

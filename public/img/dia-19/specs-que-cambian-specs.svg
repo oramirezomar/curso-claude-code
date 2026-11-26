@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7c2f16"/></marker>
+  </defs>
+  <rect width="800" height="400" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Un spec nuevo puede cambiar los anteriores</text>
+  <rect x="20" y="52" width="230" height="40" rx="10" fill="#ffffff" stroke="#ec9f7a" stroke-width="2"/>
+  <text x="135" y="77" text-anchor="middle" font-size="13" font-weight="700" fill="#7c2f16">Specs 001 y 002, implementados</text>
+  <rect x="550" y="52" width="230" height="40" rx="10" fill="#fae4d8" stroke="#b5482a" stroke-width="2"/>
+  <text x="665" y="77" text-anchor="middle" font-size="13" font-weight="700" fill="#b5482a">Spec 003, con otras decisiones</text>
+  <rect x="20" y="110" width="760" height="64" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="36" y="134" font-size="13" font-weight="700" fill="#b5482a">Decisión</text>
+  <text x="130" y="134" font-size="12" fill="#c0392b">Un único nivel</text>
+  <line x1="260" y1="130" x2="330" y2="130" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <text x="344" y="134" font-size="12" fill="#2e7d32">Cinco niveles</text>
+  <text x="36" y="158" font-size="12" fill="#4d2011">Criterio afectado: con 0 bloques la fase es ganaste.</text>
+  <text x="440" y="158" font-size="12" fill="#2e7d32">Ahora: con 0 bloques en el último nivel.</text>
+  <rect x="20" y="186" width="760" height="64" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="36" y="210" font-size="13" font-weight="700" fill="#b5482a">Decisión</text>
+  <text x="130" y="210" font-size="12" fill="#c0392b">Sin audio</text>
+  <line x1="260" y1="206" x2="330" y2="206" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <text x="344" y="210" font-size="12" fill="#2e7d32">Sonidos generados con código</text>
+  <text x="36" y="234" font-size="12" fill="#4d2011">Criterio afectado: el código no usa audio ni imagen.</text>
+  <text x="440" y="234" font-size="12" fill="#2e7d32">Ahora: no carga archivos de audio ni de imagen.</text>
+  <rect x="20" y="268" width="370" height="112" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="36" y="292" font-size="14" font-weight="700" fill="#7c2f16">Qué se actualiza, y en qué paso</text>
+  <text x="36" y="314" font-size="12" fill="#4d2011">1. El texto del criterio en el spec viejo.</text>
+  <text x="36" y="332" font-size="12" fill="#4d2011">2. Su comprobación en el script viejo.</text>
+  <text x="36" y="350" font-size="12" fill="#4d2011">3. Una línea Actualizada en las decisiones.</text>
+  <text x="36" y="368" font-size="12" fill="#4d2011">Se hace en el mismo paso que cambia el código.</text>
+  <rect x="410" y="268" width="370" height="112" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="426" y="292" font-size="14" font-weight="700" fill="#b5482a">Por qué en el mismo paso</text>
+  <text x="426" y="314" font-size="12" fill="#4d2011">Así la regresión está en verde tras cada</text>
+  <text x="426" y="332" font-size="12" fill="#4d2011">paso, y un fallo señala el cambio que lo</text>
+  <text x="426" y="350" font-size="12" fill="#4d2011">causó. Un script que pasa con un criterio</text>
+  <text x="426" y="368" font-size="12" fill="#4d2011">falso es peor que uno que falla.</text>
+</svg>

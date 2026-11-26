@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" width="800" height="380" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7c2f16"/></marker>
+  </defs>
+  <rect width="800" height="380" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Como máximo un sonido por paso</text>
+  <rect x="20" y="60" width="200" height="86" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="120" y="86" text-anchor="middle" font-size="14" font-weight="700" fill="#b5482a">paso(juego, dt)</text>
+  <text x="120" y="108" text-anchor="middle" font-size="12" fill="#4d2011">Mueve la pelota y mira</text>
+  <text x="120" y="126" text-anchor="middle" font-size="12" fill="#4d2011">con qué choca.</text>
+  <line x1="220" y1="85" x2="290" y2="85" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="294" y="60" width="230" height="52" rx="10" fill="#ffffff" stroke="#ec9f7a" stroke-width="2"/>
+  <text x="409" y="82" text-anchor="middle" font-size="13" font-weight="700" fill="#7c2f16">Pared, techo o paleta</text>
+  <text x="409" y="100" text-anchor="middle" font-size="12" fill="#4d2011">rebote = true</text>
+  <line x1="220" y1="120" x2="290" y2="150" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="294" y="124" width="230" height="52" rx="10" fill="#ffffff" stroke="#ec9f7a" stroke-width="2"/>
+  <text x="409" y="146" text-anchor="middle" font-size="13" font-weight="700" fill="#7c2f16">Un bloque</text>
+  <text x="409" y="164" text-anchor="middle" font-size="12" fill="#4d2011">bloqueRoto = true</text>
+  <line x1="524" y1="86" x2="574" y2="106" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="524" y1="150" x2="574" y2="130" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="578" y="60" width="202" height="116" rx="10" fill="#fae4d8" stroke="#b5482a" stroke-width="2"/>
+  <text x="679" y="86" text-anchor="middle" font-size="13" font-weight="700" fill="#b5482a">Al final del paso</text>
+  <text x="679" y="110" text-anchor="middle" font-size="12" fill="#4d2011">¿bloque roto? anota</text>
+  <text x="679" y="128" text-anchor="middle" font-size="12" font-weight="700" fill="#4d2011">bloque</text>
+  <text x="679" y="148" text-anchor="middle" font-size="12" fill="#4d2011">si no, ¿rebote? anota</text>
+  <text x="679" y="166" text-anchor="middle" font-size="12" font-weight="700" fill="#4d2011">rebote</text>
+  <rect x="20" y="206" width="370" height="150" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="36" y="232" font-size="14" font-weight="700" fill="#b5482a">Lo que decide la lógica</text>
+  <text x="36" y="256" font-size="12" fill="#4d2011">Qué sonido toca, y no cómo suena.</text>
+  <text x="36" y="276" font-size="12" fill="#4d2011">La lista juego.eventos se puede probar</text>
+  <text x="36" y="294" font-size="12" fill="#4d2011">con Node, sin altavoces ni navegador.</text>
+  <text x="36" y="322" font-size="12" font-weight="700" fill="#c0392b">Pared y bloque a la vez: solo bloque.</text>
+  <rect x="410" y="206" width="370" height="150" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="426" y="232" font-size="14" font-weight="700" fill="#7c2f16">Lo que decide game.js</text>
+  <text x="426" y="256" font-size="12" fill="#4d2011">Cómo suena cada evento, con la API</text>
+  <text x="426" y="274" font-size="12" fill="#4d2011">Web Audio: un oscilador y un volumen.</text>
+  <text x="426" y="298" font-size="12" fill="#4d2011">Rebote: 220 Hz, onda cuadrada, 80 ms.</text>
+  <text x="426" y="318" font-size="12" fill="#4d2011">Bloque: 660 Hz, onda triangular, 150 ms.</text>
+  <text x="426" y="342" font-size="12" fill="#7c2f16">Cada sonido crea su oscilador: se solapan.</text>
+</svg>
