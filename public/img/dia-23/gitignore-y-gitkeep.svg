@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" width="800" height="380" font-family="Helvetica, Arial, sans-serif">
+  <rect width="800" height="380" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Conservar una carpeta vacía en Git</text>
+  <rect x="20" y="56" width="370" height="224" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="36" y="82" font-size="14" font-weight="700" fill="#b5482a">Ignorar la carpeta entera</text>
+  <text x="36" y="110" font-size="12" font-family="Menlo, Consolas, monospace" fill="#4d2011">.capturas/</text>
+  <text x="36" y="128" font-size="12" font-family="Menlo, Consolas, monospace" fill="#4d2011">!.capturas/.gitkeep</text>
+  <text x="36" y="160" font-size="12" fill="#4d2011">Git ni mira dentro de una carpeta ignorada.</text>
+  <text x="36" y="178" font-size="12" fill="#4d2011">La segunda línea no tiene efecto.</text>
+  <text x="36" y="206" font-size="12" font-family="Menlo, Consolas, monospace" fill="#4d2011">.capturas/.gitkeep   ignorado</text>
+  <text x="36" y="224" font-size="12" font-family="Menlo, Consolas, monospace" fill="#4d2011">.capturas/inicio.png ignorado</text>
+  <text x="36" y="256" font-size="12" font-weight="700" fill="#b5482a">La carpeta no llega al repositorio.</text>
+  <rect x="410" y="56" width="370" height="224" rx="10" fill="#fae4d8" stroke="#2e7d32" stroke-width="2"/>
+  <text x="426" y="82" font-size="14" font-weight="700" fill="#2e7d32">Ignorar el contenido</text>
+  <text x="426" y="110" font-size="12" font-family="Menlo, Consolas, monospace" fill="#4d2011">.capturas/*</text>
+  <text x="426" y="128" font-size="12" font-family="Menlo, Consolas, monospace" fill="#4d2011">!.capturas/.gitkeep</text>
+  <text x="426" y="160" font-size="12" fill="#4d2011">Se ignoran los archivos de dentro, y la</text>
+  <text x="426" y="178" font-size="12" fill="#4d2011">excepción sí puede rescatar uno.</text>
+  <text x="426" y="206" font-size="12" font-family="Menlo, Consolas, monospace" fill="#4d2011">.capturas/.gitkeep   se guarda</text>
+  <text x="426" y="224" font-size="12" font-family="Menlo, Consolas, monospace" fill="#4d2011">.capturas/inicio.png ignorado</text>
+  <text x="426" y="256" font-size="12" font-weight="700" fill="#2e7d32">La carpeta llega con su archivo vacío.</text>
+  <rect x="20" y="300" width="760" height="60" rx="10" fill="#ffffff" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="36" y="324" font-size="12" fill="#4d2011">Git guarda archivos, no carpetas. Un archivo vacío con un nombre como .gitkeep es solo una convención</text>
+  <text x="36" y="344" font-size="12" fill="#4d2011">para que la carpeta exista al clonar. Puede llamarse de cualquier otra forma.</text>
+</svg>

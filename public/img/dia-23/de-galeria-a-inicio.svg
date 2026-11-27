@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7c2f16"/></marker>
+  </defs>
+  <rect width="800" height="400" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Qué cambia con el spec 002</text>
+  <rect x="20" y="56" width="340" height="140" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="36" y="82" font-size="14" font-weight="700" fill="#b5482a">Antes</text>
+  <text x="36" y="108" font-size="12" font-family="Menlo, Consolas, monospace" fill="#4d2011">/             galería de juegos</text>
+  <text x="36" y="128" font-size="12" font-family="Menlo, Consolas, monospace" fill="#4d2011">/juegos       404</text>
+  <text x="36" y="148" font-size="12" font-family="Menlo, Consolas, monospace" fill="#4d2011">/juegos/[id]  previsualización</text>
+  <text x="36" y="176" font-size="12" fill="#4d2011">Cabecera con tres enlaces.</text>
+  <line x1="360" y1="126" x2="440" y2="126" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <text x="400" y="116" text-anchor="middle" font-size="11" font-weight="700" fill="#7c2f16">git mv</text>
+  <rect x="440" y="56" width="340" height="140" rx="10" fill="#fae4d8" stroke="#2e7d32" stroke-width="2"/>
+  <text x="456" y="82" font-size="14" font-weight="700" fill="#2e7d32">Después</text>
+  <text x="456" y="108" font-size="12" font-family="Menlo, Consolas, monospace" fill="#4d2011">/             página de inicio</text>
+  <text x="456" y="128" font-size="12" font-family="Menlo, Consolas, monospace" fill="#4d2011">/juegos       galería de juegos</text>
+  <text x="456" y="148" font-size="12" font-family="Menlo, Consolas, monospace" fill="#4d2011">/juegos/[id]  previsualización</text>
+  <text x="456" y="176" font-size="12" fill="#4d2011">Cabecera con cuatro enlaces.</text>
+  <rect x="20" y="216" width="370" height="164" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="36" y="242" font-size="14" font-weight="700" fill="#b5482a">Enlaces que se actualizan</text>
+  <text x="36" y="268" font-size="12" fill="#4d2011">El enlace Juegos de la cabecera.</text>
+  <text x="36" y="288" font-size="12" fill="#4d2011">El botón Volver de la previsualización.</text>
+  <text x="36" y="316" font-size="12" font-weight="700" fill="#7c2f16">Enlaces que se quedan en /</text>
+  <text x="36" y="336" font-size="12" fill="#4d2011">El logo y el nuevo enlace Inicio.</text>
+  <text x="36" y="360" font-size="12" fill="#4d2011">Se comprueba con grep antes del commit.</text>
+  <rect x="410" y="216" width="370" height="164" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="426" y="242" font-size="14" font-weight="700" fill="#7c2f16">Fuera del spec</text>
+  <text x="426" y="268" font-size="12" fill="#4d2011">La página Acerca de tiene plantilla</text>
+  <text x="426" y="286" font-size="12" fill="#4d2011">en references, pero no se implementa.</text>
+  <text x="426" y="314" font-size="12" fill="#4d2011">Por eso /acerca-de debe responder 404</text>
+  <text x="426" y="332" font-size="12" fill="#4d2011">hasta que llegue su propio spec.</text>
+  <text x="426" y="360" font-size="12" fill="#4d2011">Tener el material no la mete en el alcance.</text>
+</svg>

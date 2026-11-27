@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7c2f16"/></marker>
+  </defs>
+  <rect width="800" height="400" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">De la rama del spec a main, y de vuelta al código</text>
+  <rect x="20" y="56" width="136" height="112" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="88" y="82" text-anchor="middle" font-size="14" font-weight="700" fill="#b5482a">1. Publicar</text>
+  <text x="88" y="106" text-anchor="middle" font-size="12" fill="#4d2011">git push -u origin</text>
+  <text x="88" y="124" text-anchor="middle" font-size="12" fill="#4d2011">con la rama del spec.</text>
+  <line x1="156" y1="112" x2="174" y2="112" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="176" y="56" width="136" height="112" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="244" y="82" text-anchor="middle" font-size="14" font-weight="700" fill="#b5482a">2. Pull request</text>
+  <text x="244" y="106" text-anchor="middle" font-size="12" fill="#4d2011">De la rama a main,</text>
+  <text x="244" y="124" text-anchor="middle" font-size="12" fill="#4d2011">con el spec dentro.</text>
+  <line x1="312" y1="112" x2="330" y2="112" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="332" y="56" width="136" height="112" rx="10" fill="#fae4d8" stroke="#2e7d32" stroke-width="2"/>
+  <text x="400" y="82" text-anchor="middle" font-size="14" font-weight="700" fill="#2e7d32">3. Revisión</text>
+  <text x="400" y="106" text-anchor="middle" font-size="12" fill="#4d2011">Alguien lee el spec y</text>
+  <text x="400" y="124" text-anchor="middle" font-size="12" fill="#4d2011">comprueba el estado.</text>
+  <line x1="468" y1="112" x2="486" y2="112" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="488" y="56" width="136" height="112" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="556" y="82" text-anchor="middle" font-size="14" font-weight="700" fill="#b5482a">4. Integrar</text>
+  <text x="556" y="106" text-anchor="middle" font-size="12" fill="#4d2011">Merge en GitHub y</text>
+  <text x="556" y="124" text-anchor="middle" font-size="12" fill="#4d2011">borrar la rama remota.</text>
+  <line x1="624" y1="112" x2="642" y2="112" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="644" y="56" width="136" height="112" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="712" y="82" text-anchor="middle" font-size="14" font-weight="700" fill="#b5482a">5. Limpiar</text>
+  <text x="712" y="106" text-anchor="middle" font-size="12" fill="#4d2011">switch main, pull</text>
+  <text x="712" y="124" text-anchor="middle" font-size="12" fill="#4d2011">--prune y branch -d.</text>
+  <rect x="20" y="192" width="370" height="188" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="36" y="218" font-size="14" font-weight="700" fill="#b5482a">Antes de abrir el pull request</text>
+  <text x="36" y="244" font-size="12" fill="#4d2011">El estado del spec es implementado.</text>
+  <text x="36" y="264" font-size="12" fill="#4d2011">Lint y build pasan.</text>
+  <text x="36" y="284" font-size="12" fill="#4d2011">No hay cambios sin guardar.</text>
+  <text x="36" y="304" font-size="12" fill="#4d2011">La rama está publicada.</text>
+  <text x="36" y="332" font-size="12" font-weight="700" fill="#7c2f16">Si falta algo, corrige en la misma rama:</text>
+  <text x="36" y="352" font-size="12" fill="#4d2011">cada commit nuevo se suma al pull request.</text>
+  <rect x="410" y="192" width="370" height="188" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="426" y="218" font-size="14" font-weight="700" fill="#7c2f16">Si cierras el pull request</text>
+  <text x="426" y="244" font-size="12" fill="#4d2011">Tus commits siguen en tu copia local.</text>
+  <text x="426" y="264" font-size="12" fill="#4d2011">Si además borras la rama remota, Git</text>
+  <text x="426" y="282" font-size="12" fill="#4d2011">la marca como gone en git branch -vv.</text>
+  <text x="426" y="310" font-size="12" fill="#4d2011">Un git push desde la terminal la vuelve</text>
+  <text x="426" y="328" font-size="12" fill="#4d2011">a crear, y abres un pull request nuevo.</text>
+</svg>
