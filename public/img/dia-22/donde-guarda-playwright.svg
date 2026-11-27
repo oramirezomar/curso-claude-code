@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="Helvetica, Arial, sans-serif">
+  <rect width="800" height="400" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Dónde deja Playwright MCP sus archivos</text>
+  <rect x="20" y="56" width="240" height="196" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="36" y="82" font-size="14" font-weight="700" fill="#b5482a">Sin opciones</text>
+  <text x="36" y="106" font-size="12" fill="#4d2011">Una captura sin nombre y</text>
+  <text x="36" y="124" font-size="12" fill="#4d2011">el estado de la página van a:</text>
+  <text x="36" y="150" font-size="11" font-family="Menlo, Consolas, monospace" fill="#4d2011">.playwright-mcp/</text>
+  <text x="36" y="168" font-size="11" font-family="Menlo, Consolas, monospace" fill="#4d2011">  page-fecha.png</text>
+  <text x="36" y="184" font-size="11" font-family="Menlo, Consolas, monospace" fill="#4d2011">  page-fecha.yml</text>
+  <text x="36" y="212" font-size="12" fill="#4d2011">Una carpeta oculta que nadie</text>
+  <text x="36" y="230" font-size="12" fill="#4d2011">quiere subir a Git.</text>
+  <rect x="280" y="56" width="240" height="196" rx="10" fill="#fae4d8" stroke="#2e7d32" stroke-width="2"/>
+  <text x="296" y="82" font-size="14" font-weight="700" fill="#2e7d32">Con --output-dir</text>
+  <text x="296" y="106" font-size="12" fill="#4d2011">Lo que se nombra solo va a</text>
+  <text x="296" y="124" font-size="12" fill="#4d2011">la carpeta que elijas:</text>
+  <text x="296" y="150" font-size="11" font-family="Menlo, Consolas, monospace" fill="#4d2011">.playwright-screenshots/</text>
+  <text x="296" y="168" font-size="11" font-family="Menlo, Consolas, monospace" fill="#4d2011">  page-fecha.png</text>
+  <text x="296" y="184" font-size="11" font-family="Menlo, Consolas, monospace" fill="#4d2011">  page-fecha.yml</text>
+  <text x="296" y="212" font-size="12" fill="#4d2011">Sirve para las capturas y</text>
+  <text x="296" y="230" font-size="12" fill="#4d2011">para los estados de página.</text>
+  <rect x="540" y="56" width="240" height="196" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="556" y="82" font-size="14" font-weight="700" fill="#b5482a">Con nombre explícito</text>
+  <text x="556" y="106" font-size="12" fill="#4d2011">El nombre manda, y la opción</text>
+  <text x="556" y="124" font-size="12" fill="#4d2011">no lo mueve:</text>
+  <text x="556" y="150" font-size="11" font-family="Menlo, Consolas, monospace" fill="#4d2011">home.png</text>
+  <text x="556" y="166" font-size="11" fill="#4d2011">queda en la raíz del proyecto</text>
+  <text x="556" y="190" font-size="10" font-family="Menlo, Consolas, monospace" fill="#4d2011">.playwright-screenshots/home.png</text>
+  <text x="556" y="206" font-size="11" fill="#4d2011">queda en esa carpeta</text>
+  <text x="556" y="234" font-size="12" font-weight="700" fill="#7c2f16">Por eso se desordena la raíz.</text>
+  <rect x="20" y="272" width="760" height="108" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="36" y="298" font-size="14" font-weight="700" fill="#7c2f16">Tres ajustes que lo dejan ordenado</text>
+  <text x="36" y="322" font-size="12" fill="#4d2011">1. Añade --output-dir .playwright-screenshots al comando que añade el servidor.</text>
+  <text x="36" y="342" font-size="12" fill="#4d2011">2. Escribe en CLAUDE.md que las capturas llevan esa carpeta dentro del nombre del archivo.</text>
+  <text x="36" y="362" font-size="12" fill="#4d2011">3. Ignora .playwright-mcp/ y .playwright-screenshots/ en .gitignore.</text>
+</svg>

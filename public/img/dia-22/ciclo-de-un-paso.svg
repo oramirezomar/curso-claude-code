@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7c2f16"/></marker>
+  </defs>
+  <rect width="800" height="400" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Cada paso del plan, con /spec-impl 001</text>
+  <rect x="20" y="56" width="136" height="120" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="88" y="82" text-anchor="middle" font-size="14" font-weight="700" fill="#b5482a">1. Lee el paso</text>
+  <text x="88" y="106" text-anchor="middle" font-size="12" fill="#4d2011">Toma el siguiente</text>
+  <text x="88" y="124" text-anchor="middle" font-size="12" fill="#4d2011">punto del plan del</text>
+  <text x="88" y="142" text-anchor="middle" font-size="12" fill="#4d2011">spec aprobado.</text>
+  <line x1="156" y1="116" x2="174" y2="116" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="176" y="56" width="136" height="120" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="244" y="82" text-anchor="middle" font-size="14" font-weight="700" fill="#b5482a">2. Cambia</text>
+  <text x="244" y="106" text-anchor="middle" font-size="12" fill="#4d2011">Crea o edita solo</text>
+  <text x="244" y="124" text-anchor="middle" font-size="12" fill="#4d2011">los archivos de ese</text>
+  <text x="244" y="142" text-anchor="middle" font-size="12" fill="#4d2011">paso.</text>
+  <line x1="312" y1="116" x2="330" y2="116" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="332" y="56" width="136" height="120" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="400" y="82" text-anchor="middle" font-size="14" font-weight="700" fill="#b5482a">3. Comprueba</text>
+  <text x="400" y="106" text-anchor="middle" font-size="12" fill="#4d2011">Tipos, lint y build.</text>
+  <text x="400" y="124" text-anchor="middle" font-size="12" fill="#4d2011">Los comandos de npm</text>
+  <text x="400" y="142" text-anchor="middle" font-size="12" fill="#4d2011">piden tu permiso.</text>
+  <line x1="468" y1="116" x2="486" y2="116" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="488" y="56" width="136" height="120" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="556" y="82" text-anchor="middle" font-size="14" font-weight="700" fill="#b5482a">4. Commit</text>
+  <text x="556" y="106" text-anchor="middle" font-size="12" fill="#4d2011">Un commit por paso.</text>
+  <text x="556" y="124" text-anchor="middle" font-size="12" fill="#4d2011">Git add y git commit</text>
+  <text x="556" y="142" text-anchor="middle" font-size="12" fill="#4d2011">están permitidos.</text>
+  <line x1="624" y1="116" x2="642" y2="116" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="644" y="56" width="136" height="120" rx="10" fill="#fae4d8" stroke="#2e7d32" stroke-width="2"/>
+  <text x="712" y="82" text-anchor="middle" font-size="14" font-weight="700" fill="#2e7d32">5. Tú revisas</text>
+  <text x="712" y="106" text-anchor="middle" font-size="12" fill="#4d2011">Lees el cambio y</text>
+  <text x="712" y="124" text-anchor="middle" font-size="12" fill="#4d2011">dices que continúe.</text>
+  <text x="712" y="142" text-anchor="middle" font-size="12" fill="#4d2011">Sin tu "sí", se para.</text>
+  <path d="M712 176 L712 200 L88 200 L88 180" fill="none" stroke="#7c2f16" stroke-width="2" marker-end="url(#a)"/>
+  <text x="400" y="220" text-anchor="middle" font-size="12" font-weight="700" fill="#7c2f16">Ocho veces, una por cada paso del plan</text>
+  <rect x="20" y="244" width="370" height="136" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="36" y="270" font-size="14" font-weight="700" fill="#b5482a">Qué mirar en cada cambio</text>
+  <text x="36" y="294" font-size="12" fill="#4d2011">Que solo toque archivos de ese paso.</text>
+  <text x="36" y="312" font-size="12" fill="#4d2011">Imports que no se usan todavía.</text>
+  <text x="36" y="330" font-size="12" fill="#4d2011">Valores escritos a mano que ya están</text>
+  <text x="36" y="348" font-size="12" fill="#4d2011">en app/data.</text>
+  <text x="36" y="366" font-size="12" fill="#4d2011">Que el commit describa ese paso.</text>
+  <rect x="410" y="244" width="370" height="136" rx="10" fill="#fae4d8" stroke="#ec9f7a" stroke-width="1.5"/>
+  <text x="426" y="270" font-size="14" font-weight="700" fill="#7c2f16">Si un paso falla</text>
+  <text x="426" y="294" font-size="12" fill="#4d2011">Copia el error completo, con el nombre</text>
+  <text x="426" y="312" font-size="12" fill="#4d2011">del archivo y la línea, y pégalo.</text>
+  <text x="426" y="330" font-size="12" fill="#4d2011">No sigas con el paso siguiente hasta que</text>
+  <text x="426" y="348" font-size="12" fill="#4d2011">este compile. Si cancelas, pide retomar</text>
+  <text x="426" y="366" font-size="12" fill="#4d2011">en el paso donde te quedaste.</text>
+</svg>

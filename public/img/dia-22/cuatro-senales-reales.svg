@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420" font-family="Helvetica, Arial, sans-serif">
+  <rect width="800" height="420" fill="#fdf4ef"/>
+  <text x="400" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#4d2011">Cuatro fallos reales de esta implementación</text>
+  <text x="36" y="68" font-size="13" font-weight="700" fill="#7c2f16">Cómo se vio</text>
+  <text x="290" y="68" font-size="13" font-weight="700" fill="#7c2f16">Qué ocurría</text>
+  <text x="560" y="68" font-size="13" font-weight="700" fill="#7c2f16">Arreglo</text>
+  <rect x="20" y="78" width="760" height="76" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="36" y="104" font-size="12" font-weight="700" fill="#b5482a">tsc</text>
+  <text x="36" y="124" font-size="11" font-family="Menlo, Consolas, monospace" fill="#4d2011">does not satisfy the</text>
+  <text x="36" y="140" font-size="11" font-family="Menlo, Consolas, monospace" fill="#4d2011">constraint '"/"'</text>
+  <text x="290" y="112" font-size="12" fill="#4d2011">Faltaban los tipos de las rutas nuevas.</text>
+  <text x="290" y="130" font-size="12" fill="#4d2011">PageProps los genera Next.js.</text>
+  <text x="560" y="112" font-size="12" fill="#4d2011">npx next typegen antes de tsc.</text>
+  <text x="560" y="130" font-size="12" fill="#4d2011">Build y dev también los generan.</text>
+  <rect x="20" y="164" width="760" height="76" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="36" y="190" font-size="12" font-weight="700" fill="#b5482a">npm run build</text>
+  <text x="36" y="210" font-size="11" font-family="Menlo, Consolas, monospace" fill="#4d2011">uncached or runtime data</text>
+  <text x="36" y="226" font-size="11" font-family="Menlo, Consolas, monospace" fill="#4d2011">during prerendering</text>
+  <text x="290" y="198" font-size="12" fill="#4d2011">searchParams se leía fuera de Suspense</text>
+  <text x="290" y="216" font-size="12" fill="#4d2011">y la compilación se detenía.</text>
+  <text x="560" y="198" font-size="12" fill="#4d2011">Leerlo dentro de un componente</text>
+  <text x="560" y="216" font-size="12" fill="#4d2011">envuelto en Suspense.</text>
+  <rect x="20" y="250" width="760" height="76" rx="10" fill="#fae4d8" stroke="#2e7d32" stroke-width="2"/>
+  <text x="36" y="276" font-size="12" font-weight="700" fill="#2e7d32">probar-rutas.mjs</text>
+  <text x="36" y="296" font-size="11" font-family="Menlo, Consolas, monospace" fill="#4d2011">FALLA /juegos/tetris</text>
+  <text x="36" y="312" font-size="11" font-family="Menlo, Consolas, monospace" fill="#4d2011">responde 404</text>
+  <text x="290" y="284" font-size="12" fill="#4d2011">Solo en la primera visita: sirve la</text>
+  <text x="290" y="302" font-size="12" fill="#4d2011">estructura con 200 y luego cachea el 404.</text>
+  <text x="560" y="284" font-size="12" fill="#4d2011">partialPrefetching: false en</text>
+  <text x="560" y="302" font-size="12" fill="#4d2011">next.config.ts.</text>
+  <rect x="20" y="336" width="760" height="76" rx="10" fill="#ffffff" stroke="#b5482a" stroke-width="2"/>
+  <text x="36" y="362" font-size="12" font-weight="700" fill="#b5482a">Comparar cajas</text>
+  <text x="36" y="382" font-size="11" font-family="Menlo, Consolas, monospace" fill="#4d2011">main 860 frente a 772</text>
+  <text x="36" y="398" font-size="11" font-family="Menlo, Consolas, monospace" fill="#4d2011">de alto</text>
+  <text x="290" y="370" font-size="12" fill="#4d2011">Tailwind quita márgenes, negrita y</text>
+  <text x="290" y="388" font-size="12" fill="#4d2011">viñetas que la plantilla daba por hechos.</text>
+  <text x="560" y="370" font-size="12" fill="#4d2011">Cuatro reglas al final de</text>
+  <text x="560" y="388" font-size="12" fill="#4d2011">globals.css.</text>
+</svg>
